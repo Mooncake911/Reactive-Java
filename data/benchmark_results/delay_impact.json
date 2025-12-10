@@ -1,0 +1,6106 @@
+[
+  {
+    "jmhVersion": "1.37",
+    "benchmark": "com.example.reactivejava.benchmark.DelayImpactBenchmark.customCollectorParallel",
+    "mode": "avgt",
+    "threads": 1,
+    "forks": 1,
+    "jvm": "D:\\Languages\\Java\\jdk-24\\bin\\java.exe",
+    "jvmArgs": [
+      "-Xms2G",
+      "-Xmx2G"
+    ],
+    "jdkVersion": "24.0.2",
+    "vmName": "Java HotSpot(TM) 64-Bit Server VM",
+    "vmVersion": "24.0.2+12-54",
+    "warmupIterations": 2,
+    "warmupTime": "1 s",
+    "warmupBatchSize": 1,
+    "measurementIterations": 3,
+    "measurementTime": "1 s",
+    "measurementBatchSize": 1,
+    "params": {
+      "delayMs": "0",
+      "deviceCount": "5000",
+      "statType": "STATUS"
+    },
+    "primaryMetric": {
+      "score": 0.14777257443167205,
+      "scoreError": 0.04269701285772229,
+      "scoreConfidence": [
+        0.10507556157394976,
+        0.19046958728939434
+      ],
+      "scorePercentiles": {
+        "0.0": 0.14511964118856288,
+        "50.0": 0.14865319552436942,
+        "90.0": 0.1495448865820838,
+        "95.0": 0.1495448865820838,
+        "99.0": 0.1495448865820838,
+        "99.9": 0.1495448865820838,
+        "99.99": 0.1495448865820838,
+        "99.999": 0.1495448865820838,
+        "99.9999": 0.1495448865820838,
+        "100.0": 0.1495448865820838
+      },
+      "scoreUnit": "ms/op",
+      "rawData": [
+        [
+          0.14865319552436942,
+          0.14511964118856288,
+          0.1495448865820838
+        ]
+      ]
+    },
+    "secondaryMetrics": {
+    }
+  },
+  {
+    "jmhVersion": "1.37",
+    "benchmark": "com.example.reactivejava.benchmark.DelayImpactBenchmark.customCollectorParallel",
+    "mode": "avgt",
+    "threads": 1,
+    "forks": 1,
+    "jvm": "D:\\Languages\\Java\\jdk-24\\bin\\java.exe",
+    "jvmArgs": [
+      "-Xms2G",
+      "-Xmx2G"
+    ],
+    "jdkVersion": "24.0.2",
+    "vmName": "Java HotSpot(TM) 64-Bit Server VM",
+    "vmVersion": "24.0.2+12-54",
+    "warmupIterations": 2,
+    "warmupTime": "1 s",
+    "warmupBatchSize": 1,
+    "measurementIterations": 3,
+    "measurementTime": "1 s",
+    "measurementBatchSize": 1,
+    "params": {
+      "delayMs": "0",
+      "deviceCount": "5000",
+      "statType": "DEVICES_BY_TYPE"
+    },
+    "primaryMetric": {
+      "score": 0.09961602809372246,
+      "scoreError": 0.08894671671006842,
+      "scoreConfidence": [
+        0.01066931138365404,
+        0.18856274480379087
+      ],
+      "scorePercentiles": {
+        "0.0": 0.0947449436795995,
+        "50.0": 0.09960726936293947,
+        "90.0": 0.10449587123862841,
+        "95.0": 0.10449587123862841,
+        "99.0": 0.10449587123862841,
+        "99.9": 0.10449587123862841,
+        "99.99": 0.10449587123862841,
+        "99.999": 0.10449587123862841,
+        "99.9999": 0.10449587123862841,
+        "100.0": 0.10449587123862841
+      },
+      "scoreUnit": "ms/op",
+      "rawData": [
+        [
+          0.0947449436795995,
+          0.10449587123862841,
+          0.09960726936293947
+        ]
+      ]
+    },
+    "secondaryMetrics": {
+    }
+  },
+  {
+    "jmhVersion": "1.37",
+    "benchmark": "com.example.reactivejava.benchmark.DelayImpactBenchmark.customCollectorParallel",
+    "mode": "avgt",
+    "threads": 1,
+    "forks": 1,
+    "jvm": "D:\\Languages\\Java\\jdk-24\\bin\\java.exe",
+    "jvmArgs": [
+      "-Xms2G",
+      "-Xmx2G"
+    ],
+    "jdkVersion": "24.0.2",
+    "vmName": "Java HotSpot(TM) 64-Bit Server VM",
+    "vmVersion": "24.0.2+12-54",
+    "warmupIterations": 2,
+    "warmupTime": "1 s",
+    "warmupBatchSize": 1,
+    "measurementIterations": 3,
+    "measurementTime": "1 s",
+    "measurementBatchSize": 1,
+    "params": {
+      "delayMs": "0",
+      "deviceCount": "50000",
+      "statType": "STATUS"
+    },
+    "primaryMetric": {
+      "score": 0.8707001963083233,
+      "scoreError": 0.3948601984902653,
+      "scoreConfidence": [
+        0.47583999781805797,
+        1.2655603947985887
+      ],
+      "scorePercentiles": {
+        "0.0": 0.8575423868312757,
+        "50.0": 0.8588780054644809,
+        "90.0": 0.8956801966292135,
+        "95.0": 0.8956801966292135,
+        "99.0": 0.8956801966292135,
+        "99.9": 0.8956801966292135,
+        "99.99": 0.8956801966292135,
+        "99.999": 0.8956801966292135,
+        "99.9999": 0.8956801966292135,
+        "100.0": 0.8956801966292135
+      },
+      "scoreUnit": "ms/op",
+      "rawData": [
+        [
+          0.8956801966292135,
+          0.8588780054644809,
+          0.8575423868312757
+        ]
+      ]
+    },
+    "secondaryMetrics": {
+    }
+  },
+  {
+    "jmhVersion": "1.37",
+    "benchmark": "com.example.reactivejava.benchmark.DelayImpactBenchmark.customCollectorParallel",
+    "mode": "avgt",
+    "threads": 1,
+    "forks": 1,
+    "jvm": "D:\\Languages\\Java\\jdk-24\\bin\\java.exe",
+    "jvmArgs": [
+      "-Xms2G",
+      "-Xmx2G"
+    ],
+    "jdkVersion": "24.0.2",
+    "vmName": "Java HotSpot(TM) 64-Bit Server VM",
+    "vmVersion": "24.0.2+12-54",
+    "warmupIterations": 2,
+    "warmupTime": "1 s",
+    "warmupBatchSize": 1,
+    "measurementIterations": 3,
+    "measurementTime": "1 s",
+    "measurementBatchSize": 1,
+    "params": {
+      "delayMs": "0",
+      "deviceCount": "50000",
+      "statType": "DEVICES_BY_TYPE"
+    },
+    "primaryMetric": {
+      "score": 0.5832694624074796,
+      "scoreError": 1.4164897317271166,
+      "scoreConfidence": [
+        -0.833220269319637,
+        1.999759194134596
+      ],
+      "scorePercentiles": {
+        "0.0": 0.5365016556291391,
+        "50.0": 0.5404117647058824,
+        "90.0": 0.6728949668874172,
+        "95.0": 0.6728949668874172,
+        "99.0": 0.6728949668874172,
+        "99.9": 0.6728949668874172,
+        "99.99": 0.6728949668874172,
+        "99.999": 0.6728949668874172,
+        "99.9999": 0.6728949668874172,
+        "100.0": 0.6728949668874172
+      },
+      "scoreUnit": "ms/op",
+      "rawData": [
+        [
+          0.5365016556291391,
+          0.5404117647058824,
+          0.6728949668874172
+        ]
+      ]
+    },
+    "secondaryMetrics": {
+    }
+  },
+  {
+    "jmhVersion": "1.37",
+    "benchmark": "com.example.reactivejava.benchmark.DelayImpactBenchmark.customCollectorParallel",
+    "mode": "avgt",
+    "threads": 1,
+    "forks": 1,
+    "jvm": "D:\\Languages\\Java\\jdk-24\\bin\\java.exe",
+    "jvmArgs": [
+      "-Xms2G",
+      "-Xmx2G"
+    ],
+    "jdkVersion": "24.0.2",
+    "vmName": "Java HotSpot(TM) 64-Bit Server VM",
+    "vmVersion": "24.0.2+12-54",
+    "warmupIterations": 2,
+    "warmupTime": "1 s",
+    "warmupBatchSize": 1,
+    "measurementIterations": 3,
+    "measurementTime": "1 s",
+    "measurementBatchSize": 1,
+    "params": {
+      "delayMs": "0",
+      "deviceCount": "250000",
+      "statType": "STATUS"
+    },
+    "primaryMetric": {
+      "score": 5.937116617730518,
+      "scoreError": 14.4271132514406,
+      "scoreConfidence": [
+        -8.489996633710081,
+        20.36422986917112
+      ],
+      "scorePercentiles": {
+        "0.0": 5.03198547008547,
+        "50.0": 6.285203092783505,
+        "90.0": 6.49416129032258,
+        "95.0": 6.49416129032258,
+        "99.0": 6.49416129032258,
+        "99.9": 6.49416129032258,
+        "99.99": 6.49416129032258,
+        "99.999": 6.49416129032258,
+        "99.9999": 6.49416129032258,
+        "100.0": 6.49416129032258
+      },
+      "scoreUnit": "ms/op",
+      "rawData": [
+        [
+          6.285203092783505,
+          6.49416129032258,
+          5.03198547008547
+        ]
+      ]
+    },
+    "secondaryMetrics": {
+    }
+  },
+  {
+    "jmhVersion": "1.37",
+    "benchmark": "com.example.reactivejava.benchmark.DelayImpactBenchmark.customCollectorParallel",
+    "mode": "avgt",
+    "threads": 1,
+    "forks": 1,
+    "jvm": "D:\\Languages\\Java\\jdk-24\\bin\\java.exe",
+    "jvmArgs": [
+      "-Xms2G",
+      "-Xmx2G"
+    ],
+    "jdkVersion": "24.0.2",
+    "vmName": "Java HotSpot(TM) 64-Bit Server VM",
+    "vmVersion": "24.0.2+12-54",
+    "warmupIterations": 2,
+    "warmupTime": "1 s",
+    "warmupBatchSize": 1,
+    "measurementIterations": 3,
+    "measurementTime": "1 s",
+    "measurementBatchSize": 1,
+    "params": {
+      "delayMs": "0",
+      "deviceCount": "250000",
+      "statType": "DEVICES_BY_TYPE"
+    },
+    "primaryMetric": {
+      "score": 3.2174825077234472,
+      "scoreError": 0.48976693696033075,
+      "scoreConfidence": [
+        2.7277155707631167,
+        3.707249444683778
+      ],
+      "scorePercentiles": {
+        "0.0": 3.1991040268456374,
+        "50.0": 3.205053020134228,
+        "90.0": 3.2482904761904763,
+        "95.0": 3.2482904761904763,
+        "99.0": 3.2482904761904763,
+        "99.9": 3.2482904761904763,
+        "99.99": 3.2482904761904763,
+        "99.999": 3.2482904761904763,
+        "99.9999": 3.2482904761904763,
+        "100.0": 3.2482904761904763
+      },
+      "scoreUnit": "ms/op",
+      "rawData": [
+        [
+          3.205053020134228,
+          3.1991040268456374,
+          3.2482904761904763
+        ]
+      ]
+    },
+    "secondaryMetrics": {
+    }
+  },
+  {
+    "jmhVersion": "1.37",
+    "benchmark": "com.example.reactivejava.benchmark.DelayImpactBenchmark.customCollectorParallel",
+    "mode": "avgt",
+    "threads": 1,
+    "forks": 1,
+    "jvm": "D:\\Languages\\Java\\jdk-24\\bin\\java.exe",
+    "jvmArgs": [
+      "-Xms2G",
+      "-Xmx2G"
+    ],
+    "jdkVersion": "24.0.2",
+    "vmName": "Java HotSpot(TM) 64-Bit Server VM",
+    "vmVersion": "24.0.2+12-54",
+    "warmupIterations": 2,
+    "warmupTime": "1 s",
+    "warmupBatchSize": 1,
+    "measurementIterations": 3,
+    "measurementTime": "1 s",
+    "measurementBatchSize": 1,
+    "params": {
+      "delayMs": "1",
+      "deviceCount": "5000",
+      "statType": "STATUS"
+    },
+    "primaryMetric": {
+      "score": 903.2110333333334,
+      "scoreError": 236.80717097350671,
+      "scoreConfidence": [
+        666.4038623598267,
+        1140.01820430684
+      ],
+      "scorePercentiles": {
+        "0.0": 889.172,
+        "50.0": 905.6847,
+        "90.0": 914.7764,
+        "95.0": 914.7764,
+        "99.0": 914.7764,
+        "99.9": 914.7764,
+        "99.99": 914.7764,
+        "99.999": 914.7764,
+        "99.9999": 914.7764,
+        "100.0": 914.7764
+      },
+      "scoreUnit": "ms/op",
+      "rawData": [
+        [
+          914.7764,
+          905.6847,
+          889.172
+        ]
+      ]
+    },
+    "secondaryMetrics": {
+    }
+  },
+  {
+    "jmhVersion": "1.37",
+    "benchmark": "com.example.reactivejava.benchmark.DelayImpactBenchmark.customCollectorParallel",
+    "mode": "avgt",
+    "threads": 1,
+    "forks": 1,
+    "jvm": "D:\\Languages\\Java\\jdk-24\\bin\\java.exe",
+    "jvmArgs": [
+      "-Xms2G",
+      "-Xmx2G"
+    ],
+    "jdkVersion": "24.0.2",
+    "vmName": "Java HotSpot(TM) 64-Bit Server VM",
+    "vmVersion": "24.0.2+12-54",
+    "warmupIterations": 2,
+    "warmupTime": "1 s",
+    "warmupBatchSize": 1,
+    "measurementIterations": 3,
+    "measurementTime": "1 s",
+    "measurementBatchSize": 1,
+    "params": {
+      "delayMs": "1",
+      "deviceCount": "5000",
+      "statType": "DEVICES_BY_TYPE"
+    },
+    "primaryMetric": {
+      "score": 941.0385666666666,
+      "scoreError": 561.2369227870984,
+      "scoreConfidence": [
+        379.80164387956825,
+        1502.275489453765
+      ],
+      "scorePercentiles": {
+        "0.0": 905.5746,
+        "50.0": 957.00695,
+        "90.0": 960.53415,
+        "95.0": 960.53415,
+        "99.0": 960.53415,
+        "99.9": 960.53415,
+        "99.99": 960.53415,
+        "99.999": 960.53415,
+        "99.9999": 960.53415,
+        "100.0": 960.53415
+      },
+      "scoreUnit": "ms/op",
+      "rawData": [
+        [
+          905.5746,
+          957.00695,
+          960.53415
+        ]
+      ]
+    },
+    "secondaryMetrics": {
+    }
+  },
+  {
+    "jmhVersion": "1.37",
+    "benchmark": "com.example.reactivejava.benchmark.DelayImpactBenchmark.customCollectorParallel",
+    "mode": "avgt",
+    "threads": 1,
+    "forks": 1,
+    "jvm": "D:\\Languages\\Java\\jdk-24\\bin\\java.exe",
+    "jvmArgs": [
+      "-Xms2G",
+      "-Xmx2G"
+    ],
+    "jdkVersion": "24.0.2",
+    "vmName": "Java HotSpot(TM) 64-Bit Server VM",
+    "vmVersion": "24.0.2+12-54",
+    "warmupIterations": 2,
+    "warmupTime": "1 s",
+    "warmupBatchSize": 1,
+    "measurementIterations": 3,
+    "measurementTime": "1 s",
+    "measurementBatchSize": 1,
+    "params": {
+      "delayMs": "1",
+      "deviceCount": "50000",
+      "statType": "STATUS"
+    },
+    "primaryMetric": {
+      "score": 9456.031,
+      "scoreError": 413.4600565827848,
+      "scoreConfidence": [
+        9042.570943417217,
+        9869.491056582785
+      ],
+      "scorePercentiles": {
+        "0.0": 9438.4701,
+        "50.0": 9448.0088,
+        "90.0": 9481.6141,
+        "95.0": 9481.6141,
+        "99.0": 9481.6141,
+        "99.9": 9481.6141,
+        "99.99": 9481.6141,
+        "99.999": 9481.6141,
+        "99.9999": 9481.6141,
+        "100.0": 9481.6141
+      },
+      "scoreUnit": "ms/op",
+      "rawData": [
+        [
+          9438.4701,
+          9448.0088,
+          9481.6141
+        ]
+      ]
+    },
+    "secondaryMetrics": {
+    }
+  },
+  {
+    "jmhVersion": "1.37",
+    "benchmark": "com.example.reactivejava.benchmark.DelayImpactBenchmark.customCollectorParallel",
+    "mode": "avgt",
+    "threads": 1,
+    "forks": 1,
+    "jvm": "D:\\Languages\\Java\\jdk-24\\bin\\java.exe",
+    "jvmArgs": [
+      "-Xms2G",
+      "-Xmx2G"
+    ],
+    "jdkVersion": "24.0.2",
+    "vmName": "Java HotSpot(TM) 64-Bit Server VM",
+    "vmVersion": "24.0.2+12-54",
+    "warmupIterations": 2,
+    "warmupTime": "1 s",
+    "warmupBatchSize": 1,
+    "measurementIterations": 3,
+    "measurementTime": "1 s",
+    "measurementBatchSize": 1,
+    "params": {
+      "delayMs": "1",
+      "deviceCount": "50000",
+      "statType": "DEVICES_BY_TYPE"
+    },
+    "primaryMetric": {
+      "score": 9377.2875,
+      "scoreError": 1001.8040927221359,
+      "scoreConfidence": [
+        8375.483407277865,
+        10379.091592722136
+      ],
+      "scorePercentiles": {
+        "0.0": 9316.7798,
+        "50.0": 9391.1258,
+        "90.0": 9423.9569,
+        "95.0": 9423.9569,
+        "99.0": 9423.9569,
+        "99.9": 9423.9569,
+        "99.99": 9423.9569,
+        "99.999": 9423.9569,
+        "99.9999": 9423.9569,
+        "100.0": 9423.9569
+      },
+      "scoreUnit": "ms/op",
+      "rawData": [
+        [
+          9423.9569,
+          9316.7798,
+          9391.1258
+        ]
+      ]
+    },
+    "secondaryMetrics": {
+    }
+  },
+  {
+    "jmhVersion": "1.37",
+    "benchmark": "com.example.reactivejava.benchmark.DelayImpactBenchmark.customCollectorParallel",
+    "mode": "avgt",
+    "threads": 1,
+    "forks": 1,
+    "jvm": "D:\\Languages\\Java\\jdk-24\\bin\\java.exe",
+    "jvmArgs": [
+      "-Xms2G",
+      "-Xmx2G"
+    ],
+    "jdkVersion": "24.0.2",
+    "vmName": "Java HotSpot(TM) 64-Bit Server VM",
+    "vmVersion": "24.0.2+12-54",
+    "warmupIterations": 2,
+    "warmupTime": "1 s",
+    "warmupBatchSize": 1,
+    "measurementIterations": 3,
+    "measurementTime": "1 s",
+    "measurementBatchSize": 1,
+    "params": {
+      "delayMs": "1",
+      "deviceCount": "250000",
+      "statType": "STATUS"
+    },
+    "primaryMetric": {
+      "score": 47126.5219,
+      "scoreError": 10506.037538654014,
+      "scoreConfidence": [
+        36620.48436134598,
+        57632.55943865402
+      ],
+      "scorePercentiles": {
+        "0.0": 46748.4275,
+        "50.0": 46841.8484,
+        "90.0": 47789.2898,
+        "95.0": 47789.2898,
+        "99.0": 47789.2898,
+        "99.9": 47789.2898,
+        "99.99": 47789.2898,
+        "99.999": 47789.2898,
+        "99.9999": 47789.2898,
+        "100.0": 47789.2898
+      },
+      "scoreUnit": "ms/op",
+      "rawData": [
+        [
+          46841.8484,
+          46748.4275,
+          47789.2898
+        ]
+      ]
+    },
+    "secondaryMetrics": {
+    }
+  },
+  {
+    "jmhVersion": "1.37",
+    "benchmark": "com.example.reactivejava.benchmark.DelayImpactBenchmark.customCollectorParallel",
+    "mode": "avgt",
+    "threads": 1,
+    "forks": 1,
+    "jvm": "D:\\Languages\\Java\\jdk-24\\bin\\java.exe",
+    "jvmArgs": [
+      "-Xms2G",
+      "-Xmx2G"
+    ],
+    "jdkVersion": "24.0.2",
+    "vmName": "Java HotSpot(TM) 64-Bit Server VM",
+    "vmVersion": "24.0.2+12-54",
+    "warmupIterations": 2,
+    "warmupTime": "1 s",
+    "warmupBatchSize": 1,
+    "measurementIterations": 3,
+    "measurementTime": "1 s",
+    "measurementBatchSize": 1,
+    "params": {
+      "delayMs": "1",
+      "deviceCount": "250000",
+      "statType": "DEVICES_BY_TYPE"
+    },
+    "primaryMetric": {
+      "score": 47842.62336666667,
+      "scoreError": 1957.1058270161714,
+      "scoreConfidence": [
+        45885.51753965049,
+        49799.72919368284
+      ],
+      "scorePercentiles": {
+        "0.0": 47748.4122,
+        "50.0": 47820.0781,
+        "90.0": 47959.3798,
+        "95.0": 47959.3798,
+        "99.0": 47959.3798,
+        "99.9": 47959.3798,
+        "99.99": 47959.3798,
+        "99.999": 47959.3798,
+        "99.9999": 47959.3798,
+        "100.0": 47959.3798
+      },
+      "scoreUnit": "ms/op",
+      "rawData": [
+        [
+          47820.0781,
+          47959.3798,
+          47748.4122
+        ]
+      ]
+    },
+    "secondaryMetrics": {
+    }
+  },
+  {
+    "jmhVersion": "1.37",
+    "benchmark": "com.example.reactivejava.benchmark.DelayImpactBenchmark.customCollectorParallel",
+    "mode": "avgt",
+    "threads": 1,
+    "forks": 1,
+    "jvm": "D:\\Languages\\Java\\jdk-24\\bin\\java.exe",
+    "jvmArgs": [
+      "-Xms2G",
+      "-Xmx2G"
+    ],
+    "jdkVersion": "24.0.2",
+    "vmName": "Java HotSpot(TM) 64-Bit Server VM",
+    "vmVersion": "24.0.2+12-54",
+    "warmupIterations": 2,
+    "warmupTime": "1 s",
+    "warmupBatchSize": 1,
+    "measurementIterations": 3,
+    "measurementTime": "1 s",
+    "measurementBatchSize": 1,
+    "params": {
+      "delayMs": "2",
+      "deviceCount": "5000",
+      "statType": "STATUS"
+    },
+    "primaryMetric": {
+      "score": 1378.6141,
+      "scoreError": 100.83365321790325,
+      "scoreConfidence": [
+        1277.7804467820968,
+        1479.4477532179033
+      ],
+      "scorePercentiles": {
+        "0.0": 1372.2645,
+        "50.0": 1381.2321,
+        "90.0": 1382.3457,
+        "95.0": 1382.3457,
+        "99.0": 1382.3457,
+        "99.9": 1382.3457,
+        "99.99": 1382.3457,
+        "99.999": 1382.3457,
+        "99.9999": 1382.3457,
+        "100.0": 1382.3457
+      },
+      "scoreUnit": "ms/op",
+      "rawData": [
+        [
+          1382.3457,
+          1372.2645,
+          1381.2321
+        ]
+      ]
+    },
+    "secondaryMetrics": {
+    }
+  },
+  {
+    "jmhVersion": "1.37",
+    "benchmark": "com.example.reactivejava.benchmark.DelayImpactBenchmark.customCollectorParallel",
+    "mode": "avgt",
+    "threads": 1,
+    "forks": 1,
+    "jvm": "D:\\Languages\\Java\\jdk-24\\bin\\java.exe",
+    "jvmArgs": [
+      "-Xms2G",
+      "-Xmx2G"
+    ],
+    "jdkVersion": "24.0.2",
+    "vmName": "Java HotSpot(TM) 64-Bit Server VM",
+    "vmVersion": "24.0.2+12-54",
+    "warmupIterations": 2,
+    "warmupTime": "1 s",
+    "warmupBatchSize": 1,
+    "measurementIterations": 3,
+    "measurementTime": "1 s",
+    "measurementBatchSize": 1,
+    "params": {
+      "delayMs": "2",
+      "deviceCount": "5000",
+      "statType": "DEVICES_BY_TYPE"
+    },
+    "primaryMetric": {
+      "score": 1322.6034666666667,
+      "scoreError": 416.61410421513244,
+      "scoreConfidence": [
+        905.9893624515342,
+        1739.217570881799
+      ],
+      "scorePercentiles": {
+        "0.0": 1299.968,
+        "50.0": 1322.2075,
+        "90.0": 1345.6349,
+        "95.0": 1345.6349,
+        "99.0": 1345.6349,
+        "99.9": 1345.6349,
+        "99.99": 1345.6349,
+        "99.999": 1345.6349,
+        "99.9999": 1345.6349,
+        "100.0": 1345.6349
+      },
+      "scoreUnit": "ms/op",
+      "rawData": [
+        [
+          1299.968,
+          1345.6349,
+          1322.2075
+        ]
+      ]
+    },
+    "secondaryMetrics": {
+    }
+  },
+  {
+    "jmhVersion": "1.37",
+    "benchmark": "com.example.reactivejava.benchmark.DelayImpactBenchmark.customCollectorParallel",
+    "mode": "avgt",
+    "threads": 1,
+    "forks": 1,
+    "jvm": "D:\\Languages\\Java\\jdk-24\\bin\\java.exe",
+    "jvmArgs": [
+      "-Xms2G",
+      "-Xmx2G"
+    ],
+    "jdkVersion": "24.0.2",
+    "vmName": "Java HotSpot(TM) 64-Bit Server VM",
+    "vmVersion": "24.0.2+12-54",
+    "warmupIterations": 2,
+    "warmupTime": "1 s",
+    "warmupBatchSize": 1,
+    "measurementIterations": 3,
+    "measurementTime": "1 s",
+    "measurementBatchSize": 1,
+    "params": {
+      "delayMs": "2",
+      "deviceCount": "50000",
+      "statType": "STATUS"
+    },
+    "primaryMetric": {
+      "score": 13308.077033333335,
+      "scoreError": 75.19402029182466,
+      "scoreConfidence": [
+        13232.88301304151,
+        13383.27105362516
+      ],
+      "scorePercentiles": {
+        "0.0": 13304.6613,
+        "50.0": 13306.9148,
+        "90.0": 13312.655,
+        "95.0": 13312.655,
+        "99.0": 13312.655,
+        "99.9": 13312.655,
+        "99.99": 13312.655,
+        "99.999": 13312.655,
+        "99.9999": 13312.655,
+        "100.0": 13312.655
+      },
+      "scoreUnit": "ms/op",
+      "rawData": [
+        [
+          13312.655,
+          13306.9148,
+          13304.6613
+        ]
+      ]
+    },
+    "secondaryMetrics": {
+    }
+  },
+  {
+    "jmhVersion": "1.37",
+    "benchmark": "com.example.reactivejava.benchmark.DelayImpactBenchmark.customCollectorParallel",
+    "mode": "avgt",
+    "threads": 1,
+    "forks": 1,
+    "jvm": "D:\\Languages\\Java\\jdk-24\\bin\\java.exe",
+    "jvmArgs": [
+      "-Xms2G",
+      "-Xmx2G"
+    ],
+    "jdkVersion": "24.0.2",
+    "vmName": "Java HotSpot(TM) 64-Bit Server VM",
+    "vmVersion": "24.0.2+12-54",
+    "warmupIterations": 2,
+    "warmupTime": "1 s",
+    "warmupBatchSize": 1,
+    "measurementIterations": 3,
+    "measurementTime": "1 s",
+    "measurementBatchSize": 1,
+    "params": {
+      "delayMs": "2",
+      "deviceCount": "50000",
+      "statType": "DEVICES_BY_TYPE"
+    },
+    "primaryMetric": {
+      "score": 13327.767766666666,
+      "scoreError": 2216.2976905594883,
+      "scoreConfidence": [
+        11111.470076107178,
+        15544.065457226154
+      ],
+      "scorePercentiles": {
+        "0.0": 13188.2275,
+        "50.0": 13385.1103,
+        "90.0": 13409.9655,
+        "95.0": 13409.9655,
+        "99.0": 13409.9655,
+        "99.9": 13409.9655,
+        "99.99": 13409.9655,
+        "99.999": 13409.9655,
+        "99.9999": 13409.9655,
+        "100.0": 13409.9655
+      },
+      "scoreUnit": "ms/op",
+      "rawData": [
+        [
+          13188.2275,
+          13385.1103,
+          13409.9655
+        ]
+      ]
+    },
+    "secondaryMetrics": {
+    }
+  },
+  {
+    "jmhVersion": "1.37",
+    "benchmark": "com.example.reactivejava.benchmark.DelayImpactBenchmark.customCollectorParallel",
+    "mode": "avgt",
+    "threads": 1,
+    "forks": 1,
+    "jvm": "D:\\Languages\\Java\\jdk-24\\bin\\java.exe",
+    "jvmArgs": [
+      "-Xms2G",
+      "-Xmx2G"
+    ],
+    "jdkVersion": "24.0.2",
+    "vmName": "Java HotSpot(TM) 64-Bit Server VM",
+    "vmVersion": "24.0.2+12-54",
+    "warmupIterations": 2,
+    "warmupTime": "1 s",
+    "warmupBatchSize": 1,
+    "measurementIterations": 3,
+    "measurementTime": "1 s",
+    "measurementBatchSize": 1,
+    "params": {
+      "delayMs": "2",
+      "deviceCount": "250000",
+      "statType": "STATUS"
+    },
+    "primaryMetric": {
+      "score": 66450.8778,
+      "scoreError": 1255.5114439547303,
+      "scoreConfidence": [
+        65195.36635604527,
+        67706.38924395473
+      ],
+      "scorePercentiles": {
+        "0.0": 66388.5912,
+        "50.0": 66439.2857,
+        "90.0": 66524.7565,
+        "95.0": 66524.7565,
+        "99.0": 66524.7565,
+        "99.9": 66524.7565,
+        "99.99": 66524.7565,
+        "99.999": 66524.7565,
+        "99.9999": 66524.7565,
+        "100.0": 66524.7565
+      },
+      "scoreUnit": "ms/op",
+      "rawData": [
+        [
+          66524.7565,
+          66388.5912,
+          66439.2857
+        ]
+      ]
+    },
+    "secondaryMetrics": {
+    }
+  },
+  {
+    "jmhVersion": "1.37",
+    "benchmark": "com.example.reactivejava.benchmark.DelayImpactBenchmark.customCollectorParallel",
+    "mode": "avgt",
+    "threads": 1,
+    "forks": 1,
+    "jvm": "D:\\Languages\\Java\\jdk-24\\bin\\java.exe",
+    "jvmArgs": [
+      "-Xms2G",
+      "-Xmx2G"
+    ],
+    "jdkVersion": "24.0.2",
+    "vmName": "Java HotSpot(TM) 64-Bit Server VM",
+    "vmVersion": "24.0.2+12-54",
+    "warmupIterations": 2,
+    "warmupTime": "1 s",
+    "warmupBatchSize": 1,
+    "measurementIterations": 3,
+    "measurementTime": "1 s",
+    "measurementBatchSize": 1,
+    "params": {
+      "delayMs": "2",
+      "deviceCount": "250000",
+      "statType": "DEVICES_BY_TYPE"
+    },
+    "primaryMetric": {
+      "score": 66295.83916666667,
+      "scoreError": 15774.307146723748,
+      "scoreConfidence": [
+        50521.532019942926,
+        82070.14631339042
+      ],
+      "scorePercentiles": {
+        "0.0": 65685.5307,
+        "50.0": 65916.7053,
+        "90.0": 67285.2815,
+        "95.0": 67285.2815,
+        "99.0": 67285.2815,
+        "99.9": 67285.2815,
+        "99.99": 67285.2815,
+        "99.999": 67285.2815,
+        "99.9999": 67285.2815,
+        "100.0": 67285.2815
+      },
+      "scoreUnit": "ms/op",
+      "rawData": [
+        [
+          65916.7053,
+          65685.5307,
+          67285.2815
+        ]
+      ]
+    },
+    "secondaryMetrics": {
+    }
+  },
+  {
+    "jmhVersion": "1.37",
+    "benchmark": "com.example.reactivejava.benchmark.DelayImpactBenchmark.sequential",
+    "mode": "avgt",
+    "threads": 1,
+    "forks": 1,
+    "jvm": "D:\\Languages\\Java\\jdk-24\\bin\\java.exe",
+    "jvmArgs": [
+      "-Xms2G",
+      "-Xmx2G"
+    ],
+    "jdkVersion": "24.0.2",
+    "vmName": "Java HotSpot(TM) 64-Bit Server VM",
+    "vmVersion": "24.0.2+12-54",
+    "warmupIterations": 2,
+    "warmupTime": "1 s",
+    "warmupBatchSize": 1,
+    "measurementIterations": 3,
+    "measurementTime": "1 s",
+    "measurementBatchSize": 1,
+    "params": {
+      "delayMs": "0",
+      "deviceCount": "5000",
+      "statType": "STATUS"
+    },
+    "primaryMetric": {
+      "score": 0.3688066971025588,
+      "scoreError": 0.6781987648081731,
+      "scoreConfidence": [
+        -0.3093920677056143,
+        1.0470054619107318
+      ],
+      "scorePercentiles": {
+        "0.0": 0.3404108734402852,
+        "50.0": 0.35512646073688126,
+        "90.0": 0.4108827571305099,
+        "95.0": 0.4108827571305099,
+        "99.0": 0.4108827571305099,
+        "99.9": 0.4108827571305099,
+        "99.99": 0.4108827571305099,
+        "99.999": 0.4108827571305099,
+        "99.9999": 0.4108827571305099,
+        "100.0": 0.4108827571305099
+      },
+      "scoreUnit": "ms/op",
+      "rawData": [
+        [
+          0.3404108734402852,
+          0.35512646073688126,
+          0.4108827571305099
+        ]
+      ]
+    },
+    "secondaryMetrics": {
+    }
+  },
+  {
+    "jmhVersion": "1.37",
+    "benchmark": "com.example.reactivejava.benchmark.DelayImpactBenchmark.sequential",
+    "mode": "avgt",
+    "threads": 1,
+    "forks": 1,
+    "jvm": "D:\\Languages\\Java\\jdk-24\\bin\\java.exe",
+    "jvmArgs": [
+      "-Xms2G",
+      "-Xmx2G"
+    ],
+    "jdkVersion": "24.0.2",
+    "vmName": "Java HotSpot(TM) 64-Bit Server VM",
+    "vmVersion": "24.0.2+12-54",
+    "warmupIterations": 2,
+    "warmupTime": "1 s",
+    "warmupBatchSize": 1,
+    "measurementIterations": 3,
+    "measurementTime": "1 s",
+    "measurementBatchSize": 1,
+    "params": {
+      "delayMs": "0",
+      "deviceCount": "5000",
+      "statType": "DEVICES_BY_TYPE"
+    },
+    "primaryMetric": {
+      "score": 0.12120889731380007,
+      "scoreError": 0.31824634059860635,
+      "scoreConfidence": [
+        -0.19703744328480627,
+        0.4394552379124064
+      ],
+      "scorePercentiles": {
+        "0.0": 0.1032429971830986,
+        "50.0": 0.12230398353472315,
+        "90.0": 0.13807971122357846,
+        "95.0": 0.13807971122357846,
+        "99.0": 0.13807971122357846,
+        "99.9": 0.13807971122357846,
+        "99.99": 0.13807971122357846,
+        "99.999": 0.13807971122357846,
+        "99.9999": 0.13807971122357846,
+        "100.0": 0.13807971122357846
+      },
+      "scoreUnit": "ms/op",
+      "rawData": [
+        [
+          0.12230398353472315,
+          0.1032429971830986,
+          0.13807971122357846
+        ]
+      ]
+    },
+    "secondaryMetrics": {
+    }
+  },
+  {
+    "jmhVersion": "1.37",
+    "benchmark": "com.example.reactivejava.benchmark.DelayImpactBenchmark.sequential",
+    "mode": "avgt",
+    "threads": 1,
+    "forks": 1,
+    "jvm": "D:\\Languages\\Java\\jdk-24\\bin\\java.exe",
+    "jvmArgs": [
+      "-Xms2G",
+      "-Xmx2G"
+    ],
+    "jdkVersion": "24.0.2",
+    "vmName": "Java HotSpot(TM) 64-Bit Server VM",
+    "vmVersion": "24.0.2+12-54",
+    "warmupIterations": 2,
+    "warmupTime": "1 s",
+    "warmupBatchSize": 1,
+    "measurementIterations": 3,
+    "measurementTime": "1 s",
+    "measurementBatchSize": 1,
+    "params": {
+      "delayMs": "0",
+      "deviceCount": "50000",
+      "statType": "STATUS"
+    },
+    "primaryMetric": {
+      "score": 7.276286812939016,
+      "scoreError": 10.609317101830289,
+      "scoreConfidence": [
+        -3.3330302888912726,
+        17.885603914769305
+      ],
+      "scorePercentiles": {
+        "0.0": 6.784402222222222,
+        "50.0": 7.12635390625,
+        "90.0": 7.918104310344828,
+        "95.0": 7.918104310344828,
+        "99.0": 7.918104310344828,
+        "99.9": 7.918104310344828,
+        "99.99": 7.918104310344828,
+        "99.999": 7.918104310344828,
+        "99.9999": 7.918104310344828,
+        "100.0": 7.918104310344828
+      },
+      "scoreUnit": "ms/op",
+      "rawData": [
+        [
+          6.784402222222222,
+          7.12635390625,
+          7.918104310344828
+        ]
+      ]
+    },
+    "secondaryMetrics": {
+    }
+  },
+  {
+    "jmhVersion": "1.37",
+    "benchmark": "com.example.reactivejava.benchmark.DelayImpactBenchmark.sequential",
+    "mode": "avgt",
+    "threads": 1,
+    "forks": 1,
+    "jvm": "D:\\Languages\\Java\\jdk-24\\bin\\java.exe",
+    "jvmArgs": [
+      "-Xms2G",
+      "-Xmx2G"
+    ],
+    "jdkVersion": "24.0.2",
+    "vmName": "Java HotSpot(TM) 64-Bit Server VM",
+    "vmVersion": "24.0.2+12-54",
+    "warmupIterations": 2,
+    "warmupTime": "1 s",
+    "warmupBatchSize": 1,
+    "measurementIterations": 3,
+    "measurementTime": "1 s",
+    "measurementBatchSize": 1,
+    "params": {
+      "delayMs": "0",
+      "deviceCount": "50000",
+      "statType": "DEVICES_BY_TYPE"
+    },
+    "primaryMetric": {
+      "score": 3.5864561654780918,
+      "scoreError": 1.2185943035607472,
+      "scoreConfidence": [
+        2.3678618619173446,
+        4.805050469038839
+      ],
+      "scorePercentiles": {
+        "0.0": 3.5144334693877552,
+        "50.0": 3.5985686440677966,
+        "90.0": 3.6463663829787234,
+        "95.0": 3.6463663829787234,
+        "99.0": 3.6463663829787234,
+        "99.9": 3.6463663829787234,
+        "99.99": 3.6463663829787234,
+        "99.999": 3.6463663829787234,
+        "99.9999": 3.6463663829787234,
+        "100.0": 3.6463663829787234
+      },
+      "scoreUnit": "ms/op",
+      "rawData": [
+        [
+          3.5985686440677966,
+          3.5144334693877552,
+          3.6463663829787234
+        ]
+      ]
+    },
+    "secondaryMetrics": {
+    }
+  },
+  {
+    "jmhVersion": "1.37",
+    "benchmark": "com.example.reactivejava.benchmark.DelayImpactBenchmark.sequential",
+    "mode": "avgt",
+    "threads": 1,
+    "forks": 1,
+    "jvm": "D:\\Languages\\Java\\jdk-24\\bin\\java.exe",
+    "jvmArgs": [
+      "-Xms2G",
+      "-Xmx2G"
+    ],
+    "jdkVersion": "24.0.2",
+    "vmName": "Java HotSpot(TM) 64-Bit Server VM",
+    "vmVersion": "24.0.2+12-54",
+    "warmupIterations": 2,
+    "warmupTime": "1 s",
+    "warmupBatchSize": 1,
+    "measurementIterations": 3,
+    "measurementTime": "1 s",
+    "measurementBatchSize": 1,
+    "params": {
+      "delayMs": "0",
+      "deviceCount": "250000",
+      "statType": "STATUS"
+    },
+    "primaryMetric": {
+      "score": 27.34438239990033,
+      "scoreError": 26.24556201480086,
+      "scoreConfidence": [
+        1.0988203850994687,
+        53.58994441470119
+      ],
+      "scorePercentiles": {
+        "0.0": 26.12156176470588,
+        "50.0": 26.982075757575757,
+        "90.0": 28.929509677419354,
+        "95.0": 28.929509677419354,
+        "99.0": 28.929509677419354,
+        "99.9": 28.929509677419354,
+        "99.99": 28.929509677419354,
+        "99.999": 28.929509677419354,
+        "99.9999": 28.929509677419354,
+        "100.0": 28.929509677419354
+      },
+      "scoreUnit": "ms/op",
+      "rawData": [
+        [
+          26.982075757575757,
+          28.929509677419354,
+          26.12156176470588
+        ]
+      ]
+    },
+    "secondaryMetrics": {
+    }
+  },
+  {
+    "jmhVersion": "1.37",
+    "benchmark": "com.example.reactivejava.benchmark.DelayImpactBenchmark.sequential",
+    "mode": "avgt",
+    "threads": 1,
+    "forks": 1,
+    "jvm": "D:\\Languages\\Java\\jdk-24\\bin\\java.exe",
+    "jvmArgs": [
+      "-Xms2G",
+      "-Xmx2G"
+    ],
+    "jdkVersion": "24.0.2",
+    "vmName": "Java HotSpot(TM) 64-Bit Server VM",
+    "vmVersion": "24.0.2+12-54",
+    "warmupIterations": 2,
+    "warmupTime": "1 s",
+    "warmupBatchSize": 1,
+    "measurementIterations": 3,
+    "measurementTime": "1 s",
+    "measurementBatchSize": 1,
+    "params": {
+      "delayMs": "0",
+      "deviceCount": "250000",
+      "statType": "DEVICES_BY_TYPE"
+    },
+    "primaryMetric": {
+      "score": 17.62103599033816,
+      "scoreError": 8.859922659244988,
+      "scoreConfidence": [
+        8.761113331093172,
+        26.48095864958315
+      ],
+      "scorePercentiles": {
+        "0.0": 17.226983333333333,
+        "50.0": 17.472533333333335,
+        "90.0": 18.163591304347825,
+        "95.0": 18.163591304347825,
+        "99.0": 18.163591304347825,
+        "99.9": 18.163591304347825,
+        "99.99": 18.163591304347825,
+        "99.999": 18.163591304347825,
+        "99.9999": 18.163591304347825,
+        "100.0": 18.163591304347825
+      },
+      "scoreUnit": "ms/op",
+      "rawData": [
+        [
+          18.163591304347825,
+          17.226983333333333,
+          17.472533333333335
+        ]
+      ]
+    },
+    "secondaryMetrics": {
+    }
+  },
+  {
+    "jmhVersion": "1.37",
+    "benchmark": "com.example.reactivejava.benchmark.DelayImpactBenchmark.sequential",
+    "mode": "avgt",
+    "threads": 1,
+    "forks": 1,
+    "jvm": "D:\\Languages\\Java\\jdk-24\\bin\\java.exe",
+    "jvmArgs": [
+      "-Xms2G",
+      "-Xmx2G"
+    ],
+    "jdkVersion": "24.0.2",
+    "vmName": "Java HotSpot(TM) 64-Bit Server VM",
+    "vmVersion": "24.0.2+12-54",
+    "warmupIterations": 2,
+    "warmupTime": "1 s",
+    "warmupBatchSize": 1,
+    "measurementIterations": 3,
+    "measurementTime": "1 s",
+    "measurementBatchSize": 1,
+    "params": {
+      "delayMs": "1",
+      "deviceCount": "5000",
+      "statType": "STATUS"
+    },
+    "primaryMetric": {
+      "score": 10040.2144,
+      "scoreError": 3081.213101612095,
+      "scoreConfidence": [
+        6959.001298387906,
+        13121.427501612096
+      ],
+      "scorePercentiles": {
+        "0.0": 9857.328,
+        "50.0": 10073.0161,
+        "90.0": 10190.2991,
+        "95.0": 10190.2991,
+        "99.0": 10190.2991,
+        "99.9": 10190.2991,
+        "99.99": 10190.2991,
+        "99.999": 10190.2991,
+        "99.9999": 10190.2991,
+        "100.0": 10190.2991
+      },
+      "scoreUnit": "ms/op",
+      "rawData": [
+        [
+          9857.328,
+          10073.0161,
+          10190.2991
+        ]
+      ]
+    },
+    "secondaryMetrics": {
+    }
+  },
+  {
+    "jmhVersion": "1.37",
+    "benchmark": "com.example.reactivejava.benchmark.DelayImpactBenchmark.sequential",
+    "mode": "avgt",
+    "threads": 1,
+    "forks": 1,
+    "jvm": "D:\\Languages\\Java\\jdk-24\\bin\\java.exe",
+    "jvmArgs": [
+      "-Xms2G",
+      "-Xmx2G"
+    ],
+    "jdkVersion": "24.0.2",
+    "vmName": "Java HotSpot(TM) 64-Bit Server VM",
+    "vmVersion": "24.0.2+12-54",
+    "warmupIterations": 2,
+    "warmupTime": "1 s",
+    "warmupBatchSize": 1,
+    "measurementIterations": 3,
+    "measurementTime": "1 s",
+    "measurementBatchSize": 1,
+    "params": {
+      "delayMs": "1",
+      "deviceCount": "5000",
+      "statType": "DEVICES_BY_TYPE"
+    },
+    "primaryMetric": {
+      "score": 10075.0957,
+      "scoreError": 6548.579673293749,
+      "scoreConfidence": [
+        3526.516026706251,
+        16623.67537329375
+      ],
+      "scorePercentiles": {
+        "0.0": 9828.3716,
+        "50.0": 9910.0304,
+        "90.0": 10486.8851,
+        "95.0": 10486.8851,
+        "99.0": 10486.8851,
+        "99.9": 10486.8851,
+        "99.99": 10486.8851,
+        "99.999": 10486.8851,
+        "99.9999": 10486.8851,
+        "100.0": 10486.8851
+      },
+      "scoreUnit": "ms/op",
+      "rawData": [
+        [
+          9828.3716,
+          10486.8851,
+          9910.0304
+        ]
+      ]
+    },
+    "secondaryMetrics": {
+    }
+  },
+  {
+    "jmhVersion": "1.37",
+    "benchmark": "com.example.reactivejava.benchmark.DelayImpactBenchmark.sequential",
+    "mode": "avgt",
+    "threads": 1,
+    "forks": 1,
+    "jvm": "D:\\Languages\\Java\\jdk-24\\bin\\java.exe",
+    "jvmArgs": [
+      "-Xms2G",
+      "-Xmx2G"
+    ],
+    "jdkVersion": "24.0.2",
+    "vmName": "Java HotSpot(TM) 64-Bit Server VM",
+    "vmVersion": "24.0.2+12-54",
+    "warmupIterations": 2,
+    "warmupTime": "1 s",
+    "warmupBatchSize": 1,
+    "measurementIterations": 3,
+    "measurementTime": "1 s",
+    "measurementBatchSize": 1,
+    "params": {
+      "delayMs": "1",
+      "deviceCount": "50000",
+      "statType": "STATUS"
+    },
+    "primaryMetric": {
+      "score": 98103.16276666666,
+      "scoreError": 18188.719268797628,
+      "scoreConfidence": [
+        79914.44349786904,
+        116291.88203546428
+      ],
+      "scorePercentiles": {
+        "0.0": 96978.3664,
+        "50.0": 98453.1837,
+        "90.0": 98877.9382,
+        "95.0": 98877.9382,
+        "99.0": 98877.9382,
+        "99.9": 98877.9382,
+        "99.99": 98877.9382,
+        "99.999": 98877.9382,
+        "99.9999": 98877.9382,
+        "100.0": 98877.9382
+      },
+      "scoreUnit": "ms/op",
+      "rawData": [
+        [
+          96978.3664,
+          98453.1837,
+          98877.9382
+        ]
+      ]
+    },
+    "secondaryMetrics": {
+    }
+  },
+  {
+    "jmhVersion": "1.37",
+    "benchmark": "com.example.reactivejava.benchmark.DelayImpactBenchmark.sequential",
+    "mode": "avgt",
+    "threads": 1,
+    "forks": 1,
+    "jvm": "D:\\Languages\\Java\\jdk-24\\bin\\java.exe",
+    "jvmArgs": [
+      "-Xms2G",
+      "-Xmx2G"
+    ],
+    "jdkVersion": "24.0.2",
+    "vmName": "Java HotSpot(TM) 64-Bit Server VM",
+    "vmVersion": "24.0.2+12-54",
+    "warmupIterations": 2,
+    "warmupTime": "1 s",
+    "warmupBatchSize": 1,
+    "measurementIterations": 3,
+    "measurementTime": "1 s",
+    "measurementBatchSize": 1,
+    "params": {
+      "delayMs": "1",
+      "deviceCount": "50000",
+      "statType": "DEVICES_BY_TYPE"
+    },
+    "primaryMetric": {
+      "score": 99429.94946666667,
+      "scoreError": 2405.2286215511995,
+      "scoreConfidence": [
+        97024.72084511547,
+        101835.17808821787
+      ],
+      "scorePercentiles": {
+        "0.0": 99281.2221,
+        "50.0": 99476.1783,
+        "90.0": 99532.448,
+        "95.0": 99532.448,
+        "99.0": 99532.448,
+        "99.9": 99532.448,
+        "99.99": 99532.448,
+        "99.999": 99532.448,
+        "99.9999": 99532.448,
+        "100.0": 99532.448
+      },
+      "scoreUnit": "ms/op",
+      "rawData": [
+        [
+          99532.448,
+          99476.1783,
+          99281.2221
+        ]
+      ]
+    },
+    "secondaryMetrics": {
+    }
+  },
+  {
+    "jmhVersion": "1.37",
+    "benchmark": "com.example.reactivejava.benchmark.DelayImpactBenchmark.sequential",
+    "mode": "avgt",
+    "threads": 1,
+    "forks": 1,
+    "jvm": "D:\\Languages\\Java\\jdk-24\\bin\\java.exe",
+    "jvmArgs": [
+      "-Xms2G",
+      "-Xmx2G"
+    ],
+    "jdkVersion": "24.0.2",
+    "vmName": "Java HotSpot(TM) 64-Bit Server VM",
+    "vmVersion": "24.0.2+12-54",
+    "warmupIterations": 2,
+    "warmupTime": "1 s",
+    "warmupBatchSize": 1,
+    "measurementIterations": 3,
+    "measurementTime": "1 s",
+    "measurementBatchSize": 1,
+    "params": {
+      "delayMs": "1",
+      "deviceCount": "250000",
+      "statType": "STATUS"
+    },
+    "primaryMetric": {
+      "score": 483964.5658666667,
+      "scoreError": 118752.06914968525,
+      "scoreConfidence": [
+        365212.4967169814,
+        602716.6350163519
+      ],
+      "scorePercentiles": {
+        "0.0": 479274.2252,
+        "50.0": 481223.4572,
+        "90.0": 491396.0152,
+        "95.0": 491396.0152,
+        "99.0": 491396.0152,
+        "99.9": 491396.0152,
+        "99.99": 491396.0152,
+        "99.999": 491396.0152,
+        "99.9999": 491396.0152,
+        "100.0": 491396.0152
+      },
+      "scoreUnit": "ms/op",
+      "rawData": [
+        [
+          479274.2252,
+          481223.4572,
+          491396.0152
+        ]
+      ]
+    },
+    "secondaryMetrics": {
+    }
+  },
+  {
+    "jmhVersion": "1.37",
+    "benchmark": "com.example.reactivejava.benchmark.DelayImpactBenchmark.sequential",
+    "mode": "avgt",
+    "threads": 1,
+    "forks": 1,
+    "jvm": "D:\\Languages\\Java\\jdk-24\\bin\\java.exe",
+    "jvmArgs": [
+      "-Xms2G",
+      "-Xmx2G"
+    ],
+    "jdkVersion": "24.0.2",
+    "vmName": "Java HotSpot(TM) 64-Bit Server VM",
+    "vmVersion": "24.0.2+12-54",
+    "warmupIterations": 2,
+    "warmupTime": "1 s",
+    "warmupBatchSize": 1,
+    "measurementIterations": 3,
+    "measurementTime": "1 s",
+    "measurementBatchSize": 1,
+    "params": {
+      "delayMs": "1",
+      "deviceCount": "250000",
+      "statType": "DEVICES_BY_TYPE"
+    },
+    "primaryMetric": {
+      "score": 447634.43193333334,
+      "scoreError": 94393.07353805426,
+      "scoreConfidence": [
+        353241.3583952791,
+        542027.5054713876
+      ],
+      "scorePercentiles": {
+        "0.0": 441768.9978,
+        "50.0": 449583.3718,
+        "90.0": 451550.9262,
+        "95.0": 451550.9262,
+        "99.0": 451550.9262,
+        "99.9": 451550.9262,
+        "99.99": 451550.9262,
+        "99.999": 451550.9262,
+        "99.9999": 451550.9262,
+        "100.0": 451550.9262
+      },
+      "scoreUnit": "ms/op",
+      "rawData": [
+        [
+          441768.9978,
+          449583.3718,
+          451550.9262
+        ]
+      ]
+    },
+    "secondaryMetrics": {
+    }
+  },
+  {
+    "jmhVersion": "1.37",
+    "benchmark": "com.example.reactivejava.benchmark.DelayImpactBenchmark.sequential",
+    "mode": "avgt",
+    "threads": 1,
+    "forks": 1,
+    "jvm": "D:\\Languages\\Java\\jdk-24\\bin\\java.exe",
+    "jvmArgs": [
+      "-Xms2G",
+      "-Xmx2G"
+    ],
+    "jdkVersion": "24.0.2",
+    "vmName": "Java HotSpot(TM) 64-Bit Server VM",
+    "vmVersion": "24.0.2+12-54",
+    "warmupIterations": 2,
+    "warmupTime": "1 s",
+    "warmupBatchSize": 1,
+    "measurementIterations": 3,
+    "measurementTime": "1 s",
+    "measurementBatchSize": 1,
+    "params": {
+      "delayMs": "2",
+      "deviceCount": "5000",
+      "statType": "STATUS"
+    },
+    "primaryMetric": {
+      "score": 13606.917433333334,
+      "scoreError": 7196.072739480634,
+      "scoreConfidence": [
+        6410.8446938527,
+        20802.990172813967
+      ],
+      "scorePercentiles": {
+        "0.0": 13152.9494,
+        "50.0": 13801.9876,
+        "90.0": 13865.8153,
+        "95.0": 13865.8153,
+        "99.0": 13865.8153,
+        "99.9": 13865.8153,
+        "99.99": 13865.8153,
+        "99.999": 13865.8153,
+        "99.9999": 13865.8153,
+        "100.0": 13865.8153
+      },
+      "scoreUnit": "ms/op",
+      "rawData": [
+        [
+          13152.9494,
+          13801.9876,
+          13865.8153
+        ]
+      ]
+    },
+    "secondaryMetrics": {
+    }
+  },
+  {
+    "jmhVersion": "1.37",
+    "benchmark": "com.example.reactivejava.benchmark.DelayImpactBenchmark.sequential",
+    "mode": "avgt",
+    "threads": 1,
+    "forks": 1,
+    "jvm": "D:\\Languages\\Java\\jdk-24\\bin\\java.exe",
+    "jvmArgs": [
+      "-Xms2G",
+      "-Xmx2G"
+    ],
+    "jdkVersion": "24.0.2",
+    "vmName": "Java HotSpot(TM) 64-Bit Server VM",
+    "vmVersion": "24.0.2+12-54",
+    "warmupIterations": 2,
+    "warmupTime": "1 s",
+    "warmupBatchSize": 1,
+    "measurementIterations": 3,
+    "measurementTime": "1 s",
+    "measurementBatchSize": 1,
+    "params": {
+      "delayMs": "2",
+      "deviceCount": "5000",
+      "statType": "DEVICES_BY_TYPE"
+    },
+    "primaryMetric": {
+      "score": 13134.501166666667,
+      "scoreError": 976.54908086774,
+      "scoreConfidence": [
+        12157.952085798926,
+        14111.050247534407
+      ],
+      "scorePercentiles": {
+        "0.0": 13079.0954,
+        "50.0": 13138.4787,
+        "90.0": 13185.9294,
+        "95.0": 13185.9294,
+        "99.0": 13185.9294,
+        "99.9": 13185.9294,
+        "99.99": 13185.9294,
+        "99.999": 13185.9294,
+        "99.9999": 13185.9294,
+        "100.0": 13185.9294
+      },
+      "scoreUnit": "ms/op",
+      "rawData": [
+        [
+          13079.0954,
+          13138.4787,
+          13185.9294
+        ]
+      ]
+    },
+    "secondaryMetrics": {
+    }
+  },
+  {
+    "jmhVersion": "1.37",
+    "benchmark": "com.example.reactivejava.benchmark.DelayImpactBenchmark.sequential",
+    "mode": "avgt",
+    "threads": 1,
+    "forks": 1,
+    "jvm": "D:\\Languages\\Java\\jdk-24\\bin\\java.exe",
+    "jvmArgs": [
+      "-Xms2G",
+      "-Xmx2G"
+    ],
+    "jdkVersion": "24.0.2",
+    "vmName": "Java HotSpot(TM) 64-Bit Server VM",
+    "vmVersion": "24.0.2+12-54",
+    "warmupIterations": 2,
+    "warmupTime": "1 s",
+    "warmupBatchSize": 1,
+    "measurementIterations": 3,
+    "measurementTime": "1 s",
+    "measurementBatchSize": 1,
+    "params": {
+      "delayMs": "2",
+      "deviceCount": "50000",
+      "statType": "STATUS"
+    },
+    "primaryMetric": {
+      "score": 129345.49196666665,
+      "scoreError": 14842.79942437548,
+      "scoreConfidence": [
+        114502.69254229117,
+        144188.29139104212
+      ],
+      "scorePercentiles": {
+        "0.0": 128410.1649,
+        "50.0": 129737.0552,
+        "90.0": 129889.2558,
+        "95.0": 129889.2558,
+        "99.0": 129889.2558,
+        "99.9": 129889.2558,
+        "99.99": 129889.2558,
+        "99.999": 129889.2558,
+        "99.9999": 129889.2558,
+        "100.0": 129889.2558
+      },
+      "scoreUnit": "ms/op",
+      "rawData": [
+        [
+          129889.2558,
+          129737.0552,
+          128410.1649
+        ]
+      ]
+    },
+    "secondaryMetrics": {
+    }
+  },
+  {
+    "jmhVersion": "1.37",
+    "benchmark": "com.example.reactivejava.benchmark.DelayImpactBenchmark.sequential",
+    "mode": "avgt",
+    "threads": 1,
+    "forks": 1,
+    "jvm": "D:\\Languages\\Java\\jdk-24\\bin\\java.exe",
+    "jvmArgs": [
+      "-Xms2G",
+      "-Xmx2G"
+    ],
+    "jdkVersion": "24.0.2",
+    "vmName": "Java HotSpot(TM) 64-Bit Server VM",
+    "vmVersion": "24.0.2+12-54",
+    "warmupIterations": 2,
+    "warmupTime": "1 s",
+    "warmupBatchSize": 1,
+    "measurementIterations": 3,
+    "measurementTime": "1 s",
+    "measurementBatchSize": 1,
+    "params": {
+      "delayMs": "2",
+      "deviceCount": "50000",
+      "statType": "DEVICES_BY_TYPE"
+    },
+    "primaryMetric": {
+      "score": 130702.48926666666,
+      "scoreError": 42127.823109419405,
+      "scoreConfidence": [
+        88574.66615724725,
+        172830.31237608608
+      ],
+      "scorePercentiles": {
+        "0.0": 129128.1095,
+        "50.0": 129626.0124,
+        "90.0": 133353.3459,
+        "95.0": 133353.3459,
+        "99.0": 133353.3459,
+        "99.9": 133353.3459,
+        "99.99": 133353.3459,
+        "99.999": 133353.3459,
+        "99.9999": 133353.3459,
+        "100.0": 133353.3459
+      },
+      "scoreUnit": "ms/op",
+      "rawData": [
+        [
+          129626.0124,
+          133353.3459,
+          129128.1095
+        ]
+      ]
+    },
+    "secondaryMetrics": {
+    }
+  },
+  {
+    "jmhVersion": "1.37",
+    "benchmark": "com.example.reactivejava.benchmark.DelayImpactBenchmark.sequential",
+    "mode": "avgt",
+    "threads": 1,
+    "forks": 1,
+    "jvm": "D:\\Languages\\Java\\jdk-24\\bin\\java.exe",
+    "jvmArgs": [
+      "-Xms2G",
+      "-Xmx2G"
+    ],
+    "jdkVersion": "24.0.2",
+    "vmName": "Java HotSpot(TM) 64-Bit Server VM",
+    "vmVersion": "24.0.2+12-54",
+    "warmupIterations": 2,
+    "warmupTime": "1 s",
+    "warmupBatchSize": 1,
+    "measurementIterations": 3,
+    "measurementTime": "1 s",
+    "measurementBatchSize": 1,
+    "params": {
+      "delayMs": "2",
+      "deviceCount": "250000",
+      "statType": "STATUS"
+    },
+    "primaryMetric": {
+      "score": 675386.0650666667,
+      "scoreError": 495099.2628254811,
+      "scoreConfidence": [
+        180286.80224118556,
+        1170485.327892148
+      ],
+      "scorePercentiles": {
+        "0.0": 646281.8038,
+        "50.0": 679879.3265,
+        "90.0": 699997.0649,
+        "95.0": 699997.0649,
+        "99.0": 699997.0649,
+        "99.9": 699997.0649,
+        "99.99": 699997.0649,
+        "99.999": 699997.0649,
+        "99.9999": 699997.0649,
+        "100.0": 699997.0649
+      },
+      "scoreUnit": "ms/op",
+      "rawData": [
+        [
+          699997.0649,
+          679879.3265,
+          646281.8038
+        ]
+      ]
+    },
+    "secondaryMetrics": {
+    }
+  },
+  {
+    "jmhVersion": "1.37",
+    "benchmark": "com.example.reactivejava.benchmark.DelayImpactBenchmark.sequential",
+    "mode": "avgt",
+    "threads": 1,
+    "forks": 1,
+    "jvm": "D:\\Languages\\Java\\jdk-24\\bin\\java.exe",
+    "jvmArgs": [
+      "-Xms2G",
+      "-Xmx2G"
+    ],
+    "jdkVersion": "24.0.2",
+    "vmName": "Java HotSpot(TM) 64-Bit Server VM",
+    "vmVersion": "24.0.2+12-54",
+    "warmupIterations": 2,
+    "warmupTime": "1 s",
+    "warmupBatchSize": 1,
+    "measurementIterations": 3,
+    "measurementTime": "1 s",
+    "measurementBatchSize": 1,
+    "params": {
+      "delayMs": "2",
+      "deviceCount": "250000",
+      "statType": "DEVICES_BY_TYPE"
+    },
+    "primaryMetric": {
+      "score": 647147.8822666666,
+      "scoreError": 57917.64486242858,
+      "scoreConfidence": [
+        589230.2374042381,
+        705065.5271290952
+      ],
+      "scorePercentiles": {
+        "0.0": 643529.2593,
+        "50.0": 648449.5996,
+        "90.0": 649464.7879,
+        "95.0": 649464.7879,
+        "99.0": 649464.7879,
+        "99.9": 649464.7879,
+        "99.99": 649464.7879,
+        "99.999": 649464.7879,
+        "99.9999": 649464.7879,
+        "100.0": 649464.7879
+      },
+      "scoreUnit": "ms/op",
+      "rawData": [
+        [
+          648449.5996,
+          649464.7879,
+          643529.2593
+        ]
+      ]
+    },
+    "secondaryMetrics": {
+    }
+  },
+  {
+    "jmhVersion": "1.37",
+    "benchmark": "com.example.reactivejava.benchmark.DelayImpactBenchmark.standardCollectorsParallel",
+    "mode": "avgt",
+    "threads": 1,
+    "forks": 1,
+    "jvm": "D:\\Languages\\Java\\jdk-24\\bin\\java.exe",
+    "jvmArgs": [
+      "-Xms2G",
+      "-Xmx2G"
+    ],
+    "jdkVersion": "24.0.2",
+    "vmName": "Java HotSpot(TM) 64-Bit Server VM",
+    "vmVersion": "24.0.2+12-54",
+    "warmupIterations": 2,
+    "warmupTime": "1 s",
+    "warmupBatchSize": 1,
+    "measurementIterations": 3,
+    "measurementTime": "1 s",
+    "measurementBatchSize": 1,
+    "params": {
+      "delayMs": "0",
+      "deviceCount": "5000",
+      "statType": "STATUS"
+    },
+    "primaryMetric": {
+      "score": 0.2515040675125635,
+      "scoreError": 0.09421288990924294,
+      "scoreConfidence": [
+        0.15729117760332056,
+        0.3457169574218064
+      ],
+      "scorePercentiles": {
+        "0.0": 0.24840090548953028,
+        "50.0": 0.24864588769143506,
+        "90.0": 0.25746540935672513,
+        "95.0": 0.25746540935672513,
+        "99.0": 0.25746540935672513,
+        "99.9": 0.25746540935672513,
+        "99.99": 0.25746540935672513,
+        "99.999": 0.25746540935672513,
+        "99.9999": 0.25746540935672513,
+        "100.0": 0.25746540935672513
+      },
+      "scoreUnit": "ms/op",
+      "rawData": [
+        [
+          0.24864588769143506,
+          0.24840090548953028,
+          0.25746540935672513
+        ]
+      ]
+    },
+    "secondaryMetrics": {
+    }
+  },
+  {
+    "jmhVersion": "1.37",
+    "benchmark": "com.example.reactivejava.benchmark.DelayImpactBenchmark.standardCollectorsParallel",
+    "mode": "avgt",
+    "threads": 1,
+    "forks": 1,
+    "jvm": "D:\\Languages\\Java\\jdk-24\\bin\\java.exe",
+    "jvmArgs": [
+      "-Xms2G",
+      "-Xmx2G"
+    ],
+    "jdkVersion": "24.0.2",
+    "vmName": "Java HotSpot(TM) 64-Bit Server VM",
+    "vmVersion": "24.0.2+12-54",
+    "warmupIterations": 2,
+    "warmupTime": "1 s",
+    "warmupBatchSize": 1,
+    "measurementIterations": 3,
+    "measurementTime": "1 s",
+    "measurementBatchSize": 1,
+    "params": {
+      "delayMs": "0",
+      "deviceCount": "5000",
+      "statType": "DEVICES_BY_TYPE"
+    },
+    "primaryMetric": {
+      "score": 0.2806688116240285,
+      "scoreError": 0.08989077030019361,
+      "scoreConfidence": [
+        0.1907780413238349,
+        0.3705595819242221
+      ],
+      "scorePercentiles": {
+        "0.0": 0.2762314888413329,
+        "50.0": 0.27980363015823767,
+        "90.0": 0.285971315872515,
+        "95.0": 0.285971315872515,
+        "99.0": 0.285971315872515,
+        "99.9": 0.285971315872515,
+        "99.99": 0.285971315872515,
+        "99.999": 0.285971315872515,
+        "99.9999": 0.285971315872515,
+        "100.0": 0.285971315872515
+      },
+      "scoreUnit": "ms/op",
+      "rawData": [
+        [
+          0.2762314888413329,
+          0.285971315872515,
+          0.27980363015823767
+        ]
+      ]
+    },
+    "secondaryMetrics": {
+    }
+  },
+  {
+    "jmhVersion": "1.37",
+    "benchmark": "com.example.reactivejava.benchmark.DelayImpactBenchmark.standardCollectorsParallel",
+    "mode": "avgt",
+    "threads": 1,
+    "forks": 1,
+    "jvm": "D:\\Languages\\Java\\jdk-24\\bin\\java.exe",
+    "jvmArgs": [
+      "-Xms2G",
+      "-Xmx2G"
+    ],
+    "jdkVersion": "24.0.2",
+    "vmName": "Java HotSpot(TM) 64-Bit Server VM",
+    "vmVersion": "24.0.2+12-54",
+    "warmupIterations": 2,
+    "warmupTime": "1 s",
+    "warmupBatchSize": 1,
+    "measurementIterations": 3,
+    "measurementTime": "1 s",
+    "measurementBatchSize": 1,
+    "params": {
+      "delayMs": "0",
+      "deviceCount": "50000",
+      "statType": "STATUS"
+    },
+    "primaryMetric": {
+      "score": 2.6331836279906775,
+      "scoreError": 1.032313256851046,
+      "scoreConfidence": [
+        1.6008703711396315,
+        3.6654968848417235
+      ],
+      "scorePercentiles": {
+        "0.0": 2.568725155279503,
+        "50.0": 2.6561585209003216,
+        "90.0": 2.674667207792208,
+        "95.0": 2.674667207792208,
+        "99.0": 2.674667207792208,
+        "99.9": 2.674667207792208,
+        "99.99": 2.674667207792208,
+        "99.999": 2.674667207792208,
+        "99.9999": 2.674667207792208,
+        "100.0": 2.674667207792208
+      },
+      "scoreUnit": "ms/op",
+      "rawData": [
+        [
+          2.568725155279503,
+          2.6561585209003216,
+          2.674667207792208
+        ]
+      ]
+    },
+    "secondaryMetrics": {
+    }
+  },
+  {
+    "jmhVersion": "1.37",
+    "benchmark": "com.example.reactivejava.benchmark.DelayImpactBenchmark.standardCollectorsParallel",
+    "mode": "avgt",
+    "threads": 1,
+    "forks": 1,
+    "jvm": "D:\\Languages\\Java\\jdk-24\\bin\\java.exe",
+    "jvmArgs": [
+      "-Xms2G",
+      "-Xmx2G"
+    ],
+    "jdkVersion": "24.0.2",
+    "vmName": "Java HotSpot(TM) 64-Bit Server VM",
+    "vmVersion": "24.0.2+12-54",
+    "warmupIterations": 2,
+    "warmupTime": "1 s",
+    "warmupBatchSize": 1,
+    "measurementIterations": 3,
+    "measurementTime": "1 s",
+    "measurementBatchSize": 1,
+    "params": {
+      "delayMs": "0",
+      "deviceCount": "50000",
+      "statType": "DEVICES_BY_TYPE"
+    },
+    "primaryMetric": {
+      "score": 2.7198863545853538,
+      "scoreError": 0.3041136656838611,
+      "scoreConfidence": [
+        2.4157726889014928,
+        3.0240000202692148
+      ],
+      "scorePercentiles": {
+        "0.0": 2.7007169934640523,
+        "50.0": 2.727963122923588,
+        "90.0": 2.730978947368421,
+        "95.0": 2.730978947368421,
+        "99.0": 2.730978947368421,
+        "99.9": 2.730978947368421,
+        "99.99": 2.730978947368421,
+        "99.999": 2.730978947368421,
+        "99.9999": 2.730978947368421,
+        "100.0": 2.730978947368421
+      },
+      "scoreUnit": "ms/op",
+      "rawData": [
+        [
+          2.727963122923588,
+          2.730978947368421,
+          2.7007169934640523
+        ]
+      ]
+    },
+    "secondaryMetrics": {
+    }
+  },
+  {
+    "jmhVersion": "1.37",
+    "benchmark": "com.example.reactivejava.benchmark.DelayImpactBenchmark.standardCollectorsParallel",
+    "mode": "avgt",
+    "threads": 1,
+    "forks": 1,
+    "jvm": "D:\\Languages\\Java\\jdk-24\\bin\\java.exe",
+    "jvmArgs": [
+      "-Xms2G",
+      "-Xmx2G"
+    ],
+    "jdkVersion": "24.0.2",
+    "vmName": "Java HotSpot(TM) 64-Bit Server VM",
+    "vmVersion": "24.0.2+12-54",
+    "warmupIterations": 2,
+    "warmupTime": "1 s",
+    "warmupBatchSize": 1,
+    "measurementIterations": 3,
+    "measurementTime": "1 s",
+    "measurementBatchSize": 1,
+    "params": {
+      "delayMs": "0",
+      "deviceCount": "250000",
+      "statType": "STATUS"
+    },
+    "primaryMetric": {
+      "score": 13.420055367231638,
+      "scoreError": 1.055825600288012,
+      "scoreConfidence": [
+        12.364229766943627,
+        14.47588096751965
+      ],
+      "scorePercentiles": {
+        "0.0": 13.382486440677965,
+        "50.0": 13.390977966101694,
+        "90.0": 13.486701694915254,
+        "95.0": 13.486701694915254,
+        "99.0": 13.486701694915254,
+        "99.9": 13.486701694915254,
+        "99.99": 13.486701694915254,
+        "99.999": 13.486701694915254,
+        "99.9999": 13.486701694915254,
+        "100.0": 13.486701694915254
+      },
+      "scoreUnit": "ms/op",
+      "rawData": [
+        [
+          13.390977966101694,
+          13.382486440677965,
+          13.486701694915254
+        ]
+      ]
+    },
+    "secondaryMetrics": {
+    }
+  },
+  {
+    "jmhVersion": "1.37",
+    "benchmark": "com.example.reactivejava.benchmark.DelayImpactBenchmark.standardCollectorsParallel",
+    "mode": "avgt",
+    "threads": 1,
+    "forks": 1,
+    "jvm": "D:\\Languages\\Java\\jdk-24\\bin\\java.exe",
+    "jvmArgs": [
+      "-Xms2G",
+      "-Xmx2G"
+    ],
+    "jdkVersion": "24.0.2",
+    "vmName": "Java HotSpot(TM) 64-Bit Server VM",
+    "vmVersion": "24.0.2+12-54",
+    "warmupIterations": 2,
+    "warmupTime": "1 s",
+    "warmupBatchSize": 1,
+    "measurementIterations": 3,
+    "measurementTime": "1 s",
+    "measurementBatchSize": 1,
+    "params": {
+      "delayMs": "0",
+      "deviceCount": "250000",
+      "statType": "DEVICES_BY_TYPE"
+    },
+    "primaryMetric": {
+      "score": 13.596723826222481,
+      "scoreError": 2.264739888443866,
+      "scoreConfidence": [
+        11.331983937778615,
+        15.861463714666348
+      ],
+      "scorePercentiles": {
+        "0.0": 13.47914406779661,
+        "50.0": 13.584510169491525,
+        "90.0": 13.72651724137931,
+        "95.0": 13.72651724137931,
+        "99.0": 13.72651724137931,
+        "99.9": 13.72651724137931,
+        "99.99": 13.72651724137931,
+        "99.999": 13.72651724137931,
+        "99.9999": 13.72651724137931,
+        "100.0": 13.72651724137931
+      },
+      "scoreUnit": "ms/op",
+      "rawData": [
+        [
+          13.72651724137931,
+          13.47914406779661,
+          13.584510169491525
+        ]
+      ]
+    },
+    "secondaryMetrics": {
+    }
+  },
+  {
+    "jmhVersion": "1.37",
+    "benchmark": "com.example.reactivejava.benchmark.DelayImpactBenchmark.standardCollectorsParallel",
+    "mode": "avgt",
+    "threads": 1,
+    "forks": 1,
+    "jvm": "D:\\Languages\\Java\\jdk-24\\bin\\java.exe",
+    "jvmArgs": [
+      "-Xms2G",
+      "-Xmx2G"
+    ],
+    "jdkVersion": "24.0.2",
+    "vmName": "Java HotSpot(TM) 64-Bit Server VM",
+    "vmVersion": "24.0.2+12-54",
+    "warmupIterations": 2,
+    "warmupTime": "1 s",
+    "warmupBatchSize": 1,
+    "measurementIterations": 3,
+    "measurementTime": "1 s",
+    "measurementBatchSize": 1,
+    "params": {
+      "delayMs": "1",
+      "deviceCount": "5000",
+      "statType": "STATUS"
+    },
+    "primaryMetric": {
+      "score": 863.3646166666666,
+      "scoreError": 527.8298637407989,
+      "scoreConfidence": [
+        335.5347529258677,
+        1391.1944804074656
+      ],
+      "scorePercentiles": {
+        "0.0": 829.98885,
+        "50.0": 878.7828,
+        "90.0": 881.3222,
+        "95.0": 881.3222,
+        "99.0": 881.3222,
+        "99.9": 881.3222,
+        "99.99": 881.3222,
+        "99.999": 881.3222,
+        "99.9999": 881.3222,
+        "100.0": 881.3222
+      },
+      "scoreUnit": "ms/op",
+      "rawData": [
+        [
+          878.7828,
+          829.98885,
+          881.3222
+        ]
+      ]
+    },
+    "secondaryMetrics": {
+    }
+  },
+  {
+    "jmhVersion": "1.37",
+    "benchmark": "com.example.reactivejava.benchmark.DelayImpactBenchmark.standardCollectorsParallel",
+    "mode": "avgt",
+    "threads": 1,
+    "forks": 1,
+    "jvm": "D:\\Languages\\Java\\jdk-24\\bin\\java.exe",
+    "jvmArgs": [
+      "-Xms2G",
+      "-Xmx2G"
+    ],
+    "jdkVersion": "24.0.2",
+    "vmName": "Java HotSpot(TM) 64-Bit Server VM",
+    "vmVersion": "24.0.2+12-54",
+    "warmupIterations": 2,
+    "warmupTime": "1 s",
+    "warmupBatchSize": 1,
+    "measurementIterations": 3,
+    "measurementTime": "1 s",
+    "measurementBatchSize": 1,
+    "params": {
+      "delayMs": "1",
+      "deviceCount": "5000",
+      "statType": "DEVICES_BY_TYPE"
+    },
+    "primaryMetric": {
+      "score": 883.9955,
+      "scoreError": 97.5307039742956,
+      "scoreConfidence": [
+        786.4647960257043,
+        981.5262039742956
+      ],
+      "scorePercentiles": {
+        "0.0": 877.9484,
+        "50.0": 885.9448,
+        "90.0": 888.0933,
+        "95.0": 888.0933,
+        "99.0": 888.0933,
+        "99.9": 888.0933,
+        "99.99": 888.0933,
+        "99.999": 888.0933,
+        "99.9999": 888.0933,
+        "100.0": 888.0933
+      },
+      "scoreUnit": "ms/op",
+      "rawData": [
+        [
+          877.9484,
+          885.9448,
+          888.0933
+        ]
+      ]
+    },
+    "secondaryMetrics": {
+    }
+  },
+  {
+    "jmhVersion": "1.37",
+    "benchmark": "com.example.reactivejava.benchmark.DelayImpactBenchmark.standardCollectorsParallel",
+    "mode": "avgt",
+    "threads": 1,
+    "forks": 1,
+    "jvm": "D:\\Languages\\Java\\jdk-24\\bin\\java.exe",
+    "jvmArgs": [
+      "-Xms2G",
+      "-Xmx2G"
+    ],
+    "jdkVersion": "24.0.2",
+    "vmName": "Java HotSpot(TM) 64-Bit Server VM",
+    "vmVersion": "24.0.2+12-54",
+    "warmupIterations": 2,
+    "warmupTime": "1 s",
+    "warmupBatchSize": 1,
+    "measurementIterations": 3,
+    "measurementTime": "1 s",
+    "measurementBatchSize": 1,
+    "params": {
+      "delayMs": "1",
+      "deviceCount": "50000",
+      "statType": "STATUS"
+    },
+    "primaryMetric": {
+      "score": 8925.910266666666,
+      "scoreError": 493.7680170301367,
+      "scoreConfidence": [
+        8432.142249636529,
+        9419.678283696803
+      ],
+      "scorePercentiles": {
+        "0.0": 8896.9462,
+        "50.0": 8930.2271,
+        "90.0": 8950.5575,
+        "95.0": 8950.5575,
+        "99.0": 8950.5575,
+        "99.9": 8950.5575,
+        "99.99": 8950.5575,
+        "99.999": 8950.5575,
+        "99.9999": 8950.5575,
+        "100.0": 8950.5575
+      },
+      "scoreUnit": "ms/op",
+      "rawData": [
+        [
+          8950.5575,
+          8930.2271,
+          8896.9462
+        ]
+      ]
+    },
+    "secondaryMetrics": {
+    }
+  },
+  {
+    "jmhVersion": "1.37",
+    "benchmark": "com.example.reactivejava.benchmark.DelayImpactBenchmark.standardCollectorsParallel",
+    "mode": "avgt",
+    "threads": 1,
+    "forks": 1,
+    "jvm": "D:\\Languages\\Java\\jdk-24\\bin\\java.exe",
+    "jvmArgs": [
+      "-Xms2G",
+      "-Xmx2G"
+    ],
+    "jdkVersion": "24.0.2",
+    "vmName": "Java HotSpot(TM) 64-Bit Server VM",
+    "vmVersion": "24.0.2+12-54",
+    "warmupIterations": 2,
+    "warmupTime": "1 s",
+    "warmupBatchSize": 1,
+    "measurementIterations": 3,
+    "measurementTime": "1 s",
+    "measurementBatchSize": 1,
+    "params": {
+      "delayMs": "1",
+      "deviceCount": "50000",
+      "statType": "DEVICES_BY_TYPE"
+    },
+    "primaryMetric": {
+      "score": 8971.829566666667,
+      "scoreError": 818.4724614069797,
+      "scoreConfidence": [
+        8153.357105259687,
+        9790.302028073647
+      ],
+      "scorePercentiles": {
+        "0.0": 8942.6964,
+        "50.0": 8949.2996,
+        "90.0": 9023.4927,
+        "95.0": 9023.4927,
+        "99.0": 9023.4927,
+        "99.9": 9023.4927,
+        "99.99": 9023.4927,
+        "99.999": 9023.4927,
+        "99.9999": 9023.4927,
+        "100.0": 9023.4927
+      },
+      "scoreUnit": "ms/op",
+      "rawData": [
+        [
+          8949.2996,
+          8942.6964,
+          9023.4927
+        ]
+      ]
+    },
+    "secondaryMetrics": {
+    }
+  },
+  {
+    "jmhVersion": "1.37",
+    "benchmark": "com.example.reactivejava.benchmark.DelayImpactBenchmark.standardCollectorsParallel",
+    "mode": "avgt",
+    "threads": 1,
+    "forks": 1,
+    "jvm": "D:\\Languages\\Java\\jdk-24\\bin\\java.exe",
+    "jvmArgs": [
+      "-Xms2G",
+      "-Xmx2G"
+    ],
+    "jdkVersion": "24.0.2",
+    "vmName": "Java HotSpot(TM) 64-Bit Server VM",
+    "vmVersion": "24.0.2+12-54",
+    "warmupIterations": 2,
+    "warmupTime": "1 s",
+    "warmupBatchSize": 1,
+    "measurementIterations": 3,
+    "measurementTime": "1 s",
+    "measurementBatchSize": 1,
+    "params": {
+      "delayMs": "1",
+      "deviceCount": "250000",
+      "statType": "STATUS"
+    },
+    "primaryMetric": {
+      "score": 41192.4376,
+      "scoreError": 19697.08546585351,
+      "scoreConfidence": [
+        21495.352134146488,
+        60889.52306585351
+      ],
+      "scorePercentiles": {
+        "0.0": 40412.1902,
+        "50.0": 40740.4899,
+        "90.0": 42424.6327,
+        "95.0": 42424.6327,
+        "99.0": 42424.6327,
+        "99.9": 42424.6327,
+        "99.99": 42424.6327,
+        "99.999": 42424.6327,
+        "99.9999": 42424.6327,
+        "100.0": 42424.6327
+      },
+      "scoreUnit": "ms/op",
+      "rawData": [
+        [
+          40412.1902,
+          40740.4899,
+          42424.6327
+        ]
+      ]
+    },
+    "secondaryMetrics": {
+    }
+  },
+  {
+    "jmhVersion": "1.37",
+    "benchmark": "com.example.reactivejava.benchmark.DelayImpactBenchmark.standardCollectorsParallel",
+    "mode": "avgt",
+    "threads": 1,
+    "forks": 1,
+    "jvm": "D:\\Languages\\Java\\jdk-24\\bin\\java.exe",
+    "jvmArgs": [
+      "-Xms2G",
+      "-Xmx2G"
+    ],
+    "jdkVersion": "24.0.2",
+    "vmName": "Java HotSpot(TM) 64-Bit Server VM",
+    "vmVersion": "24.0.2+12-54",
+    "warmupIterations": 2,
+    "warmupTime": "1 s",
+    "warmupBatchSize": 1,
+    "measurementIterations": 3,
+    "measurementTime": "1 s",
+    "measurementBatchSize": 1,
+    "params": {
+      "delayMs": "1",
+      "deviceCount": "250000",
+      "statType": "DEVICES_BY_TYPE"
+    },
+    "primaryMetric": {
+      "score": 43573.24423333334,
+      "scoreError": 15956.407540545273,
+      "scoreConfidence": [
+        27616.836692788063,
+        59529.65177387861
+      ],
+      "scorePercentiles": {
+        "0.0": 42827.9323,
+        "50.0": 43355.6878,
+        "90.0": 44536.1126,
+        "95.0": 44536.1126,
+        "99.0": 44536.1126,
+        "99.9": 44536.1126,
+        "99.99": 44536.1126,
+        "99.999": 44536.1126,
+        "99.9999": 44536.1126,
+        "100.0": 44536.1126
+      },
+      "scoreUnit": "ms/op",
+      "rawData": [
+        [
+          42827.9323,
+          44536.1126,
+          43355.6878
+        ]
+      ]
+    },
+    "secondaryMetrics": {
+    }
+  },
+  {
+    "jmhVersion": "1.37",
+    "benchmark": "com.example.reactivejava.benchmark.DelayImpactBenchmark.standardCollectorsParallel",
+    "mode": "avgt",
+    "threads": 1,
+    "forks": 1,
+    "jvm": "D:\\Languages\\Java\\jdk-24\\bin\\java.exe",
+    "jvmArgs": [
+      "-Xms2G",
+      "-Xmx2G"
+    ],
+    "jdkVersion": "24.0.2",
+    "vmName": "Java HotSpot(TM) 64-Bit Server VM",
+    "vmVersion": "24.0.2+12-54",
+    "warmupIterations": 2,
+    "warmupTime": "1 s",
+    "warmupBatchSize": 1,
+    "measurementIterations": 3,
+    "measurementTime": "1 s",
+    "measurementBatchSize": 1,
+    "params": {
+      "delayMs": "2",
+      "deviceCount": "5000",
+      "statType": "STATUS"
+    },
+    "primaryMetric": {
+      "score": 1215.5704333333333,
+      "scoreError": 208.30263842648142,
+      "scoreConfidence": [
+        1007.2677949068519,
+        1423.8730717598148
+      ],
+      "scorePercentiles": {
+        "0.0": 1204.6815,
+        "50.0": 1214.5776,
+        "90.0": 1227.4522,
+        "95.0": 1227.4522,
+        "99.0": 1227.4522,
+        "99.9": 1227.4522,
+        "99.99": 1227.4522,
+        "99.999": 1227.4522,
+        "99.9999": 1227.4522,
+        "100.0": 1227.4522
+      },
+      "scoreUnit": "ms/op",
+      "rawData": [
+        [
+          1227.4522,
+          1204.6815,
+          1214.5776
+        ]
+      ]
+    },
+    "secondaryMetrics": {
+    }
+  },
+  {
+    "jmhVersion": "1.37",
+    "benchmark": "com.example.reactivejava.benchmark.DelayImpactBenchmark.standardCollectorsParallel",
+    "mode": "avgt",
+    "threads": 1,
+    "forks": 1,
+    "jvm": "D:\\Languages\\Java\\jdk-24\\bin\\java.exe",
+    "jvmArgs": [
+      "-Xms2G",
+      "-Xmx2G"
+    ],
+    "jdkVersion": "24.0.2",
+    "vmName": "Java HotSpot(TM) 64-Bit Server VM",
+    "vmVersion": "24.0.2+12-54",
+    "warmupIterations": 2,
+    "warmupTime": "1 s",
+    "warmupBatchSize": 1,
+    "measurementIterations": 3,
+    "measurementTime": "1 s",
+    "measurementBatchSize": 1,
+    "params": {
+      "delayMs": "2",
+      "deviceCount": "5000",
+      "statType": "DEVICES_BY_TYPE"
+    },
+    "primaryMetric": {
+      "score": 1211.9934333333333,
+      "scoreError": 257.1840040071015,
+      "scoreConfidence": [
+        954.8094293262318,
+        1469.1774373404348
+      ],
+      "scorePercentiles": {
+        "0.0": 1198.059,
+        "50.0": 1211.6735,
+        "90.0": 1226.2478,
+        "95.0": 1226.2478,
+        "99.0": 1226.2478,
+        "99.9": 1226.2478,
+        "99.99": 1226.2478,
+        "99.999": 1226.2478,
+        "99.9999": 1226.2478,
+        "100.0": 1226.2478
+      },
+      "scoreUnit": "ms/op",
+      "rawData": [
+        [
+          1198.059,
+          1211.6735,
+          1226.2478
+        ]
+      ]
+    },
+    "secondaryMetrics": {
+    }
+  },
+  {
+    "jmhVersion": "1.37",
+    "benchmark": "com.example.reactivejava.benchmark.DelayImpactBenchmark.standardCollectorsParallel",
+    "mode": "avgt",
+    "threads": 1,
+    "forks": 1,
+    "jvm": "D:\\Languages\\Java\\jdk-24\\bin\\java.exe",
+    "jvmArgs": [
+      "-Xms2G",
+      "-Xmx2G"
+    ],
+    "jdkVersion": "24.0.2",
+    "vmName": "Java HotSpot(TM) 64-Bit Server VM",
+    "vmVersion": "24.0.2+12-54",
+    "warmupIterations": 2,
+    "warmupTime": "1 s",
+    "warmupBatchSize": 1,
+    "measurementIterations": 3,
+    "measurementTime": "1 s",
+    "measurementBatchSize": 1,
+    "params": {
+      "delayMs": "2",
+      "deviceCount": "50000",
+      "statType": "STATUS"
+    },
+    "primaryMetric": {
+      "score": 12232.917633333333,
+      "scoreError": 3488.318585603362,
+      "scoreConfidence": [
+        8744.599047729971,
+        15721.236218936694
+      ],
+      "scorePercentiles": {
+        "0.0": 12023.4122,
+        "50.0": 12277.3335,
+        "90.0": 12398.0072,
+        "95.0": 12398.0072,
+        "99.0": 12398.0072,
+        "99.9": 12398.0072,
+        "99.99": 12398.0072,
+        "99.999": 12398.0072,
+        "99.9999": 12398.0072,
+        "100.0": 12398.0072
+      },
+      "scoreUnit": "ms/op",
+      "rawData": [
+        [
+          12398.0072,
+          12277.3335,
+          12023.4122
+        ]
+      ]
+    },
+    "secondaryMetrics": {
+    }
+  },
+  {
+    "jmhVersion": "1.37",
+    "benchmark": "com.example.reactivejava.benchmark.DelayImpactBenchmark.standardCollectorsParallel",
+    "mode": "avgt",
+    "threads": 1,
+    "forks": 1,
+    "jvm": "D:\\Languages\\Java\\jdk-24\\bin\\java.exe",
+    "jvmArgs": [
+      "-Xms2G",
+      "-Xmx2G"
+    ],
+    "jdkVersion": "24.0.2",
+    "vmName": "Java HotSpot(TM) 64-Bit Server VM",
+    "vmVersion": "24.0.2+12-54",
+    "warmupIterations": 2,
+    "warmupTime": "1 s",
+    "warmupBatchSize": 1,
+    "measurementIterations": 3,
+    "measurementTime": "1 s",
+    "measurementBatchSize": 1,
+    "params": {
+      "delayMs": "2",
+      "deviceCount": "50000",
+      "statType": "DEVICES_BY_TYPE"
+    },
+    "primaryMetric": {
+      "score": 12015.467299999998,
+      "scoreError": 1022.4278633750474,
+      "scoreConfidence": [
+        10993.039436624951,
+        13037.895163375046
+      ],
+      "scorePercentiles": {
+        "0.0": 11954.5381,
+        "50.0": 12027.0504,
+        "90.0": 12064.8134,
+        "95.0": 12064.8134,
+        "99.0": 12064.8134,
+        "99.9": 12064.8134,
+        "99.99": 12064.8134,
+        "99.999": 12064.8134,
+        "99.9999": 12064.8134,
+        "100.0": 12064.8134
+      },
+      "scoreUnit": "ms/op",
+      "rawData": [
+        [
+          12064.8134,
+          12027.0504,
+          11954.5381
+        ]
+      ]
+    },
+    "secondaryMetrics": {
+    }
+  },
+  {
+    "jmhVersion": "1.37",
+    "benchmark": "com.example.reactivejava.benchmark.DelayImpactBenchmark.standardCollectorsParallel",
+    "mode": "avgt",
+    "threads": 1,
+    "forks": 1,
+    "jvm": "D:\\Languages\\Java\\jdk-24\\bin\\java.exe",
+    "jvmArgs": [
+      "-Xms2G",
+      "-Xmx2G"
+    ],
+    "jdkVersion": "24.0.2",
+    "vmName": "Java HotSpot(TM) 64-Bit Server VM",
+    "vmVersion": "24.0.2+12-54",
+    "warmupIterations": 2,
+    "warmupTime": "1 s",
+    "warmupBatchSize": 1,
+    "measurementIterations": 3,
+    "measurementTime": "1 s",
+    "measurementBatchSize": 1,
+    "params": {
+      "delayMs": "2",
+      "deviceCount": "250000",
+      "statType": "STATUS"
+    },
+    "primaryMetric": {
+      "score": 61495.68666666667,
+      "scoreError": 10013.360740620876,
+      "scoreConfidence": [
+        51482.32592604579,
+        71509.04740728755
+      ],
+      "scorePercentiles": {
+        "0.0": 60912.5857,
+        "50.0": 61572.1815,
+        "90.0": 62002.2928,
+        "95.0": 62002.2928,
+        "99.0": 62002.2928,
+        "99.9": 62002.2928,
+        "99.99": 62002.2928,
+        "99.999": 62002.2928,
+        "99.9999": 62002.2928,
+        "100.0": 62002.2928
+      },
+      "scoreUnit": "ms/op",
+      "rawData": [
+        [
+          60912.5857,
+          61572.1815,
+          62002.2928
+        ]
+      ]
+    },
+    "secondaryMetrics": {
+    }
+  },
+  {
+    "jmhVersion": "1.37",
+    "benchmark": "com.example.reactivejava.benchmark.DelayImpactBenchmark.standardCollectorsParallel",
+    "mode": "avgt",
+    "threads": 1,
+    "forks": 1,
+    "jvm": "D:\\Languages\\Java\\jdk-24\\bin\\java.exe",
+    "jvmArgs": [
+      "-Xms2G",
+      "-Xmx2G"
+    ],
+    "jdkVersion": "24.0.2",
+    "vmName": "Java HotSpot(TM) 64-Bit Server VM",
+    "vmVersion": "24.0.2+12-54",
+    "warmupIterations": 2,
+    "warmupTime": "1 s",
+    "warmupBatchSize": 1,
+    "measurementIterations": 3,
+    "measurementTime": "1 s",
+    "measurementBatchSize": 1,
+    "params": {
+      "delayMs": "2",
+      "deviceCount": "250000",
+      "statType": "DEVICES_BY_TYPE"
+    },
+    "primaryMetric": {
+      "score": 61920.1009,
+      "scoreError": 3076.536943761723,
+      "scoreConfidence": [
+        58843.56395623827,
+        64996.637843761724
+      ],
+      "scorePercentiles": {
+        "0.0": 61737.9551,
+        "50.0": 61951.5494,
+        "90.0": 62070.7982,
+        "95.0": 62070.7982,
+        "99.0": 62070.7982,
+        "99.9": 62070.7982,
+        "99.99": 62070.7982,
+        "99.999": 62070.7982,
+        "99.9999": 62070.7982,
+        "100.0": 62070.7982
+      },
+      "scoreUnit": "ms/op",
+      "rawData": [
+        [
+          62070.7982,
+          61737.9551,
+          61951.5494
+        ]
+      ]
+    },
+    "secondaryMetrics": {
+    }
+  },
+  {
+    "jmhVersion": "1.37",
+    "benchmark": "com.example.reactivejava.benchmark.DelayImpactBenchmark.rxJavaFlowable",
+    "mode": "avgt",
+    "threads": 1,
+    "forks": 1,
+    "jvm": "D:\\Languages\\Java\\jdk-24\\bin\\java.exe",
+    "jvmArgs": [
+      "-Xms2G",
+      "-Xmx2G"
+    ],
+    "jdkVersion": "24.0.2",
+    "vmName": "Java HotSpot(TM) 64-Bit Server VM",
+    "vmVersion": "24.0.2+12-54",
+    "warmupIterations": 2,
+    "warmupTime": "1 s",
+    "warmupBatchSize": 1,
+    "measurementIterations": 3,
+    "measurementTime": "1 s",
+    "measurementBatchSize": 1,
+    "params": {
+      "batchSize": "1024",
+      "delayMs": "0",
+      "deviceCount": "5000",
+      "statType": "STATUS"
+    },
+    "primaryMetric": {
+      "score": 0.15310310362238266,
+      "scoreError": 0.04694791456787647,
+      "scoreConfidence": [
+        0.10615518905450619,
+        0.20005101819025914
+      ],
+      "scorePercentiles": {
+        "0.0": 0.1501796218487395,
+        "50.0": 0.1541042009295674,
+        "90.0": 0.15502548808884112,
+        "95.0": 0.15502548808884112,
+        "99.0": 0.15502548808884112,
+        "99.9": 0.15502548808884112,
+        "99.99": 0.15502548808884112,
+        "99.999": 0.15502548808884112,
+        "99.9999": 0.15502548808884112,
+        "100.0": 0.15502548808884112
+      },
+      "scoreUnit": "ms/op",
+      "rawData": [
+        [
+          0.1501796218487395,
+          0.1541042009295674,
+          0.15502548808884112
+        ]
+      ]
+    },
+    "secondaryMetrics": {
+    }
+  },
+  {
+    "jmhVersion": "1.37",
+    "benchmark": "com.example.reactivejava.benchmark.DelayImpactBenchmark.rxJavaFlowable",
+    "mode": "avgt",
+    "threads": 1,
+    "forks": 1,
+    "jvm": "D:\\Languages\\Java\\jdk-24\\bin\\java.exe",
+    "jvmArgs": [
+      "-Xms2G",
+      "-Xmx2G"
+    ],
+    "jdkVersion": "24.0.2",
+    "vmName": "Java HotSpot(TM) 64-Bit Server VM",
+    "vmVersion": "24.0.2+12-54",
+    "warmupIterations": 2,
+    "warmupTime": "1 s",
+    "warmupBatchSize": 1,
+    "measurementIterations": 3,
+    "measurementTime": "1 s",
+    "measurementBatchSize": 1,
+    "params": {
+      "batchSize": "1024",
+      "delayMs": "0",
+      "deviceCount": "5000",
+      "statType": "DEVICES_BY_TYPE"
+    },
+    "primaryMetric": {
+      "score": 0.13337313717333507,
+      "scoreError": 0.10549622642806267,
+      "scoreConfidence": [
+        0.027876910745272404,
+        0.23886936360139774
+      ],
+      "scorePercentiles": {
+        "0.0": 0.12812887425726674,
+        "50.0": 0.13241591245680434,
+        "90.0": 0.1395746248059341,
+        "95.0": 0.1395746248059341,
+        "99.0": 0.1395746248059341,
+        "99.9": 0.1395746248059341,
+        "99.99": 0.1395746248059341,
+        "99.999": 0.1395746248059341,
+        "99.9999": 0.1395746248059341,
+        "100.0": 0.1395746248059341
+      },
+      "scoreUnit": "ms/op",
+      "rawData": [
+        [
+          0.13241591245680434,
+          0.1395746248059341,
+          0.12812887425726674
+        ]
+      ]
+    },
+    "secondaryMetrics": {
+    }
+  },
+  {
+    "jmhVersion": "1.37",
+    "benchmark": "com.example.reactivejava.benchmark.DelayImpactBenchmark.rxJavaFlowable",
+    "mode": "avgt",
+    "threads": 1,
+    "forks": 1,
+    "jvm": "D:\\Languages\\Java\\jdk-24\\bin\\java.exe",
+    "jvmArgs": [
+      "-Xms2G",
+      "-Xmx2G"
+    ],
+    "jdkVersion": "24.0.2",
+    "vmName": "Java HotSpot(TM) 64-Bit Server VM",
+    "vmVersion": "24.0.2+12-54",
+    "warmupIterations": 2,
+    "warmupTime": "1 s",
+    "warmupBatchSize": 1,
+    "measurementIterations": 3,
+    "measurementTime": "1 s",
+    "measurementBatchSize": 1,
+    "params": {
+      "batchSize": "1024",
+      "delayMs": "0",
+      "deviceCount": "50000",
+      "statType": "STATUS"
+    },
+    "primaryMetric": {
+      "score": 1.4298330636160779,
+      "scoreError": 1.7438789602773719,
+      "scoreConfidence": [
+        -0.314045896661294,
+        3.17371202389345
+      ],
+      "scorePercentiles": {
+        "0.0": 1.3213088932806325,
+        "50.0": 1.4666617582417583,
+        "90.0": 1.5015285393258426,
+        "95.0": 1.5015285393258426,
+        "99.0": 1.5015285393258426,
+        "99.9": 1.5015285393258426,
+        "99.99": 1.5015285393258426,
+        "99.999": 1.5015285393258426,
+        "99.9999": 1.5015285393258426,
+        "100.0": 1.5015285393258426
+      },
+      "scoreUnit": "ms/op",
+      "rawData": [
+        [
+          1.3213088932806325,
+          1.5015285393258426,
+          1.4666617582417583
+        ]
+      ]
+    },
+    "secondaryMetrics": {
+    }
+  },
+  {
+    "jmhVersion": "1.37",
+    "benchmark": "com.example.reactivejava.benchmark.DelayImpactBenchmark.rxJavaFlowable",
+    "mode": "avgt",
+    "threads": 1,
+    "forks": 1,
+    "jvm": "D:\\Languages\\Java\\jdk-24\\bin\\java.exe",
+    "jvmArgs": [
+      "-Xms2G",
+      "-Xmx2G"
+    ],
+    "jdkVersion": "24.0.2",
+    "vmName": "Java HotSpot(TM) 64-Bit Server VM",
+    "vmVersion": "24.0.2+12-54",
+    "warmupIterations": 2,
+    "warmupTime": "1 s",
+    "warmupBatchSize": 1,
+    "measurementIterations": 3,
+    "measurementTime": "1 s",
+    "measurementBatchSize": 1,
+    "params": {
+      "batchSize": "1024",
+      "delayMs": "0",
+      "deviceCount": "50000",
+      "statType": "DEVICES_BY_TYPE"
+    },
+    "primaryMetric": {
+      "score": 1.0328750591823688,
+      "scoreError": 1.0271708941079634,
+      "scoreConfidence": [
+        0.0057041650744054095,
+        2.060045953290332
+      ],
+      "scorePercentiles": {
+        "0.0": 0.9684951638065523,
+        "50.0": 1.0572281618887016,
+        "90.0": 1.0729018518518518,
+        "95.0": 1.0729018518518518,
+        "99.0": 1.0729018518518518,
+        "99.9": 1.0729018518518518,
+        "99.99": 1.0729018518518518,
+        "99.999": 1.0729018518518518,
+        "99.9999": 1.0729018518518518,
+        "100.0": 1.0729018518518518
+      },
+      "scoreUnit": "ms/op",
+      "rawData": [
+        [
+          1.0572281618887016,
+          0.9684951638065523,
+          1.0729018518518518
+        ]
+      ]
+    },
+    "secondaryMetrics": {
+    }
+  },
+  {
+    "jmhVersion": "1.37",
+    "benchmark": "com.example.reactivejava.benchmark.DelayImpactBenchmark.rxJavaFlowable",
+    "mode": "avgt",
+    "threads": 1,
+    "forks": 1,
+    "jvm": "D:\\Languages\\Java\\jdk-24\\bin\\java.exe",
+    "jvmArgs": [
+      "-Xms2G",
+      "-Xmx2G"
+    ],
+    "jdkVersion": "24.0.2",
+    "vmName": "Java HotSpot(TM) 64-Bit Server VM",
+    "vmVersion": "24.0.2+12-54",
+    "warmupIterations": 2,
+    "warmupTime": "1 s",
+    "warmupBatchSize": 1,
+    "measurementIterations": 3,
+    "measurementTime": "1 s",
+    "measurementBatchSize": 1,
+    "params": {
+      "batchSize": "1024",
+      "delayMs": "0",
+      "deviceCount": "250000",
+      "statType": "STATUS"
+    },
+    "primaryMetric": {
+      "score": 7.099135041526689,
+      "scoreError": 17.44035164351666,
+      "scoreConfidence": [
+        -10.34121660198997,
+        24.53948668504335
+      ],
+      "scorePercentiles": {
+        "0.0": 6.4339157894736845,
+        "50.0": 6.668868085106383,
+        "90.0": 8.19462125,
+        "95.0": 8.19462125,
+        "99.0": 8.19462125,
+        "99.9": 8.19462125,
+        "99.99": 8.19462125,
+        "99.999": 8.19462125,
+        "99.9999": 8.19462125,
+        "100.0": 8.19462125
+      },
+      "scoreUnit": "ms/op",
+      "rawData": [
+        [
+          6.668868085106383,
+          6.4339157894736845,
+          8.19462125
+        ]
+      ]
+    },
+    "secondaryMetrics": {
+    }
+  },
+  {
+    "jmhVersion": "1.37",
+    "benchmark": "com.example.reactivejava.benchmark.DelayImpactBenchmark.rxJavaFlowable",
+    "mode": "avgt",
+    "threads": 1,
+    "forks": 1,
+    "jvm": "D:\\Languages\\Java\\jdk-24\\bin\\java.exe",
+    "jvmArgs": [
+      "-Xms2G",
+      "-Xmx2G"
+    ],
+    "jdkVersion": "24.0.2",
+    "vmName": "Java HotSpot(TM) 64-Bit Server VM",
+    "vmVersion": "24.0.2+12-54",
+    "warmupIterations": 2,
+    "warmupTime": "1 s",
+    "warmupBatchSize": 1,
+    "measurementIterations": 3,
+    "measurementTime": "1 s",
+    "measurementBatchSize": 1,
+    "params": {
+      "batchSize": "1024",
+      "delayMs": "0",
+      "deviceCount": "250000",
+      "statType": "DEVICES_BY_TYPE"
+    },
+    "primaryMetric": {
+      "score": 4.8801490264326075,
+      "scoreError": 4.144787056522393,
+      "scoreConfidence": [
+        0.7353619699102145,
+        9.024936082955001
+      ],
+      "scorePercentiles": {
+        "0.0": 4.617821186440678,
+        "50.0": 5.009505357142857,
+        "90.0": 5.013120535714286,
+        "95.0": 5.013120535714286,
+        "99.0": 5.013120535714286,
+        "99.9": 5.013120535714286,
+        "99.99": 5.013120535714286,
+        "99.999": 5.013120535714286,
+        "99.9999": 5.013120535714286,
+        "100.0": 5.013120535714286
+      },
+      "scoreUnit": "ms/op",
+      "rawData": [
+        [
+          4.617821186440678,
+          5.009505357142857,
+          5.013120535714286
+        ]
+      ]
+    },
+    "secondaryMetrics": {
+    }
+  },
+  {
+    "jmhVersion": "1.37",
+    "benchmark": "com.example.reactivejava.benchmark.DelayImpactBenchmark.rxJavaFlowable",
+    "mode": "avgt",
+    "threads": 1,
+    "forks": 1,
+    "jvm": "D:\\Languages\\Java\\jdk-24\\bin\\java.exe",
+    "jvmArgs": [
+      "-Xms2G",
+      "-Xmx2G"
+    ],
+    "jdkVersion": "24.0.2",
+    "vmName": "Java HotSpot(TM) 64-Bit Server VM",
+    "vmVersion": "24.0.2+12-54",
+    "warmupIterations": 2,
+    "warmupTime": "1 s",
+    "warmupBatchSize": 1,
+    "measurementIterations": 3,
+    "measurementTime": "1 s",
+    "measurementBatchSize": 1,
+    "params": {
+      "batchSize": "1024",
+      "delayMs": "1",
+      "deviceCount": "5000",
+      "statType": "STATUS"
+    },
+    "primaryMetric": {
+      "score": 1982.0831333333333,
+      "scoreError": 754.6119063071661,
+      "scoreConfidence": [
+        1227.471227026167,
+        2736.6950396404995
+      ],
+      "scorePercentiles": {
+        "0.0": 1949.6236,
+        "50.0": 1967.9704,
+        "90.0": 2028.6554,
+        "95.0": 2028.6554,
+        "99.0": 2028.6554,
+        "99.9": 2028.6554,
+        "99.99": 2028.6554,
+        "99.999": 2028.6554,
+        "99.9999": 2028.6554,
+        "100.0": 2028.6554
+      },
+      "scoreUnit": "ms/op",
+      "rawData": [
+        [
+          2028.6554,
+          1967.9704,
+          1949.6236
+        ]
+      ]
+    },
+    "secondaryMetrics": {
+    }
+  },
+  {
+    "jmhVersion": "1.37",
+    "benchmark": "com.example.reactivejava.benchmark.DelayImpactBenchmark.rxJavaFlowable",
+    "mode": "avgt",
+    "threads": 1,
+    "forks": 1,
+    "jvm": "D:\\Languages\\Java\\jdk-24\\bin\\java.exe",
+    "jvmArgs": [
+      "-Xms2G",
+      "-Xmx2G"
+    ],
+    "jdkVersion": "24.0.2",
+    "vmName": "Java HotSpot(TM) 64-Bit Server VM",
+    "vmVersion": "24.0.2+12-54",
+    "warmupIterations": 2,
+    "warmupTime": "1 s",
+    "warmupBatchSize": 1,
+    "measurementIterations": 3,
+    "measurementTime": "1 s",
+    "measurementBatchSize": 1,
+    "params": {
+      "batchSize": "1024",
+      "delayMs": "1",
+      "deviceCount": "5000",
+      "statType": "DEVICES_BY_TYPE"
+    },
+    "primaryMetric": {
+      "score": 1835.6687333333332,
+      "scoreError": 312.9953892096698,
+      "scoreConfidence": [
+        1522.6733441236634,
+        2148.664122543003
+      ],
+      "scorePercentiles": {
+        "0.0": 1816.3893,
+        "50.0": 1841.3629,
+        "90.0": 1849.254,
+        "95.0": 1849.254,
+        "99.0": 1849.254,
+        "99.9": 1849.254,
+        "99.99": 1849.254,
+        "99.999": 1849.254,
+        "99.9999": 1849.254,
+        "100.0": 1849.254
+      },
+      "scoreUnit": "ms/op",
+      "rawData": [
+        [
+          1841.3629,
+          1849.254,
+          1816.3893
+        ]
+      ]
+    },
+    "secondaryMetrics": {
+    }
+  },
+  {
+    "jmhVersion": "1.37",
+    "benchmark": "com.example.reactivejava.benchmark.DelayImpactBenchmark.rxJavaFlowable",
+    "mode": "avgt",
+    "threads": 1,
+    "forks": 1,
+    "jvm": "D:\\Languages\\Java\\jdk-24\\bin\\java.exe",
+    "jvmArgs": [
+      "-Xms2G",
+      "-Xmx2G"
+    ],
+    "jdkVersion": "24.0.2",
+    "vmName": "Java HotSpot(TM) 64-Bit Server VM",
+    "vmVersion": "24.0.2+12-54",
+    "warmupIterations": 2,
+    "warmupTime": "1 s",
+    "warmupBatchSize": 1,
+    "measurementIterations": 3,
+    "measurementTime": "1 s",
+    "measurementBatchSize": 1,
+    "params": {
+      "batchSize": "1024",
+      "delayMs": "1",
+      "deviceCount": "50000",
+      "statType": "STATUS"
+    },
+    "primaryMetric": {
+      "score": 1909.8629666666666,
+      "scoreError": 541.3566298161891,
+      "scoreConfidence": [
+        1368.5063368504775,
+        2451.2195964828556
+      ],
+      "scorePercentiles": {
+        "0.0": 1885.2272,
+        "50.0": 1901.5573,
+        "90.0": 1942.8044,
+        "95.0": 1942.8044,
+        "99.0": 1942.8044,
+        "99.9": 1942.8044,
+        "99.99": 1942.8044,
+        "99.999": 1942.8044,
+        "99.9999": 1942.8044,
+        "100.0": 1942.8044
+      },
+      "scoreUnit": "ms/op",
+      "rawData": [
+        [
+          1942.8044,
+          1901.5573,
+          1885.2272
+        ]
+      ]
+    },
+    "secondaryMetrics": {
+    }
+  },
+  {
+    "jmhVersion": "1.37",
+    "benchmark": "com.example.reactivejava.benchmark.DelayImpactBenchmark.rxJavaFlowable",
+    "mode": "avgt",
+    "threads": 1,
+    "forks": 1,
+    "jvm": "D:\\Languages\\Java\\jdk-24\\bin\\java.exe",
+    "jvmArgs": [
+      "-Xms2G",
+      "-Xmx2G"
+    ],
+    "jdkVersion": "24.0.2",
+    "vmName": "Java HotSpot(TM) 64-Bit Server VM",
+    "vmVersion": "24.0.2+12-54",
+    "warmupIterations": 2,
+    "warmupTime": "1 s",
+    "warmupBatchSize": 1,
+    "measurementIterations": 3,
+    "measurementTime": "1 s",
+    "measurementBatchSize": 1,
+    "params": {
+      "batchSize": "1024",
+      "delayMs": "1",
+      "deviceCount": "50000",
+      "statType": "DEVICES_BY_TYPE"
+    },
+    "primaryMetric": {
+      "score": 2068.714166666666,
+      "scoreError": 1964.9841359706334,
+      "scoreConfidence": [
+        103.73003069603283,
+        4033.6983026372995
+      ],
+      "scorePercentiles": {
+        "0.0": 1955.4832,
+        "50.0": 2080.7769,
+        "90.0": 2169.8824,
+        "95.0": 2169.8824,
+        "99.0": 2169.8824,
+        "99.9": 2169.8824,
+        "99.99": 2169.8824,
+        "99.999": 2169.8824,
+        "99.9999": 2169.8824,
+        "100.0": 2169.8824
+      },
+      "scoreUnit": "ms/op",
+      "rawData": [
+        [
+          2080.7769,
+          2169.8824,
+          1955.4832
+        ]
+      ]
+    },
+    "secondaryMetrics": {
+    }
+  },
+  {
+    "jmhVersion": "1.37",
+    "benchmark": "com.example.reactivejava.benchmark.DelayImpactBenchmark.rxJavaFlowable",
+    "mode": "avgt",
+    "threads": 1,
+    "forks": 1,
+    "jvm": "D:\\Languages\\Java\\jdk-24\\bin\\java.exe",
+    "jvmArgs": [
+      "-Xms2G",
+      "-Xmx2G"
+    ],
+    "jdkVersion": "24.0.2",
+    "vmName": "Java HotSpot(TM) 64-Bit Server VM",
+    "vmVersion": "24.0.2+12-54",
+    "warmupIterations": 2,
+    "warmupTime": "1 s",
+    "warmupBatchSize": 1,
+    "measurementIterations": 3,
+    "measurementTime": "1 s",
+    "measurementBatchSize": 1,
+    "params": {
+      "batchSize": "1024",
+      "delayMs": "1",
+      "deviceCount": "250000",
+      "statType": "STATUS"
+    },
+    "primaryMetric": {
+      "score": 8100.012133333333,
+      "scoreError": 3802.649707135677,
+      "scoreConfidence": [
+        4297.362426197656,
+        11902.661840469009
+      ],
+      "scorePercentiles": {
+        "0.0": 7881.1742,
+        "50.0": 8122.6667,
+        "90.0": 8296.1955,
+        "95.0": 8296.1955,
+        "99.0": 8296.1955,
+        "99.9": 8296.1955,
+        "99.99": 8296.1955,
+        "99.999": 8296.1955,
+        "99.9999": 8296.1955,
+        "100.0": 8296.1955
+      },
+      "scoreUnit": "ms/op",
+      "rawData": [
+        [
+          7881.1742,
+          8296.1955,
+          8122.6667
+        ]
+      ]
+    },
+    "secondaryMetrics": {
+    }
+  },
+  {
+    "jmhVersion": "1.37",
+    "benchmark": "com.example.reactivejava.benchmark.DelayImpactBenchmark.rxJavaFlowable",
+    "mode": "avgt",
+    "threads": 1,
+    "forks": 1,
+    "jvm": "D:\\Languages\\Java\\jdk-24\\bin\\java.exe",
+    "jvmArgs": [
+      "-Xms2G",
+      "-Xmx2G"
+    ],
+    "jdkVersion": "24.0.2",
+    "vmName": "Java HotSpot(TM) 64-Bit Server VM",
+    "vmVersion": "24.0.2+12-54",
+    "warmupIterations": 2,
+    "warmupTime": "1 s",
+    "warmupBatchSize": 1,
+    "measurementIterations": 3,
+    "measurementTime": "1 s",
+    "measurementBatchSize": 1,
+    "params": {
+      "batchSize": "1024",
+      "delayMs": "1",
+      "deviceCount": "250000",
+      "statType": "DEVICES_BY_TYPE"
+    },
+    "primaryMetric": {
+      "score": 8028.3103666666675,
+      "scoreError": 3823.0237610715903,
+      "scoreConfidence": [
+        4205.286605595077,
+        11851.334127738257
+      ],
+      "scorePercentiles": {
+        "0.0": 7823.6355,
+        "50.0": 8018.8733,
+        "90.0": 8242.4223,
+        "95.0": 8242.4223,
+        "99.0": 8242.4223,
+        "99.9": 8242.4223,
+        "99.99": 8242.4223,
+        "99.999": 8242.4223,
+        "99.9999": 8242.4223,
+        "100.0": 8242.4223
+      },
+      "scoreUnit": "ms/op",
+      "rawData": [
+        [
+          8018.8733,
+          8242.4223,
+          7823.6355
+        ]
+      ]
+    },
+    "secondaryMetrics": {
+    }
+  },
+  {
+    "jmhVersion": "1.37",
+    "benchmark": "com.example.reactivejava.benchmark.DelayImpactBenchmark.rxJavaFlowable",
+    "mode": "avgt",
+    "threads": 1,
+    "forks": 1,
+    "jvm": "D:\\Languages\\Java\\jdk-24\\bin\\java.exe",
+    "jvmArgs": [
+      "-Xms2G",
+      "-Xmx2G"
+    ],
+    "jdkVersion": "24.0.2",
+    "vmName": "Java HotSpot(TM) 64-Bit Server VM",
+    "vmVersion": "24.0.2+12-54",
+    "warmupIterations": 2,
+    "warmupTime": "1 s",
+    "warmupBatchSize": 1,
+    "measurementIterations": 3,
+    "measurementTime": "1 s",
+    "measurementBatchSize": 1,
+    "params": {
+      "batchSize": "1024",
+      "delayMs": "2",
+      "deviceCount": "5000",
+      "statType": "STATUS"
+    },
+    "primaryMetric": {
+      "score": 2910.2338,
+      "scoreError": 1422.1226973667945,
+      "scoreConfidence": [
+        1488.1111026332055,
+        4332.356497366794
+      ],
+      "scorePercentiles": {
+        "0.0": 2822.0119,
+        "50.0": 2938.8824,
+        "90.0": 2969.8071,
+        "95.0": 2969.8071,
+        "99.0": 2969.8071,
+        "99.9": 2969.8071,
+        "99.99": 2969.8071,
+        "99.999": 2969.8071,
+        "99.9999": 2969.8071,
+        "100.0": 2969.8071
+      },
+      "scoreUnit": "ms/op",
+      "rawData": [
+        [
+          2938.8824,
+          2969.8071,
+          2822.0119
+        ]
+      ]
+    },
+    "secondaryMetrics": {
+    }
+  },
+  {
+    "jmhVersion": "1.37",
+    "benchmark": "com.example.reactivejava.benchmark.DelayImpactBenchmark.rxJavaFlowable",
+    "mode": "avgt",
+    "threads": 1,
+    "forks": 1,
+    "jvm": "D:\\Languages\\Java\\jdk-24\\bin\\java.exe",
+    "jvmArgs": [
+      "-Xms2G",
+      "-Xmx2G"
+    ],
+    "jdkVersion": "24.0.2",
+    "vmName": "Java HotSpot(TM) 64-Bit Server VM",
+    "vmVersion": "24.0.2+12-54",
+    "warmupIterations": 2,
+    "warmupTime": "1 s",
+    "warmupBatchSize": 1,
+    "measurementIterations": 3,
+    "measurementTime": "1 s",
+    "measurementBatchSize": 1,
+    "params": {
+      "batchSize": "1024",
+      "delayMs": "2",
+      "deviceCount": "5000",
+      "statType": "DEVICES_BY_TYPE"
+    },
+    "primaryMetric": {
+      "score": 2922.446933333333,
+      "scoreError": 1378.313449693185,
+      "scoreConfidence": [
+        1544.1334836401481,
+        4300.760383026518
+      ],
+      "scorePercentiles": {
+        "0.0": 2875.842,
+        "50.0": 2881.884,
+        "90.0": 3009.6148,
+        "95.0": 3009.6148,
+        "99.0": 3009.6148,
+        "99.9": 3009.6148,
+        "99.99": 3009.6148,
+        "99.999": 3009.6148,
+        "99.9999": 3009.6148,
+        "100.0": 3009.6148
+      },
+      "scoreUnit": "ms/op",
+      "rawData": [
+        [
+          3009.6148,
+          2881.884,
+          2875.842
+        ]
+      ]
+    },
+    "secondaryMetrics": {
+    }
+  },
+  {
+    "jmhVersion": "1.37",
+    "benchmark": "com.example.reactivejava.benchmark.DelayImpactBenchmark.rxJavaFlowable",
+    "mode": "avgt",
+    "threads": 1,
+    "forks": 1,
+    "jvm": "D:\\Languages\\Java\\jdk-24\\bin\\java.exe",
+    "jvmArgs": [
+      "-Xms2G",
+      "-Xmx2G"
+    ],
+    "jdkVersion": "24.0.2",
+    "vmName": "Java HotSpot(TM) 64-Bit Server VM",
+    "vmVersion": "24.0.2+12-54",
+    "warmupIterations": 2,
+    "warmupTime": "1 s",
+    "warmupBatchSize": 1,
+    "measurementIterations": 3,
+    "measurementTime": "1 s",
+    "measurementBatchSize": 1,
+    "params": {
+      "batchSize": "1024",
+      "delayMs": "2",
+      "deviceCount": "50000",
+      "statType": "STATUS"
+    },
+    "primaryMetric": {
+      "score": 2846.293233333334,
+      "scoreError": 2754.5571476337614,
+      "scoreConfidence": [
+        91.73608569957241,
+        5600.850380967095
+      ],
+      "scorePercentiles": {
+        "0.0": 2739.9804,
+        "50.0": 2779.7829,
+        "90.0": 3019.1164,
+        "95.0": 3019.1164,
+        "99.0": 3019.1164,
+        "99.9": 3019.1164,
+        "99.99": 3019.1164,
+        "99.999": 3019.1164,
+        "99.9999": 3019.1164,
+        "100.0": 3019.1164
+      },
+      "scoreUnit": "ms/op",
+      "rawData": [
+        [
+          2779.7829,
+          2739.9804,
+          3019.1164
+        ]
+      ]
+    },
+    "secondaryMetrics": {
+    }
+  },
+  {
+    "jmhVersion": "1.37",
+    "benchmark": "com.example.reactivejava.benchmark.DelayImpactBenchmark.rxJavaFlowable",
+    "mode": "avgt",
+    "threads": 1,
+    "forks": 1,
+    "jvm": "D:\\Languages\\Java\\jdk-24\\bin\\java.exe",
+    "jvmArgs": [
+      "-Xms2G",
+      "-Xmx2G"
+    ],
+    "jdkVersion": "24.0.2",
+    "vmName": "Java HotSpot(TM) 64-Bit Server VM",
+    "vmVersion": "24.0.2+12-54",
+    "warmupIterations": 2,
+    "warmupTime": "1 s",
+    "warmupBatchSize": 1,
+    "measurementIterations": 3,
+    "measurementTime": "1 s",
+    "measurementBatchSize": 1,
+    "params": {
+      "batchSize": "1024",
+      "delayMs": "2",
+      "deviceCount": "50000",
+      "statType": "DEVICES_BY_TYPE"
+    },
+    "primaryMetric": {
+      "score": 3023.7811,
+      "scoreError": 3609.0919419493343,
+      "scoreConfidence": [
+        -585.3108419493342,
+        6632.873041949335
+      ],
+      "scorePercentiles": {
+        "0.0": 2795.7382,
+        "50.0": 3126.285,
+        "90.0": 3149.3201,
+        "95.0": 3149.3201,
+        "99.0": 3149.3201,
+        "99.9": 3149.3201,
+        "99.99": 3149.3201,
+        "99.999": 3149.3201,
+        "99.9999": 3149.3201,
+        "100.0": 3149.3201
+      },
+      "scoreUnit": "ms/op",
+      "rawData": [
+        [
+          3149.3201,
+          3126.285,
+          2795.7382
+        ]
+      ]
+    },
+    "secondaryMetrics": {
+    }
+  },
+  {
+    "jmhVersion": "1.37",
+    "benchmark": "com.example.reactivejava.benchmark.DelayImpactBenchmark.rxJavaFlowable",
+    "mode": "avgt",
+    "threads": 1,
+    "forks": 1,
+    "jvm": "D:\\Languages\\Java\\jdk-24\\bin\\java.exe",
+    "jvmArgs": [
+      "-Xms2G",
+      "-Xmx2G"
+    ],
+    "jdkVersion": "24.0.2",
+    "vmName": "Java HotSpot(TM) 64-Bit Server VM",
+    "vmVersion": "24.0.2+12-54",
+    "warmupIterations": 2,
+    "warmupTime": "1 s",
+    "warmupBatchSize": 1,
+    "measurementIterations": 3,
+    "measurementTime": "1 s",
+    "measurementBatchSize": 1,
+    "params": {
+      "batchSize": "1024",
+      "delayMs": "2",
+      "deviceCount": "250000",
+      "statType": "STATUS"
+    },
+    "primaryMetric": {
+      "score": 10942.722699999998,
+      "scoreError": 2463.7963810733327,
+      "scoreConfidence": [
+        8478.926318926666,
+        13406.519081073331
+      ],
+      "scorePercentiles": {
+        "0.0": 10791.7639,
+        "50.0": 10984.3375,
+        "90.0": 11052.0667,
+        "95.0": 11052.0667,
+        "99.0": 11052.0667,
+        "99.9": 11052.0667,
+        "99.99": 11052.0667,
+        "99.999": 11052.0667,
+        "99.9999": 11052.0667,
+        "100.0": 11052.0667
+      },
+      "scoreUnit": "ms/op",
+      "rawData": [
+        [
+          10984.3375,
+          10791.7639,
+          11052.0667
+        ]
+      ]
+    },
+    "secondaryMetrics": {
+    }
+  },
+  {
+    "jmhVersion": "1.37",
+    "benchmark": "com.example.reactivejava.benchmark.DelayImpactBenchmark.rxJavaFlowable",
+    "mode": "avgt",
+    "threads": 1,
+    "forks": 1,
+    "jvm": "D:\\Languages\\Java\\jdk-24\\bin\\java.exe",
+    "jvmArgs": [
+      "-Xms2G",
+      "-Xmx2G"
+    ],
+    "jdkVersion": "24.0.2",
+    "vmName": "Java HotSpot(TM) 64-Bit Server VM",
+    "vmVersion": "24.0.2+12-54",
+    "warmupIterations": 2,
+    "warmupTime": "1 s",
+    "warmupBatchSize": 1,
+    "measurementIterations": 3,
+    "measurementTime": "1 s",
+    "measurementBatchSize": 1,
+    "params": {
+      "batchSize": "1024",
+      "delayMs": "2",
+      "deviceCount": "250000",
+      "statType": "DEVICES_BY_TYPE"
+    },
+    "primaryMetric": {
+      "score": 11459.866433333334,
+      "scoreError": 6598.141587988994,
+      "scoreConfidence": [
+        4861.724845344341,
+        18058.008021322326
+      ],
+      "scorePercentiles": {
+        "0.0": 11109.1533,
+        "50.0": 11438.8743,
+        "90.0": 11831.5717,
+        "95.0": 11831.5717,
+        "99.0": 11831.5717,
+        "99.9": 11831.5717,
+        "99.99": 11831.5717,
+        "99.999": 11831.5717,
+        "99.9999": 11831.5717,
+        "100.0": 11831.5717
+      },
+      "scoreUnit": "ms/op",
+      "rawData": [
+        [
+          11438.8743,
+          11109.1533,
+          11831.5717
+        ]
+      ]
+    },
+    "secondaryMetrics": {
+    }
+  },
+  {
+    "jmhVersion": "1.37",
+    "benchmark": "com.example.reactivejava.benchmark.DelayImpactBenchmark.rxJavaFlowableParallel",
+    "mode": "avgt",
+    "threads": 1,
+    "forks": 1,
+    "jvm": "D:\\Languages\\Java\\jdk-24\\bin\\java.exe",
+    "jvmArgs": [
+      "-Xms2G",
+      "-Xmx2G"
+    ],
+    "jdkVersion": "24.0.2",
+    "vmName": "Java HotSpot(TM) 64-Bit Server VM",
+    "vmVersion": "24.0.2+12-54",
+    "warmupIterations": 2,
+    "warmupTime": "1 s",
+    "warmupBatchSize": 1,
+    "measurementIterations": 3,
+    "measurementTime": "1 s",
+    "measurementBatchSize": 1,
+    "params": {
+      "batchSize": "1024",
+      "delayMs": "0",
+      "deviceCount": "5000",
+      "statType": "STATUS"
+    },
+    "primaryMetric": {
+      "score": 0.2995863034936472,
+      "scoreError": 0.4247381986114527,
+      "scoreConfidence": [
+        -0.1251518951178055,
+        0.7243245021050999
+      ],
+      "scorePercentiles": {
+        "0.0": 0.27713424447174445,
+        "50.0": 0.29800806451612905,
+        "90.0": 0.3236166014930679,
+        "95.0": 0.3236166014930679,
+        "99.0": 0.3236166014930679,
+        "99.9": 0.3236166014930679,
+        "99.99": 0.3236166014930679,
+        "99.999": 0.3236166014930679,
+        "99.9999": 0.3236166014930679,
+        "100.0": 0.3236166014930679
+      },
+      "scoreUnit": "ms/op",
+      "rawData": [
+        [
+          0.29800806451612905,
+          0.3236166014930679,
+          0.27713424447174445
+        ]
+      ]
+    },
+    "secondaryMetrics": {
+    }
+  },
+  {
+    "jmhVersion": "1.37",
+    "benchmark": "com.example.reactivejava.benchmark.DelayImpactBenchmark.rxJavaFlowableParallel",
+    "mode": "avgt",
+    "threads": 1,
+    "forks": 1,
+    "jvm": "D:\\Languages\\Java\\jdk-24\\bin\\java.exe",
+    "jvmArgs": [
+      "-Xms2G",
+      "-Xmx2G"
+    ],
+    "jdkVersion": "24.0.2",
+    "vmName": "Java HotSpot(TM) 64-Bit Server VM",
+    "vmVersion": "24.0.2+12-54",
+    "warmupIterations": 2,
+    "warmupTime": "1 s",
+    "warmupBatchSize": 1,
+    "measurementIterations": 3,
+    "measurementTime": "1 s",
+    "measurementBatchSize": 1,
+    "params": {
+      "batchSize": "1024",
+      "delayMs": "0",
+      "deviceCount": "5000",
+      "statType": "DEVICES_BY_TYPE"
+    },
+    "primaryMetric": {
+      "score": 0.1755253384637895,
+      "scoreError": 0.1288207485524226,
+      "scoreConfidence": [
+        0.04670458991136692,
+        0.30434608701621213
+      ],
+      "scorePercentiles": {
+        "0.0": 0.16773949303405572,
+        "50.0": 0.17732193338748983,
+        "90.0": 0.1815145889698231,
+        "95.0": 0.1815145889698231,
+        "99.0": 0.1815145889698231,
+        "99.9": 0.1815145889698231,
+        "99.99": 0.1815145889698231,
+        "99.999": 0.1815145889698231,
+        "99.9999": 0.1815145889698231,
+        "100.0": 0.1815145889698231
+      },
+      "scoreUnit": "ms/op",
+      "rawData": [
+        [
+          0.1815145889698231,
+          0.17732193338748983,
+          0.16773949303405572
+        ]
+      ]
+    },
+    "secondaryMetrics": {
+    }
+  },
+  {
+    "jmhVersion": "1.37",
+    "benchmark": "com.example.reactivejava.benchmark.DelayImpactBenchmark.rxJavaFlowableParallel",
+    "mode": "avgt",
+    "threads": 1,
+    "forks": 1,
+    "jvm": "D:\\Languages\\Java\\jdk-24\\bin\\java.exe",
+    "jvmArgs": [
+      "-Xms2G",
+      "-Xmx2G"
+    ],
+    "jdkVersion": "24.0.2",
+    "vmName": "Java HotSpot(TM) 64-Bit Server VM",
+    "vmVersion": "24.0.2+12-54",
+    "warmupIterations": 2,
+    "warmupTime": "1 s",
+    "warmupBatchSize": 1,
+    "measurementIterations": 3,
+    "measurementTime": "1 s",
+    "measurementBatchSize": 1,
+    "params": {
+      "batchSize": "1024",
+      "delayMs": "0",
+      "deviceCount": "50000",
+      "statType": "STATUS"
+    },
+    "primaryMetric": {
+      "score": 1.6671583671661556,
+      "scoreError": 0.2819200039590947,
+      "scoreConfidence": [
+        1.3852383632070608,
+        1.9490783711252504
+      ],
+      "scorePercentiles": {
+        "0.0": 1.6544214622641509,
+        "50.0": 1.6627044705882352,
+        "90.0": 1.6843491686460808,
+        "95.0": 1.6843491686460808,
+        "99.0": 1.6843491686460808,
+        "99.9": 1.6843491686460808,
+        "99.99": 1.6843491686460808,
+        "99.999": 1.6843491686460808,
+        "99.9999": 1.6843491686460808,
+        "100.0": 1.6843491686460808
+      },
+      "scoreUnit": "ms/op",
+      "rawData": [
+        [
+          1.6627044705882352,
+          1.6843491686460808,
+          1.6544214622641509
+        ]
+      ]
+    },
+    "secondaryMetrics": {
+    }
+  },
+  {
+    "jmhVersion": "1.37",
+    "benchmark": "com.example.reactivejava.benchmark.DelayImpactBenchmark.rxJavaFlowableParallel",
+    "mode": "avgt",
+    "threads": 1,
+    "forks": 1,
+    "jvm": "D:\\Languages\\Java\\jdk-24\\bin\\java.exe",
+    "jvmArgs": [
+      "-Xms2G",
+      "-Xmx2G"
+    ],
+    "jdkVersion": "24.0.2",
+    "vmName": "Java HotSpot(TM) 64-Bit Server VM",
+    "vmVersion": "24.0.2+12-54",
+    "warmupIterations": 2,
+    "warmupTime": "1 s",
+    "warmupBatchSize": 1,
+    "measurementIterations": 3,
+    "measurementTime": "1 s",
+    "measurementBatchSize": 1,
+    "params": {
+      "batchSize": "1024",
+      "delayMs": "0",
+      "deviceCount": "50000",
+      "statType": "DEVICES_BY_TYPE"
+    },
+    "primaryMetric": {
+      "score": 1.1426734826145823,
+      "scoreError": 1.4011792284757705,
+      "scoreConfidence": [
+        -0.25850574586118813,
+        2.543852711090353
+      ],
+      "scorePercentiles": {
+        "0.0": 1.0577036666666666,
+        "50.0": 1.1631617059891106,
+        "90.0": 1.2071550751879698,
+        "95.0": 1.2071550751879698,
+        "99.0": 1.2071550751879698,
+        "99.9": 1.2071550751879698,
+        "99.99": 1.2071550751879698,
+        "99.999": 1.2071550751879698,
+        "99.9999": 1.2071550751879698,
+        "100.0": 1.2071550751879698
+      },
+      "scoreUnit": "ms/op",
+      "rawData": [
+        [
+          1.0577036666666666,
+          1.2071550751879698,
+          1.1631617059891106
+        ]
+      ]
+    },
+    "secondaryMetrics": {
+    }
+  },
+  {
+    "jmhVersion": "1.37",
+    "benchmark": "com.example.reactivejava.benchmark.DelayImpactBenchmark.rxJavaFlowableParallel",
+    "mode": "avgt",
+    "threads": 1,
+    "forks": 1,
+    "jvm": "D:\\Languages\\Java\\jdk-24\\bin\\java.exe",
+    "jvmArgs": [
+      "-Xms2G",
+      "-Xmx2G"
+    ],
+    "jdkVersion": "24.0.2",
+    "vmName": "Java HotSpot(TM) 64-Bit Server VM",
+    "vmVersion": "24.0.2+12-54",
+    "warmupIterations": 2,
+    "warmupTime": "1 s",
+    "warmupBatchSize": 1,
+    "measurementIterations": 3,
+    "measurementTime": "1 s",
+    "measurementBatchSize": 1,
+    "params": {
+      "batchSize": "1024",
+      "delayMs": "0",
+      "deviceCount": "250000",
+      "statType": "STATUS"
+    },
+    "primaryMetric": {
+      "score": 7.544807536606374,
+      "scoreError": 4.193571149039938,
+      "scoreConfidence": [
+        3.351236387566436,
+        11.738378685646312
+      ],
+      "scorePercentiles": {
+        "0.0": 7.287238888888889,
+        "50.0": 7.618083720930232,
+        "90.0": 7.7291,
+        "95.0": 7.7291,
+        "99.0": 7.7291,
+        "99.9": 7.7291,
+        "99.99": 7.7291,
+        "99.999": 7.7291,
+        "99.9999": 7.7291,
+        "100.0": 7.7291
+      },
+      "scoreUnit": "ms/op",
+      "rawData": [
+        [
+          7.287238888888889,
+          7.7291,
+          7.618083720930232
+        ]
+      ]
+    },
+    "secondaryMetrics": {
+    }
+  },
+  {
+    "jmhVersion": "1.37",
+    "benchmark": "com.example.reactivejava.benchmark.DelayImpactBenchmark.rxJavaFlowableParallel",
+    "mode": "avgt",
+    "threads": 1,
+    "forks": 1,
+    "jvm": "D:\\Languages\\Java\\jdk-24\\bin\\java.exe",
+    "jvmArgs": [
+      "-Xms2G",
+      "-Xmx2G"
+    ],
+    "jdkVersion": "24.0.2",
+    "vmName": "Java HotSpot(TM) 64-Bit Server VM",
+    "vmVersion": "24.0.2+12-54",
+    "warmupIterations": 2,
+    "warmupTime": "1 s",
+    "warmupBatchSize": 1,
+    "measurementIterations": 3,
+    "measurementTime": "1 s",
+    "measurementBatchSize": 1,
+    "params": {
+      "batchSize": "1024",
+      "delayMs": "0",
+      "deviceCount": "250000",
+      "statType": "DEVICES_BY_TYPE"
+    },
+    "primaryMetric": {
+      "score": 4.678154883847058,
+      "scoreError": 1.1687869722427133,
+      "scoreConfidence": [
+        3.5093679116043446,
+        5.846941856089771
+      ],
+      "scorePercentiles": {
+        "0.0": 4.611423076923077,
+        "50.0": 4.683871304347826,
+        "90.0": 4.739170270270271,
+        "95.0": 4.739170270270271,
+        "99.0": 4.739170270270271,
+        "99.9": 4.739170270270271,
+        "99.99": 4.739170270270271,
+        "99.999": 4.739170270270271,
+        "99.9999": 4.739170270270271,
+        "100.0": 4.739170270270271
+      },
+      "scoreUnit": "ms/op",
+      "rawData": [
+        [
+          4.739170270270271,
+          4.683871304347826,
+          4.611423076923077
+        ]
+      ]
+    },
+    "secondaryMetrics": {
+    }
+  },
+  {
+    "jmhVersion": "1.37",
+    "benchmark": "com.example.reactivejava.benchmark.DelayImpactBenchmark.rxJavaFlowableParallel",
+    "mode": "avgt",
+    "threads": 1,
+    "forks": 1,
+    "jvm": "D:\\Languages\\Java\\jdk-24\\bin\\java.exe",
+    "jvmArgs": [
+      "-Xms2G",
+      "-Xmx2G"
+    ],
+    "jdkVersion": "24.0.2",
+    "vmName": "Java HotSpot(TM) 64-Bit Server VM",
+    "vmVersion": "24.0.2+12-54",
+    "warmupIterations": 2,
+    "warmupTime": "1 s",
+    "warmupBatchSize": 1,
+    "measurementIterations": 3,
+    "measurementTime": "1 s",
+    "measurementBatchSize": 1,
+    "params": {
+      "batchSize": "1024",
+      "delayMs": "1",
+      "deviceCount": "5000",
+      "statType": "STATUS"
+    },
+    "primaryMetric": {
+      "score": 2170.1183333333333,
+      "scoreError": 1234.3810243037929,
+      "scoreConfidence": [
+        935.7373090295405,
+        3404.499357637126
+      ],
+      "scorePercentiles": {
+        "0.0": 2103.0262,
+        "50.0": 2168.9954,
+        "90.0": 2238.3334,
+        "95.0": 2238.3334,
+        "99.0": 2238.3334,
+        "99.9": 2238.3334,
+        "99.99": 2238.3334,
+        "99.999": 2238.3334,
+        "99.9999": 2238.3334,
+        "100.0": 2238.3334
+      },
+      "scoreUnit": "ms/op",
+      "rawData": [
+        [
+          2103.0262,
+          2238.3334,
+          2168.9954
+        ]
+      ]
+    },
+    "secondaryMetrics": {
+    }
+  },
+  {
+    "jmhVersion": "1.37",
+    "benchmark": "com.example.reactivejava.benchmark.DelayImpactBenchmark.rxJavaFlowableParallel",
+    "mode": "avgt",
+    "threads": 1,
+    "forks": 1,
+    "jvm": "D:\\Languages\\Java\\jdk-24\\bin\\java.exe",
+    "jvmArgs": [
+      "-Xms2G",
+      "-Xmx2G"
+    ],
+    "jdkVersion": "24.0.2",
+    "vmName": "Java HotSpot(TM) 64-Bit Server VM",
+    "vmVersion": "24.0.2+12-54",
+    "warmupIterations": 2,
+    "warmupTime": "1 s",
+    "warmupBatchSize": 1,
+    "measurementIterations": 3,
+    "measurementTime": "1 s",
+    "measurementBatchSize": 1,
+    "params": {
+      "batchSize": "1024",
+      "delayMs": "1",
+      "deviceCount": "5000",
+      "statType": "DEVICES_BY_TYPE"
+    },
+    "primaryMetric": {
+      "score": 2176.9876,
+      "scoreError": 516.3074168906652,
+      "scoreConfidence": [
+        1660.6801831093348,
+        2693.295016890665
+      ],
+      "scorePercentiles": {
+        "0.0": 2147.7554,
+        "50.0": 2178.9534,
+        "90.0": 2204.254,
+        "95.0": 2204.254,
+        "99.0": 2204.254,
+        "99.9": 2204.254,
+        "99.99": 2204.254,
+        "99.999": 2204.254,
+        "99.9999": 2204.254,
+        "100.0": 2204.254
+      },
+      "scoreUnit": "ms/op",
+      "rawData": [
+        [
+          2178.9534,
+          2147.7554,
+          2204.254
+        ]
+      ]
+    },
+    "secondaryMetrics": {
+    }
+  },
+  {
+    "jmhVersion": "1.37",
+    "benchmark": "com.example.reactivejava.benchmark.DelayImpactBenchmark.rxJavaFlowableParallel",
+    "mode": "avgt",
+    "threads": 1,
+    "forks": 1,
+    "jvm": "D:\\Languages\\Java\\jdk-24\\bin\\java.exe",
+    "jvmArgs": [
+      "-Xms2G",
+      "-Xmx2G"
+    ],
+    "jdkVersion": "24.0.2",
+    "vmName": "Java HotSpot(TM) 64-Bit Server VM",
+    "vmVersion": "24.0.2+12-54",
+    "warmupIterations": 2,
+    "warmupTime": "1 s",
+    "warmupBatchSize": 1,
+    "measurementIterations": 3,
+    "measurementTime": "1 s",
+    "measurementBatchSize": 1,
+    "params": {
+      "batchSize": "1024",
+      "delayMs": "1",
+      "deviceCount": "50000",
+      "statType": "STATUS"
+    },
+    "primaryMetric": {
+      "score": 9703.046733333333,
+      "scoreError": 6311.596554839695,
+      "scoreConfidence": [
+        3391.4501784936374,
+        16014.643288173029
+      ],
+      "scorePercentiles": {
+        "0.0": 9356.4615,
+        "50.0": 9704.3008,
+        "90.0": 10048.3779,
+        "95.0": 10048.3779,
+        "99.0": 10048.3779,
+        "99.9": 10048.3779,
+        "99.99": 10048.3779,
+        "99.999": 10048.3779,
+        "99.9999": 10048.3779,
+        "100.0": 10048.3779
+      },
+      "scoreUnit": "ms/op",
+      "rawData": [
+        [
+          9356.4615,
+          10048.3779,
+          9704.3008
+        ]
+      ]
+    },
+    "secondaryMetrics": {
+    }
+  },
+  {
+    "jmhVersion": "1.37",
+    "benchmark": "com.example.reactivejava.benchmark.DelayImpactBenchmark.rxJavaFlowableParallel",
+    "mode": "avgt",
+    "threads": 1,
+    "forks": 1,
+    "jvm": "D:\\Languages\\Java\\jdk-24\\bin\\java.exe",
+    "jvmArgs": [
+      "-Xms2G",
+      "-Xmx2G"
+    ],
+    "jdkVersion": "24.0.2",
+    "vmName": "Java HotSpot(TM) 64-Bit Server VM",
+    "vmVersion": "24.0.2+12-54",
+    "warmupIterations": 2,
+    "warmupTime": "1 s",
+    "warmupBatchSize": 1,
+    "measurementIterations": 3,
+    "measurementTime": "1 s",
+    "measurementBatchSize": 1,
+    "params": {
+      "batchSize": "1024",
+      "delayMs": "1",
+      "deviceCount": "50000",
+      "statType": "DEVICES_BY_TYPE"
+    },
+    "primaryMetric": {
+      "score": 9674.5649,
+      "scoreError": 3403.474379142609,
+      "scoreConfidence": [
+        6271.09052085739,
+        13078.03927914261
+      ],
+      "scorePercentiles": {
+        "0.0": 9527.045,
+        "50.0": 9612.3781,
+        "90.0": 9884.2716,
+        "95.0": 9884.2716,
+        "99.0": 9884.2716,
+        "99.9": 9884.2716,
+        "99.99": 9884.2716,
+        "99.999": 9884.2716,
+        "99.9999": 9884.2716,
+        "100.0": 9884.2716
+      },
+      "scoreUnit": "ms/op",
+      "rawData": [
+        [
+          9527.045,
+          9612.3781,
+          9884.2716
+        ]
+      ]
+    },
+    "secondaryMetrics": {
+    }
+  },
+  {
+    "jmhVersion": "1.37",
+    "benchmark": "com.example.reactivejava.benchmark.DelayImpactBenchmark.rxJavaFlowableParallel",
+    "mode": "avgt",
+    "threads": 1,
+    "forks": 1,
+    "jvm": "D:\\Languages\\Java\\jdk-24\\bin\\java.exe",
+    "jvmArgs": [
+      "-Xms2G",
+      "-Xmx2G"
+    ],
+    "jdkVersion": "24.0.2",
+    "vmName": "Java HotSpot(TM) 64-Bit Server VM",
+    "vmVersion": "24.0.2+12-54",
+    "warmupIterations": 2,
+    "warmupTime": "1 s",
+    "warmupBatchSize": 1,
+    "measurementIterations": 3,
+    "measurementTime": "1 s",
+    "measurementBatchSize": 1,
+    "params": {
+      "batchSize": "1024",
+      "delayMs": "1",
+      "deviceCount": "250000",
+      "statType": "STATUS"
+    },
+    "primaryMetric": {
+      "score": 40537.0906,
+      "scoreError": 3466.1433723294035,
+      "scoreConfidence": [
+        37070.9472276706,
+        44003.233972329406
+      ],
+      "scorePercentiles": {
+        "0.0": 40325.9841,
+        "50.0": 40590.9513,
+        "90.0": 40694.3364,
+        "95.0": 40694.3364,
+        "99.0": 40694.3364,
+        "99.9": 40694.3364,
+        "99.99": 40694.3364,
+        "99.999": 40694.3364,
+        "99.9999": 40694.3364,
+        "100.0": 40694.3364
+      },
+      "scoreUnit": "ms/op",
+      "rawData": [
+        [
+          40590.9513,
+          40325.9841,
+          40694.3364
+        ]
+      ]
+    },
+    "secondaryMetrics": {
+    }
+  },
+  {
+    "jmhVersion": "1.37",
+    "benchmark": "com.example.reactivejava.benchmark.DelayImpactBenchmark.rxJavaFlowableParallel",
+    "mode": "avgt",
+    "threads": 1,
+    "forks": 1,
+    "jvm": "D:\\Languages\\Java\\jdk-24\\bin\\java.exe",
+    "jvmArgs": [
+      "-Xms2G",
+      "-Xmx2G"
+    ],
+    "jdkVersion": "24.0.2",
+    "vmName": "Java HotSpot(TM) 64-Bit Server VM",
+    "vmVersion": "24.0.2+12-54",
+    "warmupIterations": 2,
+    "warmupTime": "1 s",
+    "warmupBatchSize": 1,
+    "measurementIterations": 3,
+    "measurementTime": "1 s",
+    "measurementBatchSize": 1,
+    "params": {
+      "batchSize": "1024",
+      "delayMs": "1",
+      "deviceCount": "250000",
+      "statType": "DEVICES_BY_TYPE"
+    },
+    "primaryMetric": {
+      "score": 42474.99366666667,
+      "scoreError": 14707.315120473684,
+      "scoreConfidence": [
+        27767.678546192983,
+        57182.308787140355
+      ],
+      "scorePercentiles": {
+        "0.0": 41687.883,
+        "50.0": 42438.1624,
+        "90.0": 43298.9356,
+        "95.0": 43298.9356,
+        "99.0": 43298.9356,
+        "99.9": 43298.9356,
+        "99.99": 43298.9356,
+        "99.999": 43298.9356,
+        "99.9999": 43298.9356,
+        "100.0": 43298.9356
+      },
+      "scoreUnit": "ms/op",
+      "rawData": [
+        [
+          42438.1624,
+          43298.9356,
+          41687.883
+        ]
+      ]
+    },
+    "secondaryMetrics": {
+    }
+  },
+  {
+    "jmhVersion": "1.37",
+    "benchmark": "com.example.reactivejava.benchmark.DelayImpactBenchmark.rxJavaFlowableParallel",
+    "mode": "avgt",
+    "threads": 1,
+    "forks": 1,
+    "jvm": "D:\\Languages\\Java\\jdk-24\\bin\\java.exe",
+    "jvmArgs": [
+      "-Xms2G",
+      "-Xmx2G"
+    ],
+    "jdkVersion": "24.0.2",
+    "vmName": "Java HotSpot(TM) 64-Bit Server VM",
+    "vmVersion": "24.0.2+12-54",
+    "warmupIterations": 2,
+    "warmupTime": "1 s",
+    "warmupBatchSize": 1,
+    "measurementIterations": 3,
+    "measurementTime": "1 s",
+    "measurementBatchSize": 1,
+    "params": {
+      "batchSize": "1024",
+      "delayMs": "2",
+      "deviceCount": "5000",
+      "statType": "STATUS"
+    },
+    "primaryMetric": {
+      "score": 2910.882933333333,
+      "scoreError": 391.17403098037596,
+      "scoreConfidence": [
+        2519.708902352957,
+        3302.0569643137087
+      ],
+      "scorePercentiles": {
+        "0.0": 2886.1906,
+        "50.0": 2921.6615,
+        "90.0": 2924.7967,
+        "95.0": 2924.7967,
+        "99.0": 2924.7967,
+        "99.9": 2924.7967,
+        "99.99": 2924.7967,
+        "99.999": 2924.7967,
+        "99.9999": 2924.7967,
+        "100.0": 2924.7967
+      },
+      "scoreUnit": "ms/op",
+      "rawData": [
+        [
+          2924.7967,
+          2886.1906,
+          2921.6615
+        ]
+      ]
+    },
+    "secondaryMetrics": {
+    }
+  },
+  {
+    "jmhVersion": "1.37",
+    "benchmark": "com.example.reactivejava.benchmark.DelayImpactBenchmark.rxJavaFlowableParallel",
+    "mode": "avgt",
+    "threads": 1,
+    "forks": 1,
+    "jvm": "D:\\Languages\\Java\\jdk-24\\bin\\java.exe",
+    "jvmArgs": [
+      "-Xms2G",
+      "-Xmx2G"
+    ],
+    "jdkVersion": "24.0.2",
+    "vmName": "Java HotSpot(TM) 64-Bit Server VM",
+    "vmVersion": "24.0.2+12-54",
+    "warmupIterations": 2,
+    "warmupTime": "1 s",
+    "warmupBatchSize": 1,
+    "measurementIterations": 3,
+    "measurementTime": "1 s",
+    "measurementBatchSize": 1,
+    "params": {
+      "batchSize": "1024",
+      "delayMs": "2",
+      "deviceCount": "5000",
+      "statType": "DEVICES_BY_TYPE"
+    },
+    "primaryMetric": {
+      "score": 2941.9554000000003,
+      "scoreError": 1606.4742841098678,
+      "scoreConfidence": [
+        1335.4811158901325,
+        4548.429684109868
+      ],
+      "scorePercentiles": {
+        "0.0": 2841.0398,
+        "50.0": 2981.6457,
+        "90.0": 3003.1807,
+        "95.0": 3003.1807,
+        "99.0": 3003.1807,
+        "99.9": 3003.1807,
+        "99.99": 3003.1807,
+        "99.999": 3003.1807,
+        "99.9999": 3003.1807,
+        "100.0": 3003.1807
+      },
+      "scoreUnit": "ms/op",
+      "rawData": [
+        [
+          3003.1807,
+          2981.6457,
+          2841.0398
+        ]
+      ]
+    },
+    "secondaryMetrics": {
+    }
+  },
+  {
+    "jmhVersion": "1.37",
+    "benchmark": "com.example.reactivejava.benchmark.DelayImpactBenchmark.rxJavaFlowableParallel",
+    "mode": "avgt",
+    "threads": 1,
+    "forks": 1,
+    "jvm": "D:\\Languages\\Java\\jdk-24\\bin\\java.exe",
+    "jvmArgs": [
+      "-Xms2G",
+      "-Xmx2G"
+    ],
+    "jdkVersion": "24.0.2",
+    "vmName": "Java HotSpot(TM) 64-Bit Server VM",
+    "vmVersion": "24.0.2+12-54",
+    "warmupIterations": 2,
+    "warmupTime": "1 s",
+    "warmupBatchSize": 1,
+    "measurementIterations": 3,
+    "measurementTime": "1 s",
+    "measurementBatchSize": 1,
+    "params": {
+      "batchSize": "1024",
+      "delayMs": "2",
+      "deviceCount": "50000",
+      "statType": "STATUS"
+    },
+    "primaryMetric": {
+      "score": 13897.053933333334,
+      "scoreError": 1467.3699500945115,
+      "scoreConfidence": [
+        12429.683983238823,
+        15364.423883427846
+      ],
+      "scorePercentiles": {
+        "0.0": 13825.7698,
+        "50.0": 13881.1387,
+        "90.0": 13984.2533,
+        "95.0": 13984.2533,
+        "99.0": 13984.2533,
+        "99.9": 13984.2533,
+        "99.99": 13984.2533,
+        "99.999": 13984.2533,
+        "99.9999": 13984.2533,
+        "100.0": 13984.2533
+      },
+      "scoreUnit": "ms/op",
+      "rawData": [
+        [
+          13881.1387,
+          13984.2533,
+          13825.7698
+        ]
+      ]
+    },
+    "secondaryMetrics": {
+    }
+  },
+  {
+    "jmhVersion": "1.37",
+    "benchmark": "com.example.reactivejava.benchmark.DelayImpactBenchmark.rxJavaFlowableParallel",
+    "mode": "avgt",
+    "threads": 1,
+    "forks": 1,
+    "jvm": "D:\\Languages\\Java\\jdk-24\\bin\\java.exe",
+    "jvmArgs": [
+      "-Xms2G",
+      "-Xmx2G"
+    ],
+    "jdkVersion": "24.0.2",
+    "vmName": "Java HotSpot(TM) 64-Bit Server VM",
+    "vmVersion": "24.0.2+12-54",
+    "warmupIterations": 2,
+    "warmupTime": "1 s",
+    "warmupBatchSize": 1,
+    "measurementIterations": 3,
+    "measurementTime": "1 s",
+    "measurementBatchSize": 1,
+    "params": {
+      "batchSize": "1024",
+      "delayMs": "2",
+      "deviceCount": "50000",
+      "statType": "DEVICES_BY_TYPE"
+    },
+    "primaryMetric": {
+      "score": 13681.7036,
+      "scoreError": 3275.356520407733,
+      "scoreConfidence": [
+        10406.347079592268,
+        16957.060120407732
+      ],
+      "scorePercentiles": {
+        "0.0": 13474.4012,
+        "50.0": 13784.127,
+        "90.0": 13786.5826,
+        "95.0": 13786.5826,
+        "99.0": 13786.5826,
+        "99.9": 13786.5826,
+        "99.99": 13786.5826,
+        "99.999": 13786.5826,
+        "99.9999": 13786.5826,
+        "100.0": 13786.5826
+      },
+      "scoreUnit": "ms/op",
+      "rawData": [
+        [
+          13786.5826,
+          13784.127,
+          13474.4012
+        ]
+      ]
+    },
+    "secondaryMetrics": {
+    }
+  },
+  {
+    "jmhVersion": "1.37",
+    "benchmark": "com.example.reactivejava.benchmark.DelayImpactBenchmark.rxJavaFlowableParallel",
+    "mode": "avgt",
+    "threads": 1,
+    "forks": 1,
+    "jvm": "D:\\Languages\\Java\\jdk-24\\bin\\java.exe",
+    "jvmArgs": [
+      "-Xms2G",
+      "-Xmx2G"
+    ],
+    "jdkVersion": "24.0.2",
+    "vmName": "Java HotSpot(TM) 64-Bit Server VM",
+    "vmVersion": "24.0.2+12-54",
+    "warmupIterations": 2,
+    "warmupTime": "1 s",
+    "warmupBatchSize": 1,
+    "measurementIterations": 3,
+    "measurementTime": "1 s",
+    "measurementBatchSize": 1,
+    "params": {
+      "batchSize": "1024",
+      "delayMs": "2",
+      "deviceCount": "250000",
+      "statType": "STATUS"
+    },
+    "primaryMetric": {
+      "score": 59746.93093333333,
+      "scoreError": 19262.497426028054,
+      "scoreConfidence": [
+        40484.43350730528,
+        79009.42835936138
+      ],
+      "scorePercentiles": {
+        "0.0": 58930.3017,
+        "50.0": 59371.2552,
+        "90.0": 60939.2359,
+        "95.0": 60939.2359,
+        "99.0": 60939.2359,
+        "99.9": 60939.2359,
+        "99.99": 60939.2359,
+        "99.999": 60939.2359,
+        "99.9999": 60939.2359,
+        "100.0": 60939.2359
+      },
+      "scoreUnit": "ms/op",
+      "rawData": [
+        [
+          59371.2552,
+          58930.3017,
+          60939.2359
+        ]
+      ]
+    },
+    "secondaryMetrics": {
+    }
+  },
+  {
+    "jmhVersion": "1.37",
+    "benchmark": "com.example.reactivejava.benchmark.DelayImpactBenchmark.rxJavaFlowableParallel",
+    "mode": "avgt",
+    "threads": 1,
+    "forks": 1,
+    "jvm": "D:\\Languages\\Java\\jdk-24\\bin\\java.exe",
+    "jvmArgs": [
+      "-Xms2G",
+      "-Xmx2G"
+    ],
+    "jdkVersion": "24.0.2",
+    "vmName": "Java HotSpot(TM) 64-Bit Server VM",
+    "vmVersion": "24.0.2+12-54",
+    "warmupIterations": 2,
+    "warmupTime": "1 s",
+    "warmupBatchSize": 1,
+    "measurementIterations": 3,
+    "measurementTime": "1 s",
+    "measurementBatchSize": 1,
+    "params": {
+      "batchSize": "1024",
+      "delayMs": "2",
+      "deviceCount": "250000",
+      "statType": "DEVICES_BY_TYPE"
+    },
+    "primaryMetric": {
+      "score": 61894.248766666664,
+      "scoreError": 24789.651621547415,
+      "scoreConfidence": [
+        37104.597145119245,
+        86683.90038821408
+      ],
+      "scorePercentiles": {
+        "0.0": 60382.8239,
+        "50.0": 62285.2069,
+        "90.0": 63014.7155,
+        "95.0": 63014.7155,
+        "99.0": 63014.7155,
+        "99.9": 63014.7155,
+        "99.99": 63014.7155,
+        "99.999": 63014.7155,
+        "99.9999": 63014.7155,
+        "100.0": 63014.7155
+      },
+      "scoreUnit": "ms/op",
+      "rawData": [
+        [
+          60382.8239,
+          62285.2069,
+          63014.7155
+        ]
+      ]
+    },
+    "secondaryMetrics": {
+    }
+  },
+  {
+    "jmhVersion": "1.37",
+    "benchmark": "com.example.reactivejava.benchmark.DelayImpactBenchmark.rxJavaObservable",
+    "mode": "avgt",
+    "threads": 1,
+    "forks": 1,
+    "jvm": "D:\\Languages\\Java\\jdk-24\\bin\\java.exe",
+    "jvmArgs": [
+      "-Xms2G",
+      "-Xmx2G"
+    ],
+    "jdkVersion": "24.0.2",
+    "vmName": "Java HotSpot(TM) 64-Bit Server VM",
+    "vmVersion": "24.0.2+12-54",
+    "warmupIterations": 2,
+    "warmupTime": "1 s",
+    "warmupBatchSize": 1,
+    "measurementIterations": 3,
+    "measurementTime": "1 s",
+    "measurementBatchSize": 1,
+    "params": {
+      "batchSize": "1024",
+      "delayMs": "0",
+      "deviceCount": "5000",
+      "statType": "STATUS"
+    },
+    "primaryMetric": {
+      "score": 0.23657617503944192,
+      "scoreError": 0.34235388699435987,
+      "scoreConfidence": [
+        -0.10577771195491795,
+        0.5789300620338018
+      ],
+      "scorePercentiles": {
+        "0.0": 0.2187470126160438,
+        "50.0": 0.23482598202824134,
+        "90.0": 0.2561555304740406,
+        "95.0": 0.2561555304740406,
+        "99.0": 0.2561555304740406,
+        "99.9": 0.2561555304740406,
+        "99.99": 0.2561555304740406,
+        "99.999": 0.2561555304740406,
+        "99.9999": 0.2561555304740406,
+        "100.0": 0.2561555304740406
+      },
+      "scoreUnit": "ms/op",
+      "rawData": [
+        [
+          0.2561555304740406,
+          0.23482598202824134,
+          0.2187470126160438
+        ]
+      ]
+    },
+    "secondaryMetrics": {
+    }
+  },
+  {
+    "jmhVersion": "1.37",
+    "benchmark": "com.example.reactivejava.benchmark.DelayImpactBenchmark.rxJavaObservable",
+    "mode": "avgt",
+    "threads": 1,
+    "forks": 1,
+    "jvm": "D:\\Languages\\Java\\jdk-24\\bin\\java.exe",
+    "jvmArgs": [
+      "-Xms2G",
+      "-Xmx2G"
+    ],
+    "jdkVersion": "24.0.2",
+    "vmName": "Java HotSpot(TM) 64-Bit Server VM",
+    "vmVersion": "24.0.2+12-54",
+    "warmupIterations": 2,
+    "warmupTime": "1 s",
+    "warmupBatchSize": 1,
+    "measurementIterations": 3,
+    "measurementTime": "1 s",
+    "measurementBatchSize": 1,
+    "params": {
+      "batchSize": "1024",
+      "delayMs": "0",
+      "deviceCount": "5000",
+      "statType": "DEVICES_BY_TYPE"
+    },
+    "primaryMetric": {
+      "score": 0.2017511806464114,
+      "scoreError": 0.16935525076063934,
+      "scoreConfidence": [
+        0.03239592988577206,
+        0.37110643140705074
+      ],
+      "scorePercentiles": {
+        "0.0": 0.19146472819216181,
+        "50.0": 0.20428394474637682,
+        "90.0": 0.20950486900069556,
+        "95.0": 0.20950486900069556,
+        "99.0": 0.20950486900069556,
+        "99.9": 0.20950486900069556,
+        "99.99": 0.20950486900069556,
+        "99.999": 0.20950486900069556,
+        "99.9999": 0.20950486900069556,
+        "100.0": 0.20950486900069556
+      },
+      "scoreUnit": "ms/op",
+      "rawData": [
+        [
+          0.20950486900069556,
+          0.20428394474637682,
+          0.19146472819216181
+        ]
+      ]
+    },
+    "secondaryMetrics": {
+    }
+  },
+  {
+    "jmhVersion": "1.37",
+    "benchmark": "com.example.reactivejava.benchmark.DelayImpactBenchmark.rxJavaObservable",
+    "mode": "avgt",
+    "threads": 1,
+    "forks": 1,
+    "jvm": "D:\\Languages\\Java\\jdk-24\\bin\\java.exe",
+    "jvmArgs": [
+      "-Xms2G",
+      "-Xmx2G"
+    ],
+    "jdkVersion": "24.0.2",
+    "vmName": "Java HotSpot(TM) 64-Bit Server VM",
+    "vmVersion": "24.0.2+12-54",
+    "warmupIterations": 2,
+    "warmupTime": "1 s",
+    "warmupBatchSize": 1,
+    "measurementIterations": 3,
+    "measurementTime": "1 s",
+    "measurementBatchSize": 1,
+    "params": {
+      "batchSize": "1024",
+      "delayMs": "0",
+      "deviceCount": "50000",
+      "statType": "STATUS"
+    },
+    "primaryMetric": {
+      "score": 1.266701068293044,
+      "scoreError": 0.6494209715153043,
+      "scoreConfidence": [
+        0.6172800967777397,
+        1.9161220398083483
+      ],
+      "scorePercentiles": {
+        "0.0": 1.2257779197080292,
+        "50.0": 1.2838287072243346,
+        "90.0": 1.290496577946768,
+        "95.0": 1.290496577946768,
+        "99.0": 1.290496577946768,
+        "99.9": 1.290496577946768,
+        "99.99": 1.290496577946768,
+        "99.999": 1.290496577946768,
+        "99.9999": 1.290496577946768,
+        "100.0": 1.290496577946768
+      },
+      "scoreUnit": "ms/op",
+      "rawData": [
+        [
+          1.2838287072243346,
+          1.290496577946768,
+          1.2257779197080292
+        ]
+      ]
+    },
+    "secondaryMetrics": {
+    }
+  },
+  {
+    "jmhVersion": "1.37",
+    "benchmark": "com.example.reactivejava.benchmark.DelayImpactBenchmark.rxJavaObservable",
+    "mode": "avgt",
+    "threads": 1,
+    "forks": 1,
+    "jvm": "D:\\Languages\\Java\\jdk-24\\bin\\java.exe",
+    "jvmArgs": [
+      "-Xms2G",
+      "-Xmx2G"
+    ],
+    "jdkVersion": "24.0.2",
+    "vmName": "Java HotSpot(TM) 64-Bit Server VM",
+    "vmVersion": "24.0.2+12-54",
+    "warmupIterations": 2,
+    "warmupTime": "1 s",
+    "warmupBatchSize": 1,
+    "measurementIterations": 3,
+    "measurementTime": "1 s",
+    "measurementBatchSize": 1,
+    "params": {
+      "batchSize": "1024",
+      "delayMs": "0",
+      "deviceCount": "50000",
+      "statType": "DEVICES_BY_TYPE"
+    },
+    "primaryMetric": {
+      "score": 1.0719787728561403,
+      "scoreError": 1.154202107375955,
+      "scoreConfidence": [
+        -0.08222333451981467,
+        2.2261808802320955
+      ],
+      "scorePercentiles": {
+        "0.0": 1.009462085308057,
+        "50.0": 1.0705064250411862,
+        "90.0": 1.135967808219178,
+        "95.0": 1.135967808219178,
+        "99.0": 1.135967808219178,
+        "99.9": 1.135967808219178,
+        "99.99": 1.135967808219178,
+        "99.999": 1.135967808219178,
+        "99.9999": 1.135967808219178,
+        "100.0": 1.135967808219178
+      },
+      "scoreUnit": "ms/op",
+      "rawData": [
+        [
+          1.0705064250411862,
+          1.009462085308057,
+          1.135967808219178
+        ]
+      ]
+    },
+    "secondaryMetrics": {
+    }
+  },
+  {
+    "jmhVersion": "1.37",
+    "benchmark": "com.example.reactivejava.benchmark.DelayImpactBenchmark.rxJavaObservable",
+    "mode": "avgt",
+    "threads": 1,
+    "forks": 1,
+    "jvm": "D:\\Languages\\Java\\jdk-24\\bin\\java.exe",
+    "jvmArgs": [
+      "-Xms2G",
+      "-Xmx2G"
+    ],
+    "jdkVersion": "24.0.2",
+    "vmName": "Java HotSpot(TM) 64-Bit Server VM",
+    "vmVersion": "24.0.2+12-54",
+    "warmupIterations": 2,
+    "warmupTime": "1 s",
+    "warmupBatchSize": 1,
+    "measurementIterations": 3,
+    "measurementTime": "1 s",
+    "measurementBatchSize": 1,
+    "params": {
+      "batchSize": "1024",
+      "delayMs": "0",
+      "deviceCount": "250000",
+      "statType": "STATUS"
+    },
+    "primaryMetric": {
+      "score": 5.835701357565072,
+      "scoreError": 2.438695200574621,
+      "scoreConfidence": [
+        3.397006156990451,
+        8.274396558139692
+      ],
+      "scorePercentiles": {
+        "0.0": 5.687428971962617,
+        "50.0": 5.872689523809524,
+        "90.0": 5.946985576923077,
+        "95.0": 5.946985576923077,
+        "99.0": 5.946985576923077,
+        "99.9": 5.946985576923077,
+        "99.99": 5.946985576923077,
+        "99.999": 5.946985576923077,
+        "99.9999": 5.946985576923077,
+        "100.0": 5.946985576923077
+      },
+      "scoreUnit": "ms/op",
+      "rawData": [
+        [
+          5.946985576923077,
+          5.687428971962617,
+          5.872689523809524
+        ]
+      ]
+    },
+    "secondaryMetrics": {
+    }
+  },
+  {
+    "jmhVersion": "1.37",
+    "benchmark": "com.example.reactivejava.benchmark.DelayImpactBenchmark.rxJavaObservable",
+    "mode": "avgt",
+    "threads": 1,
+    "forks": 1,
+    "jvm": "D:\\Languages\\Java\\jdk-24\\bin\\java.exe",
+    "jvmArgs": [
+      "-Xms2G",
+      "-Xmx2G"
+    ],
+    "jdkVersion": "24.0.2",
+    "vmName": "Java HotSpot(TM) 64-Bit Server VM",
+    "vmVersion": "24.0.2+12-54",
+    "warmupIterations": 2,
+    "warmupTime": "1 s",
+    "warmupBatchSize": 1,
+    "measurementIterations": 3,
+    "measurementTime": "1 s",
+    "measurementBatchSize": 1,
+    "params": {
+      "batchSize": "1024",
+      "delayMs": "0",
+      "deviceCount": "250000",
+      "statType": "DEVICES_BY_TYPE"
+    },
+    "primaryMetric": {
+      "score": 4.544726833333333,
+      "scoreError": 3.4832442870385343,
+      "scoreConfidence": [
+        1.0614825462947985,
+        8.027971120371866
+      ],
+      "scorePercentiles": {
+        "0.0": 4.4150504,
+        "50.0": 4.4551576,
+        "90.0": 4.7639725,
+        "95.0": 4.7639725,
+        "99.0": 4.7639725,
+        "99.9": 4.7639725,
+        "99.99": 4.7639725,
+        "99.999": 4.7639725,
+        "99.9999": 4.7639725,
+        "100.0": 4.7639725
+      },
+      "scoreUnit": "ms/op",
+      "rawData": [
+        [
+          4.4551576,
+          4.4150504,
+          4.7639725
+        ]
+      ]
+    },
+    "secondaryMetrics": {
+    }
+  },
+  {
+    "jmhVersion": "1.37",
+    "benchmark": "com.example.reactivejava.benchmark.DelayImpactBenchmark.rxJavaObservable",
+    "mode": "avgt",
+    "threads": 1,
+    "forks": 1,
+    "jvm": "D:\\Languages\\Java\\jdk-24\\bin\\java.exe",
+    "jvmArgs": [
+      "-Xms2G",
+      "-Xmx2G"
+    ],
+    "jdkVersion": "24.0.2",
+    "vmName": "Java HotSpot(TM) 64-Bit Server VM",
+    "vmVersion": "24.0.2+12-54",
+    "warmupIterations": 2,
+    "warmupTime": "1 s",
+    "warmupBatchSize": 1,
+    "measurementIterations": 3,
+    "measurementTime": "1 s",
+    "measurementBatchSize": 1,
+    "params": {
+      "batchSize": "1024",
+      "delayMs": "1",
+      "deviceCount": "5000",
+      "statType": "STATUS"
+    },
+    "primaryMetric": {
+      "score": 1933.6130666666668,
+      "scoreError": 462.4162428511058,
+      "scoreConfidence": [
+        1471.196823815561,
+        2396.0293095177726
+      ],
+      "scorePercentiles": {
+        "0.0": 1904.8186,
+        "50.0": 1943.4706,
+        "90.0": 1952.55,
+        "95.0": 1952.55,
+        "99.0": 1952.55,
+        "99.9": 1952.55,
+        "99.99": 1952.55,
+        "99.999": 1952.55,
+        "99.9999": 1952.55,
+        "100.0": 1952.55
+      },
+      "scoreUnit": "ms/op",
+      "rawData": [
+        [
+          1943.4706,
+          1904.8186,
+          1952.55
+        ]
+      ]
+    },
+    "secondaryMetrics": {
+    }
+  },
+  {
+    "jmhVersion": "1.37",
+    "benchmark": "com.example.reactivejava.benchmark.DelayImpactBenchmark.rxJavaObservable",
+    "mode": "avgt",
+    "threads": 1,
+    "forks": 1,
+    "jvm": "D:\\Languages\\Java\\jdk-24\\bin\\java.exe",
+    "jvmArgs": [
+      "-Xms2G",
+      "-Xmx2G"
+    ],
+    "jdkVersion": "24.0.2",
+    "vmName": "Java HotSpot(TM) 64-Bit Server VM",
+    "vmVersion": "24.0.2+12-54",
+    "warmupIterations": 2,
+    "warmupTime": "1 s",
+    "warmupBatchSize": 1,
+    "measurementIterations": 3,
+    "measurementTime": "1 s",
+    "measurementBatchSize": 1,
+    "params": {
+      "batchSize": "1024",
+      "delayMs": "1",
+      "deviceCount": "5000",
+      "statType": "DEVICES_BY_TYPE"
+    },
+    "primaryMetric": {
+      "score": 1923.3847666666668,
+      "scoreError": 264.52515159895574,
+      "scoreConfidence": [
+        1658.859615067711,
+        2187.9099182656228
+      ],
+      "scorePercentiles": {
+        "0.0": 1908.5229,
+        "50.0": 1924.1389,
+        "90.0": 1937.4925,
+        "95.0": 1937.4925,
+        "99.0": 1937.4925,
+        "99.9": 1937.4925,
+        "99.99": 1937.4925,
+        "99.999": 1937.4925,
+        "99.9999": 1937.4925,
+        "100.0": 1937.4925
+      },
+      "scoreUnit": "ms/op",
+      "rawData": [
+        [
+          1937.4925,
+          1908.5229,
+          1924.1389
+        ]
+      ]
+    },
+    "secondaryMetrics": {
+    }
+  },
+  {
+    "jmhVersion": "1.37",
+    "benchmark": "com.example.reactivejava.benchmark.DelayImpactBenchmark.rxJavaObservable",
+    "mode": "avgt",
+    "threads": 1,
+    "forks": 1,
+    "jvm": "D:\\Languages\\Java\\jdk-24\\bin\\java.exe",
+    "jvmArgs": [
+      "-Xms2G",
+      "-Xmx2G"
+    ],
+    "jdkVersion": "24.0.2",
+    "vmName": "Java HotSpot(TM) 64-Bit Server VM",
+    "vmVersion": "24.0.2+12-54",
+    "warmupIterations": 2,
+    "warmupTime": "1 s",
+    "warmupBatchSize": 1,
+    "measurementIterations": 3,
+    "measurementTime": "1 s",
+    "measurementBatchSize": 1,
+    "params": {
+      "batchSize": "1024",
+      "delayMs": "1",
+      "deviceCount": "50000",
+      "statType": "STATUS"
+    },
+    "primaryMetric": {
+      "score": 1887.0731666666668,
+      "scoreError": 331.85765517488807,
+      "scoreConfidence": [
+        1555.2155114917787,
+        2218.930821841555
+      ],
+      "scorePercentiles": {
+        "0.0": 1868.5558,
+        "50.0": 1887.7461,
+        "90.0": 1904.9176,
+        "95.0": 1904.9176,
+        "99.0": 1904.9176,
+        "99.9": 1904.9176,
+        "99.99": 1904.9176,
+        "99.999": 1904.9176,
+        "99.9999": 1904.9176,
+        "100.0": 1904.9176
+      },
+      "scoreUnit": "ms/op",
+      "rawData": [
+        [
+          1868.5558,
+          1904.9176,
+          1887.7461
+        ]
+      ]
+    },
+    "secondaryMetrics": {
+    }
+  },
+  {
+    "jmhVersion": "1.37",
+    "benchmark": "com.example.reactivejava.benchmark.DelayImpactBenchmark.rxJavaObservable",
+    "mode": "avgt",
+    "threads": 1,
+    "forks": 1,
+    "jvm": "D:\\Languages\\Java\\jdk-24\\bin\\java.exe",
+    "jvmArgs": [
+      "-Xms2G",
+      "-Xmx2G"
+    ],
+    "jdkVersion": "24.0.2",
+    "vmName": "Java HotSpot(TM) 64-Bit Server VM",
+    "vmVersion": "24.0.2+12-54",
+    "warmupIterations": 2,
+    "warmupTime": "1 s",
+    "warmupBatchSize": 1,
+    "measurementIterations": 3,
+    "measurementTime": "1 s",
+    "measurementBatchSize": 1,
+    "params": {
+      "batchSize": "1024",
+      "delayMs": "1",
+      "deviceCount": "50000",
+      "statType": "DEVICES_BY_TYPE"
+    },
+    "primaryMetric": {
+      "score": 1883.8521,
+      "scoreError": 455.0793276622859,
+      "scoreConfidence": [
+        1428.7727723377143,
+        2338.931427662286
+      ],
+      "scorePercentiles": {
+        "0.0": 1860.3972,
+        "50.0": 1881.1011,
+        "90.0": 1910.058,
+        "95.0": 1910.058,
+        "99.0": 1910.058,
+        "99.9": 1910.058,
+        "99.99": 1910.058,
+        "99.999": 1910.058,
+        "99.9999": 1910.058,
+        "100.0": 1910.058
+      },
+      "scoreUnit": "ms/op",
+      "rawData": [
+        [
+          1910.058,
+          1860.3972,
+          1881.1011
+        ]
+      ]
+    },
+    "secondaryMetrics": {
+    }
+  },
+  {
+    "jmhVersion": "1.37",
+    "benchmark": "com.example.reactivejava.benchmark.DelayImpactBenchmark.rxJavaObservable",
+    "mode": "avgt",
+    "threads": 1,
+    "forks": 1,
+    "jvm": "D:\\Languages\\Java\\jdk-24\\bin\\java.exe",
+    "jvmArgs": [
+      "-Xms2G",
+      "-Xmx2G"
+    ],
+    "jdkVersion": "24.0.2",
+    "vmName": "Java HotSpot(TM) 64-Bit Server VM",
+    "vmVersion": "24.0.2+12-54",
+    "warmupIterations": 2,
+    "warmupTime": "1 s",
+    "warmupBatchSize": 1,
+    "measurementIterations": 3,
+    "measurementTime": "1 s",
+    "measurementBatchSize": 1,
+    "params": {
+      "batchSize": "1024",
+      "delayMs": "1",
+      "deviceCount": "250000",
+      "statType": "STATUS"
+    },
+    "primaryMetric": {
+      "score": 1941.0649666666668,
+      "scoreError": 334.4446803508839,
+      "scoreConfidence": [
+        1606.6202863157828,
+        2275.509647017551
+      ],
+      "scorePercentiles": {
+        "0.0": 1927.3662,
+        "50.0": 1933.9386,
+        "90.0": 1961.8901,
+        "95.0": 1961.8901,
+        "99.0": 1961.8901,
+        "99.9": 1961.8901,
+        "99.99": 1961.8901,
+        "99.999": 1961.8901,
+        "99.9999": 1961.8901,
+        "100.0": 1961.8901
+      },
+      "scoreUnit": "ms/op",
+      "rawData": [
+        [
+          1961.8901,
+          1933.9386,
+          1927.3662
+        ]
+      ]
+    },
+    "secondaryMetrics": {
+    }
+  },
+  {
+    "jmhVersion": "1.37",
+    "benchmark": "com.example.reactivejava.benchmark.DelayImpactBenchmark.rxJavaObservable",
+    "mode": "avgt",
+    "threads": 1,
+    "forks": 1,
+    "jvm": "D:\\Languages\\Java\\jdk-24\\bin\\java.exe",
+    "jvmArgs": [
+      "-Xms2G",
+      "-Xmx2G"
+    ],
+    "jdkVersion": "24.0.2",
+    "vmName": "Java HotSpot(TM) 64-Bit Server VM",
+    "vmVersion": "24.0.2+12-54",
+    "warmupIterations": 2,
+    "warmupTime": "1 s",
+    "warmupBatchSize": 1,
+    "measurementIterations": 3,
+    "measurementTime": "1 s",
+    "measurementBatchSize": 1,
+    "params": {
+      "batchSize": "1024",
+      "delayMs": "1",
+      "deviceCount": "250000",
+      "statType": "DEVICES_BY_TYPE"
+    },
+    "primaryMetric": {
+      "score": 1938.6587666666667,
+      "scoreError": 291.20145949256994,
+      "scoreConfidence": [
+        1647.4573071740967,
+        2229.860226159237
+      ],
+      "scorePercentiles": {
+        "0.0": 1920.8303,
+        "50.0": 1943.525,
+        "90.0": 1951.621,
+        "95.0": 1951.621,
+        "99.0": 1951.621,
+        "99.9": 1951.621,
+        "99.99": 1951.621,
+        "99.999": 1951.621,
+        "99.9999": 1951.621,
+        "100.0": 1951.621
+      },
+      "scoreUnit": "ms/op",
+      "rawData": [
+        [
+          1943.525,
+          1951.621,
+          1920.8303
+        ]
+      ]
+    },
+    "secondaryMetrics": {
+    }
+  },
+  {
+    "jmhVersion": "1.37",
+    "benchmark": "com.example.reactivejava.benchmark.DelayImpactBenchmark.rxJavaObservable",
+    "mode": "avgt",
+    "threads": 1,
+    "forks": 1,
+    "jvm": "D:\\Languages\\Java\\jdk-24\\bin\\java.exe",
+    "jvmArgs": [
+      "-Xms2G",
+      "-Xmx2G"
+    ],
+    "jdkVersion": "24.0.2",
+    "vmName": "Java HotSpot(TM) 64-Bit Server VM",
+    "vmVersion": "24.0.2+12-54",
+    "warmupIterations": 2,
+    "warmupTime": "1 s",
+    "warmupBatchSize": 1,
+    "measurementIterations": 3,
+    "measurementTime": "1 s",
+    "measurementBatchSize": 1,
+    "params": {
+      "batchSize": "1024",
+      "delayMs": "2",
+      "deviceCount": "5000",
+      "statType": "STATUS"
+    },
+    "primaryMetric": {
+      "score": 2694.2934,
+      "scoreError": 327.5249998671011,
+      "scoreConfidence": [
+        2366.768400132899,
+        3021.818399867101
+      ],
+      "scorePercentiles": {
+        "0.0": 2674.1321,
+        "50.0": 2700.1976,
+        "90.0": 2708.5505,
+        "95.0": 2708.5505,
+        "99.0": 2708.5505,
+        "99.9": 2708.5505,
+        "99.99": 2708.5505,
+        "99.999": 2708.5505,
+        "99.9999": 2708.5505,
+        "100.0": 2708.5505
+      },
+      "scoreUnit": "ms/op",
+      "rawData": [
+        [
+          2700.1976,
+          2674.1321,
+          2708.5505
+        ]
+      ]
+    },
+    "secondaryMetrics": {
+    }
+  },
+  {
+    "jmhVersion": "1.37",
+    "benchmark": "com.example.reactivejava.benchmark.DelayImpactBenchmark.rxJavaObservable",
+    "mode": "avgt",
+    "threads": 1,
+    "forks": 1,
+    "jvm": "D:\\Languages\\Java\\jdk-24\\bin\\java.exe",
+    "jvmArgs": [
+      "-Xms2G",
+      "-Xmx2G"
+    ],
+    "jdkVersion": "24.0.2",
+    "vmName": "Java HotSpot(TM) 64-Bit Server VM",
+    "vmVersion": "24.0.2+12-54",
+    "warmupIterations": 2,
+    "warmupTime": "1 s",
+    "warmupBatchSize": 1,
+    "measurementIterations": 3,
+    "measurementTime": "1 s",
+    "measurementBatchSize": 1,
+    "params": {
+      "batchSize": "1024",
+      "delayMs": "2",
+      "deviceCount": "5000",
+      "statType": "DEVICES_BY_TYPE"
+    },
+    "primaryMetric": {
+      "score": 2678.591933333333,
+      "scoreError": 568.580844862489,
+      "scoreConfidence": [
+        2110.0110884708442,
+        3247.172778195822
+      ],
+      "scorePercentiles": {
+        "0.0": 2651.7877,
+        "50.0": 2671.1984,
+        "90.0": 2712.7897,
+        "95.0": 2712.7897,
+        "99.0": 2712.7897,
+        "99.9": 2712.7897,
+        "99.99": 2712.7897,
+        "99.999": 2712.7897,
+        "99.9999": 2712.7897,
+        "100.0": 2712.7897
+      },
+      "scoreUnit": "ms/op",
+      "rawData": [
+        [
+          2671.1984,
+          2651.7877,
+          2712.7897
+        ]
+      ]
+    },
+    "secondaryMetrics": {
+    }
+  },
+  {
+    "jmhVersion": "1.37",
+    "benchmark": "com.example.reactivejava.benchmark.DelayImpactBenchmark.rxJavaObservable",
+    "mode": "avgt",
+    "threads": 1,
+    "forks": 1,
+    "jvm": "D:\\Languages\\Java\\jdk-24\\bin\\java.exe",
+    "jvmArgs": [
+      "-Xms2G",
+      "-Xmx2G"
+    ],
+    "jdkVersion": "24.0.2",
+    "vmName": "Java HotSpot(TM) 64-Bit Server VM",
+    "vmVersion": "24.0.2+12-54",
+    "warmupIterations": 2,
+    "warmupTime": "1 s",
+    "warmupBatchSize": 1,
+    "measurementIterations": 3,
+    "measurementTime": "1 s",
+    "measurementBatchSize": 1,
+    "params": {
+      "batchSize": "1024",
+      "delayMs": "2",
+      "deviceCount": "50000",
+      "statType": "STATUS"
+    },
+    "primaryMetric": {
+      "score": 2574.8703333333337,
+      "scoreError": 201.39934724468793,
+      "scoreConfidence": [
+        2373.470986088646,
+        2776.2696805780215
+      ],
+      "scorePercentiles": {
+        "0.0": 2563.6152,
+        "50.0": 2575.3153,
+        "90.0": 2585.6805,
+        "95.0": 2585.6805,
+        "99.0": 2585.6805,
+        "99.9": 2585.6805,
+        "99.99": 2585.6805,
+        "99.999": 2585.6805,
+        "99.9999": 2585.6805,
+        "100.0": 2585.6805
+      },
+      "scoreUnit": "ms/op",
+      "rawData": [
+        [
+          2563.6152,
+          2575.3153,
+          2585.6805
+        ]
+      ]
+    },
+    "secondaryMetrics": {
+    }
+  },
+  {
+    "jmhVersion": "1.37",
+    "benchmark": "com.example.reactivejava.benchmark.DelayImpactBenchmark.rxJavaObservable",
+    "mode": "avgt",
+    "threads": 1,
+    "forks": 1,
+    "jvm": "D:\\Languages\\Java\\jdk-24\\bin\\java.exe",
+    "jvmArgs": [
+      "-Xms2G",
+      "-Xmx2G"
+    ],
+    "jdkVersion": "24.0.2",
+    "vmName": "Java HotSpot(TM) 64-Bit Server VM",
+    "vmVersion": "24.0.2+12-54",
+    "warmupIterations": 2,
+    "warmupTime": "1 s",
+    "warmupBatchSize": 1,
+    "measurementIterations": 3,
+    "measurementTime": "1 s",
+    "measurementBatchSize": 1,
+    "params": {
+      "batchSize": "1024",
+      "delayMs": "2",
+      "deviceCount": "50000",
+      "statType": "DEVICES_BY_TYPE"
+    },
+    "primaryMetric": {
+      "score": 2608.3746666666666,
+      "scoreError": 299.32848619500913,
+      "scoreConfidence": [
+        2309.0461804716574,
+        2907.703152861676
+      ],
+      "scorePercentiles": {
+        "0.0": 2597.5659,
+        "50.0": 2600.3041,
+        "90.0": 2627.254,
+        "95.0": 2627.254,
+        "99.0": 2627.254,
+        "99.9": 2627.254,
+        "99.99": 2627.254,
+        "99.999": 2627.254,
+        "99.9999": 2627.254,
+        "100.0": 2627.254
+      },
+      "scoreUnit": "ms/op",
+      "rawData": [
+        [
+          2597.5659,
+          2627.254,
+          2600.3041
+        ]
+      ]
+    },
+    "secondaryMetrics": {
+    }
+  },
+  {
+    "jmhVersion": "1.37",
+    "benchmark": "com.example.reactivejava.benchmark.DelayImpactBenchmark.rxJavaObservable",
+    "mode": "avgt",
+    "threads": 1,
+    "forks": 1,
+    "jvm": "D:\\Languages\\Java\\jdk-24\\bin\\java.exe",
+    "jvmArgs": [
+      "-Xms2G",
+      "-Xmx2G"
+    ],
+    "jdkVersion": "24.0.2",
+    "vmName": "Java HotSpot(TM) 64-Bit Server VM",
+    "vmVersion": "24.0.2+12-54",
+    "warmupIterations": 2,
+    "warmupTime": "1 s",
+    "warmupBatchSize": 1,
+    "measurementIterations": 3,
+    "measurementTime": "1 s",
+    "measurementBatchSize": 1,
+    "params": {
+      "batchSize": "1024",
+      "delayMs": "2",
+      "deviceCount": "250000",
+      "statType": "STATUS"
+    },
+    "primaryMetric": {
+      "score": 2854.9647666666665,
+      "scoreError": 360.3219143526678,
+      "scoreConfidence": [
+        2494.6428523139984,
+        3215.2866810193345
+      ],
+      "scorePercentiles": {
+        "0.0": 2837.7654,
+        "50.0": 2850.5946,
+        "90.0": 2876.5343,
+        "95.0": 2876.5343,
+        "99.0": 2876.5343,
+        "99.9": 2876.5343,
+        "99.99": 2876.5343,
+        "99.999": 2876.5343,
+        "99.9999": 2876.5343,
+        "100.0": 2876.5343
+      },
+      "scoreUnit": "ms/op",
+      "rawData": [
+        [
+          2876.5343,
+          2837.7654,
+          2850.5946
+        ]
+      ]
+    },
+    "secondaryMetrics": {
+    }
+  },
+  {
+    "jmhVersion": "1.37",
+    "benchmark": "com.example.reactivejava.benchmark.DelayImpactBenchmark.rxJavaObservable",
+    "mode": "avgt",
+    "threads": 1,
+    "forks": 1,
+    "jvm": "D:\\Languages\\Java\\jdk-24\\bin\\java.exe",
+    "jvmArgs": [
+      "-Xms2G",
+      "-Xmx2G"
+    ],
+    "jdkVersion": "24.0.2",
+    "vmName": "Java HotSpot(TM) 64-Bit Server VM",
+    "vmVersion": "24.0.2+12-54",
+    "warmupIterations": 2,
+    "warmupTime": "1 s",
+    "warmupBatchSize": 1,
+    "measurementIterations": 3,
+    "measurementTime": "1 s",
+    "measurementBatchSize": 1,
+    "params": {
+      "batchSize": "1024",
+      "delayMs": "2",
+      "deviceCount": "250000",
+      "statType": "DEVICES_BY_TYPE"
+    },
+    "primaryMetric": {
+      "score": 2862.453266666667,
+      "scoreError": 170.32287728002922,
+      "scoreConfidence": [
+        2692.1303893866375,
+        3032.7761439466963
+      ],
+      "scorePercentiles": {
+        "0.0": 2851.9461,
+        "50.0": 2865.6188,
+        "90.0": 2869.7949,
+        "95.0": 2869.7949,
+        "99.0": 2869.7949,
+        "99.9": 2869.7949,
+        "99.99": 2869.7949,
+        "99.999": 2869.7949,
+        "99.9999": 2869.7949,
+        "100.0": 2869.7949
+      },
+      "scoreUnit": "ms/op",
+      "rawData": [
+        [
+          2869.7949,
+          2851.9461,
+          2865.6188
+        ]
+      ]
+    },
+    "secondaryMetrics": {
+    }
+  }
+]
+
+
