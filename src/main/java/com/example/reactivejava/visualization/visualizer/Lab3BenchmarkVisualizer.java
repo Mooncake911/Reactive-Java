@@ -65,8 +65,8 @@ public class Lab3BenchmarkVisualizer {
                     String safeDeviceCount = deviceCount.replaceAll("[^a-zA-Z0-9_]", "");
 
                     // График времени
-                    String timeTitle = String.format("Lab3: RxJava vs Streams (Delay: %s ms, Devices: %s) - Time",
-                            delayMs, deviceCount);
+                    String timeTitle = String.format("Lab3: %s - RxJava vs Streams (Delay: %s ms, Devices: %s) - Time",
+                            statType, delayMs, deviceCount);
                     String timeFilePath = Paths.get(outputDir, "Lab3Benchmark", safeStatType, "dev_" + safeDeviceCount,
                             "delay_" + safeDelay + "ms_time.png").toString();
                     ChartGenerator.createAndSaveBarChart(timeTitle, "Method", yAxisLabel, timeDataset, true,
