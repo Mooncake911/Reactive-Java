@@ -20,18 +20,18 @@ import java.util.concurrent.TimeUnit;
 @Measurement(iterations = 3, time = 1)
 @Fork(value = 1, jvmArgs = { "-Xms2G", "-Xmx2G" })
 @State(Scope.Benchmark)
-public class DelayImpactBenchmark {
+public class Lab3Benchmark {
 
-    @Param({ "5000", "50000", "250000" })
+    @Param({ "500", "2000" })
     private int deviceCount;
 
-    @Param({ "0", "1", "2" })
+    @Param({ "0", "1" })
     private int delayMs;
 
     @Param({ "STATUS", "DEVICES_BY_TYPE" })
     private String statType;
 
-    @Param({ "1024" })
+    @Param({ "100" })
     private int batchSize;
 
     private List<Device> devices;
@@ -63,11 +63,6 @@ public class DelayImpactBenchmark {
     @Setup(Level.Invocation)
     public void resetCache() {
         generator.resetCache(devices);
-    }
-
-    @Benchmark
-    public void sequential(Blackhole bh) {
-        bh.consume(statistics.computeSequential(devices));
     }
 
     @Benchmark

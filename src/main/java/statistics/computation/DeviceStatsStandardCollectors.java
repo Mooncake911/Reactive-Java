@@ -39,7 +39,7 @@ public final class DeviceStatsStandardCollectors {
         DeviceStats.Builder builder = DeviceStats.builder();
 
         if (statsConfig.isStatEnabled(StatType.COUNT)) {
-            builder.withCount(devices.size());
+            builder.withCount(countTotalDevices(devices, parallel));
         }
 
         if (statsConfig.isStatEnabled(StatType.ONLINE_COUNT)) {
@@ -88,6 +88,13 @@ public final class DeviceStatsStandardCollectors {
     }
 
     // Перегруженные вспомогательные методы с поддержкой параллелизма
+    private static long countTotalDevices(List<Device> devices, boolean parallel) {
+        var stream = parallel ? devices.parallelStream() : devices.stream();
+        return stream
+                .filter(device -> true) // Сбиваем флаг SIZED
+                .count();
+    }
+
     private static long countOnlineDevices(List<Device> devices, boolean parallel) {
         var stream = parallel ? devices.parallelStream() : devices.stream();
         return stream
