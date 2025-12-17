@@ -1,0 +1,1081 @@
+[ {
+  "benchmark" : "com.example.reactivejava.benchmark.Lab1Benchmark.Sequential",
+  "params" : {
+    "statType" : "COUNT",
+    "deviceCount" : "5000",
+    "displayName" : "Sequential"
+  },
+  "primaryMetric" : {
+    "score" : 0.267655,
+    "scoreUnit" : "ms"
+  },
+  "shortMethodName" : "Sequential"
+}, {
+  "benchmark" : "com.example.reactivejava.benchmark.Lab1Benchmark.Stream_API_(Std)",
+  "params" : {
+    "statType" : "COUNT",
+    "deviceCount" : "5000",
+    "displayName" : "Stream API (Std)"
+  },
+  "primaryMetric" : {
+    "score" : 0.15063,
+    "scoreUnit" : "ms"
+  },
+  "shortMethodName" : "Stream_API_(Std)"
+}, {
+  "benchmark" : "com.example.reactivejava.benchmark.Lab1Benchmark.Stream_API_(Custom)",
+  "params" : {
+    "statType" : "COUNT",
+    "deviceCount" : "5000",
+    "displayName" : "Stream API (Custom)"
+  },
+  "primaryMetric" : {
+    "score" : 0.110435,
+    "scoreUnit" : "ms"
+  },
+  "shortMethodName" : "Stream_API_(Custom)"
+}, {
+  "benchmark" : "com.example.reactivejava.benchmark.Lab1Benchmark.Sequential",
+  "params" : {
+    "statType" : "ONLINE_COUNT",
+    "deviceCount" : "5000",
+    "displayName" : "Sequential"
+  },
+  "primaryMetric" : {
+    "score" : 0.12326,
+    "scoreUnit" : "ms"
+  },
+  "shortMethodName" : "Sequential"
+}, {
+  "benchmark" : "com.example.reactivejava.benchmark.Lab1Benchmark.Stream_API_(Std)",
+  "params" : {
+    "statType" : "ONLINE_COUNT",
+    "deviceCount" : "5000",
+    "displayName" : "Stream API (Std)"
+  },
+  "primaryMetric" : {
+    "score" : 0.103505,
+    "scoreUnit" : "ms"
+  },
+  "shortMethodName" : "Stream_API_(Std)"
+}, {
+  "benchmark" : "com.example.reactivejava.benchmark.Lab1Benchmark.Stream_API_(Custom)",
+  "params" : {
+    "statType" : "ONLINE_COUNT",
+    "deviceCount" : "5000",
+    "displayName" : "Stream API (Custom)"
+  },
+  "primaryMetric" : {
+    "score" : 0.069715,
+    "scoreUnit" : "ms"
+  },
+  "shortMethodName" : "Stream_API_(Custom)"
+}, {
+  "benchmark" : "com.example.reactivejava.benchmark.Lab1Benchmark.Sequential",
+  "params" : {
+    "statType" : "BATTERY",
+    "deviceCount" : "5000",
+    "displayName" : "Sequential"
+  },
+  "primaryMetric" : {
+    "score" : 0.1539,
+    "scoreUnit" : "ms"
+  },
+  "shortMethodName" : "Sequential"
+}, {
+  "benchmark" : "com.example.reactivejava.benchmark.Lab1Benchmark.Stream_API_(Std)",
+  "params" : {
+    "statType" : "BATTERY",
+    "deviceCount" : "5000",
+    "displayName" : "Stream API (Std)"
+  },
+  "primaryMetric" : {
+    "score" : 0.20361,
+    "scoreUnit" : "ms"
+  },
+  "shortMethodName" : "Stream_API_(Std)"
+}, {
+  "benchmark" : "com.example.reactivejava.benchmark.Lab1Benchmark.Stream_API_(Custom)",
+  "params" : {
+    "statType" : "BATTERY",
+    "deviceCount" : "5000",
+    "displayName" : "Stream API (Custom)"
+  },
+  "primaryMetric" : {
+    "score" : 0.13115,
+    "scoreUnit" : "ms"
+  },
+  "shortMethodName" : "Stream_API_(Custom)"
+}, {
+  "benchmark" : "com.example.reactivejava.benchmark.Lab1Benchmark.Sequential",
+  "params" : {
+    "statType" : "SIGNAL",
+    "deviceCount" : "5000",
+    "displayName" : "Sequential"
+  },
+  "primaryMetric" : {
+    "score" : 0.276665,
+    "scoreUnit" : "ms"
+  },
+  "shortMethodName" : "Sequential"
+}, {
+  "benchmark" : "com.example.reactivejava.benchmark.Lab1Benchmark.Stream_API_(Std)",
+  "params" : {
+    "statType" : "SIGNAL",
+    "deviceCount" : "5000",
+    "displayName" : "Stream API (Std)"
+  },
+  "primaryMetric" : {
+    "score" : 0.11684,
+    "scoreUnit" : "ms"
+  },
+  "shortMethodName" : "Stream_API_(Std)"
+}, {
+  "benchmark" : "com.example.reactivejava.benchmark.Lab1Benchmark.Stream_API_(Custom)",
+  "params" : {
+    "statType" : "SIGNAL",
+    "deviceCount" : "5000",
+    "displayName" : "Stream API (Custom)"
+  },
+  "primaryMetric" : {
+    "score" : 0.113775,
+    "scoreUnit" : "ms"
+  },
+  "shortMethodName" : "Stream_API_(Custom)"
+}, {
+  "benchmark" : "com.example.reactivejava.benchmark.Lab1Benchmark.Sequential",
+  "params" : {
+    "statType" : "HEARTBEAT",
+    "deviceCount" : "5000",
+    "displayName" : "Sequential"
+  },
+  "primaryMetric" : {
+    "score" : 0.362785,
+    "scoreUnit" : "ms"
+  },
+  "shortMethodName" : "Sequential"
+}, {
+  "benchmark" : "com.example.reactivejava.benchmark.Lab1Benchmark.Stream_API_(Std)",
+  "params" : {
+    "statType" : "HEARTBEAT",
+    "deviceCount" : "5000",
+    "displayName" : "Stream API (Std)"
+  },
+  "primaryMetric" : {
+    "score" : 0.23296,
+    "scoreUnit" : "ms"
+  },
+  "shortMethodName" : "Stream_API_(Std)"
+}, {
+  "benchmark" : "com.example.reactivejava.benchmark.Lab1Benchmark.Stream_API_(Custom)",
+  "params" : {
+    "statType" : "HEARTBEAT",
+    "deviceCount" : "5000",
+    "displayName" : "Stream API (Custom)"
+  },
+  "primaryMetric" : {
+    "score" : 0.202195,
+    "scoreUnit" : "ms"
+  },
+  "shortMethodName" : "Stream_API_(Custom)"
+}, {
+  "benchmark" : "com.example.reactivejava.benchmark.Lab1Benchmark.Sequential",
+  "params" : {
+    "statType" : "STATUS",
+    "deviceCount" : "5000",
+    "displayName" : "Sequential"
+  },
+  "primaryMetric" : {
+    "score" : 0.225795,
+    "scoreUnit" : "ms"
+  },
+  "shortMethodName" : "Sequential"
+}, {
+  "benchmark" : "com.example.reactivejava.benchmark.Lab1Benchmark.Stream_API_(Std)",
+  "params" : {
+    "statType" : "STATUS",
+    "deviceCount" : "5000",
+    "displayName" : "Stream API (Std)"
+  },
+  "primaryMetric" : {
+    "score" : 0.529625,
+    "scoreUnit" : "ms"
+  },
+  "shortMethodName" : "Stream_API_(Std)"
+}, {
+  "benchmark" : "com.example.reactivejava.benchmark.Lab1Benchmark.Stream_API_(Custom)",
+  "params" : {
+    "statType" : "STATUS",
+    "deviceCount" : "5000",
+    "displayName" : "Stream API (Custom)"
+  },
+  "primaryMetric" : {
+    "score" : 0.23834,
+    "scoreUnit" : "ms"
+  },
+  "shortMethodName" : "Stream_API_(Custom)"
+}, {
+  "benchmark" : "com.example.reactivejava.benchmark.Lab1Benchmark.Sequential",
+  "params" : {
+    "statType" : "COVERAGE_VOLUME",
+    "deviceCount" : "5000",
+    "displayName" : "Sequential"
+  },
+  "primaryMetric" : {
+    "score" : 0.16294,
+    "scoreUnit" : "ms"
+  },
+  "shortMethodName" : "Sequential"
+}, {
+  "benchmark" : "com.example.reactivejava.benchmark.Lab1Benchmark.Stream_API_(Std)",
+  "params" : {
+    "statType" : "COVERAGE_VOLUME",
+    "deviceCount" : "5000",
+    "displayName" : "Stream API (Std)"
+  },
+  "primaryMetric" : {
+    "score" : 0.149795,
+    "scoreUnit" : "ms"
+  },
+  "shortMethodName" : "Stream_API_(Std)"
+}, {
+  "benchmark" : "com.example.reactivejava.benchmark.Lab1Benchmark.Stream_API_(Custom)",
+  "params" : {
+    "statType" : "COVERAGE_VOLUME",
+    "deviceCount" : "5000",
+    "displayName" : "Stream API (Custom)"
+  },
+  "primaryMetric" : {
+    "score" : 0.11089,
+    "scoreUnit" : "ms"
+  },
+  "shortMethodName" : "Stream_API_(Custom)"
+}, {
+  "benchmark" : "com.example.reactivejava.benchmark.Lab1Benchmark.Sequential",
+  "params" : {
+    "statType" : "DEVICES_BY_TYPE",
+    "deviceCount" : "5000",
+    "displayName" : "Sequential"
+  },
+  "primaryMetric" : {
+    "score" : 0.216675,
+    "scoreUnit" : "ms"
+  },
+  "shortMethodName" : "Sequential"
+}, {
+  "benchmark" : "com.example.reactivejava.benchmark.Lab1Benchmark.Stream_API_(Std)",
+  "params" : {
+    "statType" : "DEVICES_BY_TYPE",
+    "deviceCount" : "5000",
+    "displayName" : "Stream API (Std)"
+  },
+  "primaryMetric" : {
+    "score" : 0.35656,
+    "scoreUnit" : "ms"
+  },
+  "shortMethodName" : "Stream_API_(Std)"
+}, {
+  "benchmark" : "com.example.reactivejava.benchmark.Lab1Benchmark.Stream_API_(Custom)",
+  "params" : {
+    "statType" : "DEVICES_BY_TYPE",
+    "deviceCount" : "5000",
+    "displayName" : "Stream API (Custom)"
+  },
+  "primaryMetric" : {
+    "score" : 0.17627,
+    "scoreUnit" : "ms"
+  },
+  "shortMethodName" : "Stream_API_(Custom)"
+}, {
+  "benchmark" : "com.example.reactivejava.benchmark.Lab1Benchmark.Sequential",
+  "params" : {
+    "statType" : "DEVICES_BY_MANUFACTURER",
+    "deviceCount" : "5000",
+    "displayName" : "Sequential"
+  },
+  "primaryMetric" : {
+    "score" : 0.504255,
+    "scoreUnit" : "ms"
+  },
+  "shortMethodName" : "Sequential"
+}, {
+  "benchmark" : "com.example.reactivejava.benchmark.Lab1Benchmark.Stream_API_(Std)",
+  "params" : {
+    "statType" : "DEVICES_BY_MANUFACTURER",
+    "deviceCount" : "5000",
+    "displayName" : "Stream API (Std)"
+  },
+  "primaryMetric" : {
+    "score" : 0.18477,
+    "scoreUnit" : "ms"
+  },
+  "shortMethodName" : "Stream_API_(Std)"
+}, {
+  "benchmark" : "com.example.reactivejava.benchmark.Lab1Benchmark.Stream_API_(Custom)",
+  "params" : {
+    "statType" : "DEVICES_BY_MANUFACTURER",
+    "deviceCount" : "5000",
+    "displayName" : "Stream API (Custom)"
+  },
+  "primaryMetric" : {
+    "score" : 0.188895,
+    "scoreUnit" : "ms"
+  },
+  "shortMethodName" : "Stream_API_(Custom)"
+}, {
+  "benchmark" : "com.example.reactivejava.benchmark.Lab1Benchmark.Sequential",
+  "params" : {
+    "statType" : "DEVICES_BY_CAPABILITIES",
+    "deviceCount" : "5000",
+    "displayName" : "Sequential"
+  },
+  "primaryMetric" : {
+    "score" : 0.736595,
+    "scoreUnit" : "ms"
+  },
+  "shortMethodName" : "Sequential"
+}, {
+  "benchmark" : "com.example.reactivejava.benchmark.Lab1Benchmark.Stream_API_(Std)",
+  "params" : {
+    "statType" : "DEVICES_BY_CAPABILITIES",
+    "deviceCount" : "5000",
+    "displayName" : "Stream API (Std)"
+  },
+  "primaryMetric" : {
+    "score" : 0.73216,
+    "scoreUnit" : "ms"
+  },
+  "shortMethodName" : "Stream_API_(Std)"
+}, {
+  "benchmark" : "com.example.reactivejava.benchmark.Lab1Benchmark.Stream_API_(Custom)",
+  "params" : {
+    "statType" : "DEVICES_BY_CAPABILITIES",
+    "deviceCount" : "5000",
+    "displayName" : "Stream API (Custom)"
+  },
+  "primaryMetric" : {
+    "score" : 0.640355,
+    "scoreUnit" : "ms"
+  },
+  "shortMethodName" : "Stream_API_(Custom)"
+}, {
+  "benchmark" : "com.example.reactivejava.benchmark.Lab1Benchmark.Sequential",
+  "params" : {
+    "statType" : "COUNT",
+    "deviceCount" : "50000",
+    "displayName" : "Sequential"
+  },
+  "primaryMetric" : {
+    "score" : 1.27431,
+    "scoreUnit" : "ms"
+  },
+  "shortMethodName" : "Sequential"
+}, {
+  "benchmark" : "com.example.reactivejava.benchmark.Lab1Benchmark.Stream_API_(Std)",
+  "params" : {
+    "statType" : "COUNT",
+    "deviceCount" : "50000",
+    "displayName" : "Stream API (Std)"
+  },
+  "primaryMetric" : {
+    "score" : 1.459675,
+    "scoreUnit" : "ms"
+  },
+  "shortMethodName" : "Stream_API_(Std)"
+}, {
+  "benchmark" : "com.example.reactivejava.benchmark.Lab1Benchmark.Stream_API_(Custom)",
+  "params" : {
+    "statType" : "COUNT",
+    "deviceCount" : "50000",
+    "displayName" : "Stream API (Custom)"
+  },
+  "primaryMetric" : {
+    "score" : 1.424425,
+    "scoreUnit" : "ms"
+  },
+  "shortMethodName" : "Stream_API_(Custom)"
+}, {
+  "benchmark" : "com.example.reactivejava.benchmark.Lab1Benchmark.Sequential",
+  "params" : {
+    "statType" : "ONLINE_COUNT",
+    "deviceCount" : "50000",
+    "displayName" : "Sequential"
+  },
+  "primaryMetric" : {
+    "score" : 2.32891,
+    "scoreUnit" : "ms"
+  },
+  "shortMethodName" : "Sequential"
+}, {
+  "benchmark" : "com.example.reactivejava.benchmark.Lab1Benchmark.Stream_API_(Std)",
+  "params" : {
+    "statType" : "ONLINE_COUNT",
+    "deviceCount" : "50000",
+    "displayName" : "Stream API (Std)"
+  },
+  "primaryMetric" : {
+    "score" : 2.25419,
+    "scoreUnit" : "ms"
+  },
+  "shortMethodName" : "Stream_API_(Std)"
+}, {
+  "benchmark" : "com.example.reactivejava.benchmark.Lab1Benchmark.Stream_API_(Custom)",
+  "params" : {
+    "statType" : "ONLINE_COUNT",
+    "deviceCount" : "50000",
+    "displayName" : "Stream API (Custom)"
+  },
+  "primaryMetric" : {
+    "score" : 2.375345,
+    "scoreUnit" : "ms"
+  },
+  "shortMethodName" : "Stream_API_(Custom)"
+}, {
+  "benchmark" : "com.example.reactivejava.benchmark.Lab1Benchmark.Sequential",
+  "params" : {
+    "statType" : "BATTERY",
+    "deviceCount" : "50000",
+    "displayName" : "Sequential"
+  },
+  "primaryMetric" : {
+    "score" : 2.392975,
+    "scoreUnit" : "ms"
+  },
+  "shortMethodName" : "Sequential"
+}, {
+  "benchmark" : "com.example.reactivejava.benchmark.Lab1Benchmark.Stream_API_(Std)",
+  "params" : {
+    "statType" : "BATTERY",
+    "deviceCount" : "50000",
+    "displayName" : "Stream API (Std)"
+  },
+  "primaryMetric" : {
+    "score" : 3.29582,
+    "scoreUnit" : "ms"
+  },
+  "shortMethodName" : "Stream_API_(Std)"
+}, {
+  "benchmark" : "com.example.reactivejava.benchmark.Lab1Benchmark.Stream_API_(Custom)",
+  "params" : {
+    "statType" : "BATTERY",
+    "deviceCount" : "50000",
+    "displayName" : "Stream API (Custom)"
+  },
+  "primaryMetric" : {
+    "score" : 2.361285,
+    "scoreUnit" : "ms"
+  },
+  "shortMethodName" : "Stream_API_(Custom)"
+}, {
+  "benchmark" : "com.example.reactivejava.benchmark.Lab1Benchmark.Sequential",
+  "params" : {
+    "statType" : "SIGNAL",
+    "deviceCount" : "50000",
+    "displayName" : "Sequential"
+  },
+  "primaryMetric" : {
+    "score" : 2.32326,
+    "scoreUnit" : "ms"
+  },
+  "shortMethodName" : "Sequential"
+}, {
+  "benchmark" : "com.example.reactivejava.benchmark.Lab1Benchmark.Stream_API_(Std)",
+  "params" : {
+    "statType" : "SIGNAL",
+    "deviceCount" : "50000",
+    "displayName" : "Stream API (Std)"
+  },
+  "primaryMetric" : {
+    "score" : 3.2322,
+    "scoreUnit" : "ms"
+  },
+  "shortMethodName" : "Stream_API_(Std)"
+}, {
+  "benchmark" : "com.example.reactivejava.benchmark.Lab1Benchmark.Stream_API_(Custom)",
+  "params" : {
+    "statType" : "SIGNAL",
+    "deviceCount" : "50000",
+    "displayName" : "Stream API (Custom)"
+  },
+  "primaryMetric" : {
+    "score" : 2.33978,
+    "scoreUnit" : "ms"
+  },
+  "shortMethodName" : "Stream_API_(Custom)"
+}, {
+  "benchmark" : "com.example.reactivejava.benchmark.Lab1Benchmark.Sequential",
+  "params" : {
+    "statType" : "HEARTBEAT",
+    "deviceCount" : "50000",
+    "displayName" : "Sequential"
+  },
+  "primaryMetric" : {
+    "score" : 4.584095,
+    "scoreUnit" : "ms"
+  },
+  "shortMethodName" : "Sequential"
+}, {
+  "benchmark" : "com.example.reactivejava.benchmark.Lab1Benchmark.Stream_API_(Std)",
+  "params" : {
+    "statType" : "HEARTBEAT",
+    "deviceCount" : "50000",
+    "displayName" : "Stream API (Std)"
+  },
+  "primaryMetric" : {
+    "score" : 4.27468,
+    "scoreUnit" : "ms"
+  },
+  "shortMethodName" : "Stream_API_(Std)"
+}, {
+  "benchmark" : "com.example.reactivejava.benchmark.Lab1Benchmark.Stream_API_(Custom)",
+  "params" : {
+    "statType" : "HEARTBEAT",
+    "deviceCount" : "50000",
+    "displayName" : "Stream API (Custom)"
+  },
+  "primaryMetric" : {
+    "score" : 4.58942,
+    "scoreUnit" : "ms"
+  },
+  "shortMethodName" : "Stream_API_(Custom)"
+}, {
+  "benchmark" : "com.example.reactivejava.benchmark.Lab1Benchmark.Sequential",
+  "params" : {
+    "statType" : "STATUS",
+    "deviceCount" : "50000",
+    "displayName" : "Sequential"
+  },
+  "primaryMetric" : {
+    "score" : 4.861585,
+    "scoreUnit" : "ms"
+  },
+  "shortMethodName" : "Sequential"
+}, {
+  "benchmark" : "com.example.reactivejava.benchmark.Lab1Benchmark.Stream_API_(Std)",
+  "params" : {
+    "statType" : "STATUS",
+    "deviceCount" : "50000",
+    "displayName" : "Stream API (Std)"
+  },
+  "primaryMetric" : {
+    "score" : 13.233525,
+    "scoreUnit" : "ms"
+  },
+  "shortMethodName" : "Stream_API_(Std)"
+}, {
+  "benchmark" : "com.example.reactivejava.benchmark.Lab1Benchmark.Stream_API_(Custom)",
+  "params" : {
+    "statType" : "STATUS",
+    "deviceCount" : "50000",
+    "displayName" : "Stream API (Custom)"
+  },
+  "primaryMetric" : {
+    "score" : 4.82078,
+    "scoreUnit" : "ms"
+  },
+  "shortMethodName" : "Stream_API_(Custom)"
+}, {
+  "benchmark" : "com.example.reactivejava.benchmark.Lab1Benchmark.Sequential",
+  "params" : {
+    "statType" : "COVERAGE_VOLUME",
+    "deviceCount" : "50000",
+    "displayName" : "Sequential"
+  },
+  "primaryMetric" : {
+    "score" : 2.413125,
+    "scoreUnit" : "ms"
+  },
+  "shortMethodName" : "Sequential"
+}, {
+  "benchmark" : "com.example.reactivejava.benchmark.Lab1Benchmark.Stream_API_(Std)",
+  "params" : {
+    "statType" : "COVERAGE_VOLUME",
+    "deviceCount" : "50000",
+    "displayName" : "Stream API (Std)"
+  },
+  "primaryMetric" : {
+    "score" : 3.62761,
+    "scoreUnit" : "ms"
+  },
+  "shortMethodName" : "Stream_API_(Std)"
+}, {
+  "benchmark" : "com.example.reactivejava.benchmark.Lab1Benchmark.Stream_API_(Custom)",
+  "params" : {
+    "statType" : "COVERAGE_VOLUME",
+    "deviceCount" : "50000",
+    "displayName" : "Stream API (Custom)"
+  },
+  "primaryMetric" : {
+    "score" : 2.86659,
+    "scoreUnit" : "ms"
+  },
+  "shortMethodName" : "Stream_API_(Custom)"
+}, {
+  "benchmark" : "com.example.reactivejava.benchmark.Lab1Benchmark.Sequential",
+  "params" : {
+    "statType" : "DEVICES_BY_TYPE",
+    "deviceCount" : "50000",
+    "displayName" : "Sequential"
+  },
+  "primaryMetric" : {
+    "score" : 3.785045,
+    "scoreUnit" : "ms"
+  },
+  "shortMethodName" : "Sequential"
+}, {
+  "benchmark" : "com.example.reactivejava.benchmark.Lab1Benchmark.Stream_API_(Std)",
+  "params" : {
+    "statType" : "DEVICES_BY_TYPE",
+    "deviceCount" : "50000",
+    "displayName" : "Stream API (Std)"
+  },
+  "primaryMetric" : {
+    "score" : 3.701075,
+    "scoreUnit" : "ms"
+  },
+  "shortMethodName" : "Stream_API_(Std)"
+}, {
+  "benchmark" : "com.example.reactivejava.benchmark.Lab1Benchmark.Stream_API_(Custom)",
+  "params" : {
+    "statType" : "DEVICES_BY_TYPE",
+    "deviceCount" : "50000",
+    "displayName" : "Stream API (Custom)"
+  },
+  "primaryMetric" : {
+    "score" : 3.869115,
+    "scoreUnit" : "ms"
+  },
+  "shortMethodName" : "Stream_API_(Custom)"
+}, {
+  "benchmark" : "com.example.reactivejava.benchmark.Lab1Benchmark.Sequential",
+  "params" : {
+    "statType" : "DEVICES_BY_MANUFACTURER",
+    "deviceCount" : "50000",
+    "displayName" : "Sequential"
+  },
+  "primaryMetric" : {
+    "score" : 3.87899,
+    "scoreUnit" : "ms"
+  },
+  "shortMethodName" : "Sequential"
+}, {
+  "benchmark" : "com.example.reactivejava.benchmark.Lab1Benchmark.Stream_API_(Std)",
+  "params" : {
+    "statType" : "DEVICES_BY_MANUFACTURER",
+    "deviceCount" : "50000",
+    "displayName" : "Stream API (Std)"
+  },
+  "primaryMetric" : {
+    "score" : 3.74323,
+    "scoreUnit" : "ms"
+  },
+  "shortMethodName" : "Stream_API_(Std)"
+}, {
+  "benchmark" : "com.example.reactivejava.benchmark.Lab1Benchmark.Stream_API_(Custom)",
+  "params" : {
+    "statType" : "DEVICES_BY_MANUFACTURER",
+    "deviceCount" : "50000",
+    "displayName" : "Stream API (Custom)"
+  },
+  "primaryMetric" : {
+    "score" : 3.997235,
+    "scoreUnit" : "ms"
+  },
+  "shortMethodName" : "Stream_API_(Custom)"
+}, {
+  "benchmark" : "com.example.reactivejava.benchmark.Lab1Benchmark.Sequential",
+  "params" : {
+    "statType" : "DEVICES_BY_CAPABILITIES",
+    "deviceCount" : "50000",
+    "displayName" : "Sequential"
+  },
+  "primaryMetric" : {
+    "score" : 7.13998,
+    "scoreUnit" : "ms"
+  },
+  "shortMethodName" : "Sequential"
+}, {
+  "benchmark" : "com.example.reactivejava.benchmark.Lab1Benchmark.Stream_API_(Std)",
+  "params" : {
+    "statType" : "DEVICES_BY_CAPABILITIES",
+    "deviceCount" : "50000",
+    "displayName" : "Stream API (Std)"
+  },
+  "primaryMetric" : {
+    "score" : 7.111555,
+    "scoreUnit" : "ms"
+  },
+  "shortMethodName" : "Stream_API_(Std)"
+}, {
+  "benchmark" : "com.example.reactivejava.benchmark.Lab1Benchmark.Stream_API_(Custom)",
+  "params" : {
+    "statType" : "DEVICES_BY_CAPABILITIES",
+    "deviceCount" : "50000",
+    "displayName" : "Stream API (Custom)"
+  },
+  "primaryMetric" : {
+    "score" : 7.13844,
+    "scoreUnit" : "ms"
+  },
+  "shortMethodName" : "Stream_API_(Custom)"
+}, {
+  "benchmark" : "com.example.reactivejava.benchmark.Lab1Benchmark.Sequential",
+  "params" : {
+    "statType" : "COUNT",
+    "deviceCount" : "250000",
+    "displayName" : "Sequential"
+  },
+  "primaryMetric" : {
+    "score" : 7.70023,
+    "scoreUnit" : "ms"
+  },
+  "shortMethodName" : "Sequential"
+}, {
+  "benchmark" : "com.example.reactivejava.benchmark.Lab1Benchmark.Stream_API_(Std)",
+  "params" : {
+    "statType" : "COUNT",
+    "deviceCount" : "250000",
+    "displayName" : "Stream API (Std)"
+  },
+  "primaryMetric" : {
+    "score" : 7.91792,
+    "scoreUnit" : "ms"
+  },
+  "shortMethodName" : "Stream_API_(Std)"
+}, {
+  "benchmark" : "com.example.reactivejava.benchmark.Lab1Benchmark.Stream_API_(Custom)",
+  "params" : {
+    "statType" : "COUNT",
+    "deviceCount" : "250000",
+    "displayName" : "Stream API (Custom)"
+  },
+  "primaryMetric" : {
+    "score" : 7.85535,
+    "scoreUnit" : "ms"
+  },
+  "shortMethodName" : "Stream_API_(Custom)"
+}, {
+  "benchmark" : "com.example.reactivejava.benchmark.Lab1Benchmark.Sequential",
+  "params" : {
+    "statType" : "ONLINE_COUNT",
+    "deviceCount" : "250000",
+    "displayName" : "Sequential"
+  },
+  "primaryMetric" : {
+    "score" : 11.66895,
+    "scoreUnit" : "ms"
+  },
+  "shortMethodName" : "Sequential"
+}, {
+  "benchmark" : "com.example.reactivejava.benchmark.Lab1Benchmark.Stream_API_(Std)",
+  "params" : {
+    "statType" : "ONLINE_COUNT",
+    "deviceCount" : "250000",
+    "displayName" : "Stream API (Std)"
+  },
+  "primaryMetric" : {
+    "score" : 13.854085,
+    "scoreUnit" : "ms"
+  },
+  "shortMethodName" : "Stream_API_(Std)"
+}, {
+  "benchmark" : "com.example.reactivejava.benchmark.Lab1Benchmark.Stream_API_(Custom)",
+  "params" : {
+    "statType" : "ONLINE_COUNT",
+    "deviceCount" : "250000",
+    "displayName" : "Stream API (Custom)"
+  },
+  "primaryMetric" : {
+    "score" : 11.407925,
+    "scoreUnit" : "ms"
+  },
+  "shortMethodName" : "Stream_API_(Custom)"
+}, {
+  "benchmark" : "com.example.reactivejava.benchmark.Lab1Benchmark.Sequential",
+  "params" : {
+    "statType" : "BATTERY",
+    "deviceCount" : "250000",
+    "displayName" : "Sequential"
+  },
+  "primaryMetric" : {
+    "score" : 11.886215,
+    "scoreUnit" : "ms"
+  },
+  "shortMethodName" : "Sequential"
+}, {
+  "benchmark" : "com.example.reactivejava.benchmark.Lab1Benchmark.Stream_API_(Std)",
+  "params" : {
+    "statType" : "BATTERY",
+    "deviceCount" : "250000",
+    "displayName" : "Stream API (Std)"
+  },
+  "primaryMetric" : {
+    "score" : 15.28995,
+    "scoreUnit" : "ms"
+  },
+  "shortMethodName" : "Stream_API_(Std)"
+}, {
+  "benchmark" : "com.example.reactivejava.benchmark.Lab1Benchmark.Stream_API_(Custom)",
+  "params" : {
+    "statType" : "BATTERY",
+    "deviceCount" : "250000",
+    "displayName" : "Stream API (Custom)"
+  },
+  "primaryMetric" : {
+    "score" : 11.579035,
+    "scoreUnit" : "ms"
+  },
+  "shortMethodName" : "Stream_API_(Custom)"
+}, {
+  "benchmark" : "com.example.reactivejava.benchmark.Lab1Benchmark.Sequential",
+  "params" : {
+    "statType" : "SIGNAL",
+    "deviceCount" : "250000",
+    "displayName" : "Sequential"
+  },
+  "primaryMetric" : {
+    "score" : 12.71084,
+    "scoreUnit" : "ms"
+  },
+  "shortMethodName" : "Sequential"
+}, {
+  "benchmark" : "com.example.reactivejava.benchmark.Lab1Benchmark.Stream_API_(Std)",
+  "params" : {
+    "statType" : "SIGNAL",
+    "deviceCount" : "250000",
+    "displayName" : "Stream API (Std)"
+  },
+  "primaryMetric" : {
+    "score" : 15.341305,
+    "scoreUnit" : "ms"
+  },
+  "shortMethodName" : "Stream_API_(Std)"
+}, {
+  "benchmark" : "com.example.reactivejava.benchmark.Lab1Benchmark.Stream_API_(Custom)",
+  "params" : {
+    "statType" : "SIGNAL",
+    "deviceCount" : "250000",
+    "displayName" : "Stream API (Custom)"
+  },
+  "primaryMetric" : {
+    "score" : 11.876705,
+    "scoreUnit" : "ms"
+  },
+  "shortMethodName" : "Stream_API_(Custom)"
+}, {
+  "benchmark" : "com.example.reactivejava.benchmark.Lab1Benchmark.Sequential",
+  "params" : {
+    "statType" : "HEARTBEAT",
+    "deviceCount" : "250000",
+    "displayName" : "Sequential"
+  },
+  "primaryMetric" : {
+    "score" : 22.584555,
+    "scoreUnit" : "ms"
+  },
+  "shortMethodName" : "Sequential"
+}, {
+  "benchmark" : "com.example.reactivejava.benchmark.Lab1Benchmark.Stream_API_(Std)",
+  "params" : {
+    "statType" : "HEARTBEAT",
+    "deviceCount" : "250000",
+    "displayName" : "Stream API (Std)"
+  },
+  "primaryMetric" : {
+    "score" : 21.26411,
+    "scoreUnit" : "ms"
+  },
+  "shortMethodName" : "Stream_API_(Std)"
+}, {
+  "benchmark" : "com.example.reactivejava.benchmark.Lab1Benchmark.Stream_API_(Custom)",
+  "params" : {
+    "statType" : "HEARTBEAT",
+    "deviceCount" : "250000",
+    "displayName" : "Stream API (Custom)"
+  },
+  "primaryMetric" : {
+    "score" : 22.077935,
+    "scoreUnit" : "ms"
+  },
+  "shortMethodName" : "Stream_API_(Custom)"
+}, {
+  "benchmark" : "com.example.reactivejava.benchmark.Lab1Benchmark.Sequential",
+  "params" : {
+    "statType" : "STATUS",
+    "deviceCount" : "250000",
+    "displayName" : "Sequential"
+  },
+  "primaryMetric" : {
+    "score" : 23.656135,
+    "scoreUnit" : "ms"
+  },
+  "shortMethodName" : "Sequential"
+}, {
+  "benchmark" : "com.example.reactivejava.benchmark.Lab1Benchmark.Stream_API_(Std)",
+  "params" : {
+    "statType" : "STATUS",
+    "deviceCount" : "250000",
+    "displayName" : "Stream API (Std)"
+  },
+  "primaryMetric" : {
+    "score" : 62.795405,
+    "scoreUnit" : "ms"
+  },
+  "shortMethodName" : "Stream_API_(Std)"
+}, {
+  "benchmark" : "com.example.reactivejava.benchmark.Lab1Benchmark.Stream_API_(Custom)",
+  "params" : {
+    "statType" : "STATUS",
+    "deviceCount" : "250000",
+    "displayName" : "Stream API (Custom)"
+  },
+  "primaryMetric" : {
+    "score" : 23.318875,
+    "scoreUnit" : "ms"
+  },
+  "shortMethodName" : "Stream_API_(Custom)"
+}, {
+  "benchmark" : "com.example.reactivejava.benchmark.Lab1Benchmark.Sequential",
+  "params" : {
+    "statType" : "COVERAGE_VOLUME",
+    "deviceCount" : "250000",
+    "displayName" : "Sequential"
+  },
+  "primaryMetric" : {
+    "score" : 11.918265,
+    "scoreUnit" : "ms"
+  },
+  "shortMethodName" : "Sequential"
+}, {
+  "benchmark" : "com.example.reactivejava.benchmark.Lab1Benchmark.Stream_API_(Std)",
+  "params" : {
+    "statType" : "COVERAGE_VOLUME",
+    "deviceCount" : "250000",
+    "displayName" : "Stream API (Std)"
+  },
+  "primaryMetric" : {
+    "score" : 16.466025,
+    "scoreUnit" : "ms"
+  },
+  "shortMethodName" : "Stream_API_(Std)"
+}, {
+  "benchmark" : "com.example.reactivejava.benchmark.Lab1Benchmark.Stream_API_(Custom)",
+  "params" : {
+    "statType" : "COVERAGE_VOLUME",
+    "deviceCount" : "250000",
+    "displayName" : "Stream API (Custom)"
+  },
+  "primaryMetric" : {
+    "score" : 13.248495,
+    "scoreUnit" : "ms"
+  },
+  "shortMethodName" : "Stream_API_(Custom)"
+}, {
+  "benchmark" : "com.example.reactivejava.benchmark.Lab1Benchmark.Sequential",
+  "params" : {
+    "statType" : "DEVICES_BY_TYPE",
+    "deviceCount" : "250000",
+    "displayName" : "Sequential"
+  },
+  "primaryMetric" : {
+    "score" : 17.48182,
+    "scoreUnit" : "ms"
+  },
+  "shortMethodName" : "Sequential"
+}, {
+  "benchmark" : "com.example.reactivejava.benchmark.Lab1Benchmark.Stream_API_(Std)",
+  "params" : {
+    "statType" : "DEVICES_BY_TYPE",
+    "deviceCount" : "250000",
+    "displayName" : "Stream API (Std)"
+  },
+  "primaryMetric" : {
+    "score" : 15.74721,
+    "scoreUnit" : "ms"
+  },
+  "shortMethodName" : "Stream_API_(Std)"
+}, {
+  "benchmark" : "com.example.reactivejava.benchmark.Lab1Benchmark.Stream_API_(Custom)",
+  "params" : {
+    "statType" : "DEVICES_BY_TYPE",
+    "deviceCount" : "250000",
+    "displayName" : "Stream API (Custom)"
+  },
+  "primaryMetric" : {
+    "score" : 18.444855,
+    "scoreUnit" : "ms"
+  },
+  "shortMethodName" : "Stream_API_(Custom)"
+}, {
+  "benchmark" : "com.example.reactivejava.benchmark.Lab1Benchmark.Sequential",
+  "params" : {
+    "statType" : "DEVICES_BY_MANUFACTURER",
+    "deviceCount" : "250000",
+    "displayName" : "Sequential"
+  },
+  "primaryMetric" : {
+    "score" : 18.2947,
+    "scoreUnit" : "ms"
+  },
+  "shortMethodName" : "Sequential"
+}, {
+  "benchmark" : "com.example.reactivejava.benchmark.Lab1Benchmark.Stream_API_(Std)",
+  "params" : {
+    "statType" : "DEVICES_BY_MANUFACTURER",
+    "deviceCount" : "250000",
+    "displayName" : "Stream API (Std)"
+  },
+  "primaryMetric" : {
+    "score" : 18.408775,
+    "scoreUnit" : "ms"
+  },
+  "shortMethodName" : "Stream_API_(Std)"
+}, {
+  "benchmark" : "com.example.reactivejava.benchmark.Lab1Benchmark.Stream_API_(Custom)",
+  "params" : {
+    "statType" : "DEVICES_BY_MANUFACTURER",
+    "deviceCount" : "250000",
+    "displayName" : "Stream API (Custom)"
+  },
+  "primaryMetric" : {
+    "score" : 18.369435,
+    "scoreUnit" : "ms"
+  },
+  "shortMethodName" : "Stream_API_(Custom)"
+}, {
+  "benchmark" : "com.example.reactivejava.benchmark.Lab1Benchmark.Sequential",
+  "params" : {
+    "statType" : "DEVICES_BY_CAPABILITIES",
+    "deviceCount" : "250000",
+    "displayName" : "Sequential"
+  },
+  "primaryMetric" : {
+    "score" : 32.753035,
+    "scoreUnit" : "ms"
+  },
+  "shortMethodName" : "Sequential"
+}, {
+  "benchmark" : "com.example.reactivejava.benchmark.Lab1Benchmark.Stream_API_(Std)",
+  "params" : {
+    "statType" : "DEVICES_BY_CAPABILITIES",
+    "deviceCount" : "250000",
+    "displayName" : "Stream API (Std)"
+  },
+  "primaryMetric" : {
+    "score" : 38.14834,
+    "scoreUnit" : "ms"
+  },
+  "shortMethodName" : "Stream_API_(Std)"
+}, {
+  "benchmark" : "com.example.reactivejava.benchmark.Lab1Benchmark.Stream_API_(Custom)",
+  "params" : {
+    "statType" : "DEVICES_BY_CAPABILITIES",
+    "deviceCount" : "250000",
+    "displayName" : "Stream API (Custom)"
+  },
+  "primaryMetric" : {
+    "score" : 33.33217,
+    "scoreUnit" : "ms"
+  },
+  "shortMethodName" : "Stream_API_(Custom)"
+} ]

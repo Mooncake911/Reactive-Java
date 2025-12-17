@@ -26,6 +26,11 @@ public class Main {
             BatchSizeOptimizationVisualizer batchOptViz = new BatchSizeOptimizationVisualizer();
             batchOptViz.run(batchOptJson, outputDir);
 
+            System.out.println("\nЗапуск визуализации для Lab1 Benchmark...");
+            String lab1Json = basePath + "lab1_benchmark.json";
+            Lab1BenchmarkVisualizer lab1Viz = new Lab1BenchmarkVisualizer();
+            lab1Viz.run(lab1Json, outputDir);
+
             System.out.println("\nЗапуск визуализации для Lab2 Benchmark...");
             String lab2Json = basePath + "lab2_benchmark.json";
             Lab2BenchmarkVisualizer lab2Viz = new Lab2BenchmarkVisualizer();

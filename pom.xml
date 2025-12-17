@@ -6,6 +6,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.example</groupId>
+
     <artifactId>reactive-java</artifactId>
     <version>1.0.0</version>
     <packaging>jar</packaging>
@@ -14,13 +15,25 @@
     <description>Reactive Java project with custom spliterators and collectors for device statistics</description>
 
     <properties>
-        <maven.compiler.source>24</maven.compiler.source>
-        <maven.compiler.target>24</maven.compiler.target>
+        <!-- Версия Java -->
+        <java.version>24</java.version>
+        <maven.compiler.release>${java.version}</maven.compiler.release>
+
+        <!-- Кодировка -->
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+
+        <!-- Версии зависимостей -->
         <jmh.version>1.37</jmh.version>
         <junit.version>5.10.1</junit.version>
+        <rxjava.version>3.1.8</rxjava.version>
         <jackson.version>2.15.2</jackson.version>
         <jfreechart.version>1.5.4</jfreechart.version>
+
+        <!-- Версии плагинов -->
+        <maven.compiler.plugin.version>3.13.0</maven.compiler.plugin.version>
+        <maven.surefire.plugin.version>3.2.5</maven.surefire.plugin.version>
+        <maven.shade.plugin.version>3.5.1</maven.shade.plugin.version>
     </properties>
 
     <dependencies>
@@ -28,13 +41,6 @@
         <dependency>
             <groupId>org.junit.jupiter</groupId>
             <artifactId>junit-jupiter</artifactId>
-            <version>${junit.version}</version>
-            <scope>test</scope>
-        </dependency>
-
-        <dependency>
-            <groupId>org.junit.jupiter</groupId>
-            <artifactId>junit-jupiter-engine</artifactId>
             <version>${junit.version}</version>
             <scope>test</scope>
         </dependency>
@@ -71,21 +77,27 @@
         <dependency>
             <groupId>io.reactivex.rxjava3</groupId>
             <artifactId>rxjava</artifactId>
-            <version>3.1.8</version>
+            <version>${rxjava.version}</version>
         </dependency>
     </dependencies>
 
     <build>
         <plugins>
-            <!-- Maven Compiler Plugin -->
+            <!-- Maven Compiler Plugin с поддержкой Java 24 -->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
-                <version>3.13.0</version>
+                <version>${maven.compiler.plugin.version}</version>
                 <configuration>
-                    <source>24</source>
-                    <target>24</target>
-                    <encoding>UTF-8</encoding>
+                    <release>${java.version}</release>
+                    <annotationProcessorPaths>
+                        <!-- Для JMH annotation processor -->
+                        <path>
+                            <groupId>org.openjdk.jmh</groupId>
+                            <artifactId>jmh-generator-annprocess</artifactId>
+                            <version>${jmh.version}</version>
+                        </path>
+                    </annotationProcessorPaths>
                 </configuration>
             </plugin>
 
@@ -93,27 +105,14 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-surefire-plugin</artifactId>
-                <version>3.2.5</version>
-                <configuration>
-                    <includes>
-                        <include>**/*Test.java</include>
-                        <include>**/*Tests.java</include>
-                    </includes>
-                </configuration>
+                <version>${maven.surefire.plugin.version}</version>
             </plugin>
 
-            <!-- JMH Maven Plugin для бенчмарков -->
-            <plugin>
-                <groupId>org.codehaus.mojo</groupId>
-                <artifactId>exec-maven-plugin</artifactId>
-                <version>3.3.0</version>
-            </plugin>
-
-            <!-- Maven Shade Plugin для создания исполняемого JAR -->
+            <!-- Maven Shade Plugin для исполняемого JAR -->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-shade-plugin</artifactId>
-                <version>3.5.1</version>
+                <version>${maven.shade.plugin.version}</version>
                 <executions>
                     <execution>
                         <phase>package</phase>
@@ -126,11 +125,54 @@
                                     <mainClass>com.example.reactivejava.Main</mainClass>
                                 </transformer>
                             </transformers>
+                            <!-- Опционально: исключить подписи для зависимостей -->
+                            <filters>
+                                <filter>
+                                    <artifact>*:*</artifact>
+                                    <excludes>
+                                        <exclude>META-INF/*.SF</exclude>
+                                        <exclude>META-INF/*.DSA</exclude>
+                                        <exclude>META-INF/*.RSA</exclude>
+                                    </excludes>
+                                </filter>
+                            </filters>
                         </configuration>
                     </execution>
                 </executions>
             </plugin>
         </plugins>
     </build>
+
+    <!-- Профиль для запуска JMH бенчмарков -->
+    <profiles>
+        <profile>
+            <id>jmh</id>
+            <build>
+                <plugins>
+                    <plugin>
+                        <groupId>org.apache.maven.plugins</groupId>
+                        <artifactId>maven-shade-plugin</artifactId>
+                        <version>${maven.shade.plugin.version}</version>
+                        <executions>
+                            <execution>
+                                <phase>package</phase>
+                                <goals>
+                                    <goal>shade</goal>
+                                </goals>
+                                <configuration>
+                                    <finalName>benchmarks</finalName>
+                                    <transformers>
+                                        <transformer implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
+                                            <mainClass>org.openjdk.jmh.Main</mainClass>
+                                        </transformer>
+                                    </transformers>
+                                </configuration>
+                            </execution>
+                        </executions>
+                    </plugin>
+                </plugins>
+            </build>
+        </profile>
+    </profiles>
 
 </project>
